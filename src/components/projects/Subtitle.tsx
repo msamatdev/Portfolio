@@ -9,9 +9,10 @@ export default function SubTitle({ title, id }: Title) {
     return (
         <Link 
         href={`#${id}`}
-        className="font-bold ms-2"
+        className="font-bold text-2xl self-start scroll-mt-36"
         id={id}
-        >
+        >   
+            <span className="text-primary me-2">#</span>
             {title}
         </Link>
     )

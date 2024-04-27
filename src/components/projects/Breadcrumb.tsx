@@ -13,7 +13,7 @@ interface PageNameProp {
 
 export default function Repertory( prop: PageNameProp ) {
     return (
-        <Breadcrumb className="mb-8">
+        <Breadcrumb className="mb-8 md:ms-2 ms-4 self-start">
             <BreadcrumbList>
                 <BreadcrumbItem>
                     <BreadcrumbLink href="/">Home</BreadcrumbLink>

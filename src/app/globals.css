@@ -60,6 +60,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .text-highlight::after {
   content: '';
   height: 16px;

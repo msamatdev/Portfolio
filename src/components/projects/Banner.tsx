@@ -16,7 +16,7 @@ export default function Banner( { alt }: ImgProp) {
             alt={alt}
             height={200}
             width={200}
-            className="rounded-xl w-full h-56 object-cover"
+            className="rounded-xl w-full h-56 object-cover md:p-0 px-4"
             unoptimized={true}
         />
     )
