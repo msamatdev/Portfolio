@@ -76,6 +76,18 @@ html {
   z-index: -1;
 }
 
+.text-lightHighlight::after {
+  content: '';
+  height: 16px;
+  width: calc(100% + 8px);
+  background: rgb(109,40,217);
+  opacity: 0.6;
+  position: absolute;
+  left: -4px;
+  bottom: 2px;
+  z-index: -1;
+}
+
 .traits::after {
   transform: rotate(-2.8deg);
 }
@@ -95,4 +107,13 @@ html {
   transition-timing-function: linear;
   transition-delay: 0s;
   animation-delay: 0s;
+}
+
+.animateCardsSize {
+  transition: transform 200ms !important;
+  transition-timing-function: ease-in-out !important;
+}
+
+.backdropColor {
+  background-color: hsl(var(--primary) / 0.5);
 }
