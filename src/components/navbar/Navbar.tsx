@@ -58,7 +58,7 @@ const Navbar = () => {
           
           <Link
             href="/contact"
-            className="text-md text-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
+            className="text-md text-primary-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
           >
             Contact me
           </Link>

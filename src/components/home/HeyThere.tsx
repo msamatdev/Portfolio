@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const HeyThere = () => {
     return (
-      <div className="lg:px-12 md:mt-40 mt-16 py-10 grid md:grid-cols-10 gap-0 grid-cols-1">
+      <div className="lg:px-12 md:mt-40 mt-16 py-10 grid md:grid-cols-10 grid-cols-1">
         <div className="md:col-span-6 m-auto text-center flex flex-col col-span-1 items-center max-w-max ">
           <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black">
             👋 Hey there! <br />I am Mathis SAMAT, <br />a{" "}
@@ -19,7 +19,7 @@ const HeyThere = () => {
             </span>
           </h1>
           <Image 
-            src="/images/me.png"
+            src="/images/photos/homePhoto.png"
             alt="Picture of me"
             className="block md:hidden border-box rounded-full border-primary border-[4px] mb-16 mt-16"
             width={310}
@@ -49,7 +49,7 @@ const HeyThere = () => {
         </div>
         <div className="md:col-span-4 col-span-1  flex-col items-center justify-center hidden md:flex">
         <Image 
-            src="/images/me.png"
+            src="/images/photos/homePhoto.png"
             alt="Picture of me"
             width={352}
             height={352}

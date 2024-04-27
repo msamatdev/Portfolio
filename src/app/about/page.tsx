@@ -2,6 +2,7 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import Separator from '@/components/Separator'
 
 const Skills = [
     {
@@ -68,7 +69,7 @@ export default function About() {
     return (
         <MaxWidthWrapper>
             <div className="md:mt-48 mt-28 px-12">
-                <h1 className='text-center text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl'>
+                <h1 className='text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
                     About me
                 </h1>
                 <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-28 lg:px-40'>
@@ -95,23 +96,24 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className=" mt-32">
-                <h3 className="inline relative font-bold tracking-tight text-primary-foreground text-4xl text-highlight selected-projects">
+            <div className="mx-6 md:mx-0 mt-32">
+                <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl dark:text-highlight selected-projects">
                     My main tools
                 </h3>
-                <div className='grid place-items-center mt-16 gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
+                <Separator />
+                <div className='grid place-items-center mt-16 mx-6 gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
                     {Skills.map((skill) => (
                         <div 
-                        className='bg-slate-900 rounded-md shadow-md w-full h-full p-6 flex flex-col items-center justify-center'
+                        className='dark:bg-muted/15 border-2 border-muted shadow-md rounded-md w-full h-full p-6 flex flex-col items-center justify-center'
                         key={skill.id}
                         >
                             <Image
                                 alt={`Logo of ${skill.name}`}
-                                src={`/images/${skill.icon}.svg`}
+                                src={`/images/toolsIcons/${skill.icon}.svg`}
                                 width={42}
                                 height={42}
                             />
-                            <p className="mt-3 text-lg font-bold tracking-wide">
+                            <p className="mt-3 text-lg font-bold tracking-wide text-foreground">
                                 {skill.name}
                             </p>
                             <p className='mt-3 text-muted-foreground'>
@@ -122,7 +124,7 @@ export default function About() {
                 </div>
             </div>
             <div className="mt-44 px-12">
-                <h1 className='text-center text-4xl font-bold tracking-tight text-primary-foreground sm:text-5xl'>
+                <h1 className='text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
                     Outside university
                 </h1>
                 <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-28 lg:px-30'>
