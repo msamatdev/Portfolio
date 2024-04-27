@@ -1,0 +1,33 @@
+About :
+    * Police d'écriture custom des titres
+    * Un peu de couleurs
+    * Créer une section "Who am I"
+        - Prénom NOM
+        - Description rapide
+        - Bouton télécharger CV ?
+    * Section skills :
+        - Algorythmie
+        - Frontend
+        - Autres
+    * Créer une section "Why I am passionned about Coding"
+        - Mettre en avant temps passé à découvrir outils
+    * Créer une section "Outside University"
+        - Mettre en avant autres passions : sim racing avec compétition Steelorse
+        - Mettre en avant passion moto ?
+
+Projects :
+    * Apparition de chaque proj dépend d'une variable
+
+Contact :
+    * Faire possibilité d'envoyer mail
+
+Not Found :
+    * Faire le design
+
+Autres :
+    * Ajouter une transition avec framer là
+    * Bouton mode clair et nuit dans le layout
+    * Faire la metadata, mettre une icone
+
+Couleur : 
+    * Changer couleur primaire en mode clair
