@@ -26,14 +26,14 @@ const Navbar = () => {
             href="/"
           >
             <Braces className="text-primary" />
-            <span className="dark:text-primary-foreground text-secondary-foreground ms-2">Mathis SAMAT</span>
+            <span className="dark:text-foreground text-secondary-foreground ms-2">Mathis SAMAT</span>
           </Link>
 
           <nav className="place-self-center py-2 px-4 border-primary border-2 rounded-xl hidden md:block">
             <Link
               href="/"
               className={clsx("text-lg col-span-1 text-muted-foreground", {
-                "dark:text-primary-foreground text-secondary-foreground": pathName == "/",
+                "dark:text-foreground text-secondary-foreground": pathName == "/",
               })}
             >
               Home
@@ -41,7 +41,7 @@ const Navbar = () => {
             <Link
               href="/projects"
               className={clsx("text-lg col-span-1 ms-6 me-6 text-muted-foreground", {
-                "dark:text-primary-foreground text-secondary-foreground": pathName == "/projects",
+                "dark:text-foreground text-secondary-foreground": pathName == "/projects",
               })}
             >
               Projects
@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link
               href="/about"
               className={clsx("text-lg col-span-1 text-muted-foreground", {
-                "dark:text-primary-foreground text-secondary-foreground": pathName == "/about",
+                "dark:text-foreground text-secondary-foreground": pathName == "/about",
               })}
             >
               About
@@ -58,7 +58,7 @@ const Navbar = () => {
           
           <Link
             href="/contact"
-            className="text-md text-primary-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
+            className="text-md text-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
           >
             Contact me
           </Link>
@@ -82,7 +82,7 @@ const Navbar = () => {
             <Link
               href="/"
               className={clsx("text-muted-foreground", {
-                "text-primary-foreground": pathName == "/",
+                "text-foreground": pathName == "/",
               })}
               onClick={() => setIsClick(false)}
             >
@@ -91,7 +91,7 @@ const Navbar = () => {
             <Link
               href="/projects"
               className={clsx("mt-4 text-muted-foreground", {
-                "text-primary-foreground": pathName == "/projects",
+                "text-foreground": pathName == "/projects",
               })}
               onClick={() => setIsClick(false)}
             >
@@ -100,7 +100,7 @@ const Navbar = () => {
             <Link
               href="/about"
               className={clsx("mt-4 text-muted-foreground mb-6", {
-                "text-primary-foreground": pathName == "/about",
+                "text-foreground": pathName == "/about",
               })}
               onClick={() => setIsClick(false)}
             >

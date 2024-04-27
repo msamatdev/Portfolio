@@ -12,7 +12,7 @@ const HeyThere = () => {
     return (
       <div className="lg:px-12 md:mt-40 mt-16 py-10 grid md:grid-cols-10 gap-0 grid-cols-1">
         <div className="md:col-span-6 m-auto text-center flex flex-col col-span-1 items-center max-w-max ">
-          <h1 className="text-4xl font-bold tracking-tight dark:text-primary-foreground sm:text-5xl text-black">
+          <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black">
             👋 Hey there! <br />I am Mathis SAMAT, <br />a{" "}
             <span className="text-primary">
               <TypeAnim />

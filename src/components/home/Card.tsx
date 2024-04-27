@@ -22,7 +22,7 @@ const Card = () => {
             {perks.map((perk) => (
                 <div className="flex flex-col items-center" key={perk.text}>
                     <p className="text-primary text-5xl font-bold text-center">{perk.number}</p>
-                    <p className="text-primary-foreground text-lg text-center">{perk.text}</p>
+                    <p className="text-foreground text-lg text-center">{perk.text}</p>
                     <p className="text-sm text-muted-foreground text-center">{perk.more}</p>
                 </div>
             ))}

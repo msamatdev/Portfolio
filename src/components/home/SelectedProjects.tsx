@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MousePointerClick, CalendarDays } from 'lucide-react';
+import Separator from '@/components/Separator';
 
 const Projects = [
     {
@@ -31,9 +32,10 @@ const Projects = [
 const SelectedProjects = () => {
     return (
         <div className="md:px-24 px-8 mt-32">
-            <h3 className="inline relative font-bold tracking-tight text-primary-foreground text-4xl text-highlight selected-projects">
+            <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl dark:text-highlight selected-projects">
                 Selected projects
             </h3>
+            <Separator />
             <div className="
                 grid place-items-start mt-12
                 xl:grid-cols-2 xl:grid-rows-2 lg:gap-14
@@ -45,8 +47,8 @@ const SelectedProjects = () => {
                             key={project.id}
                             href={project.href}
                         >
-                            <div className="w-full h-full mb-1 p-6 rounded-md bg-slate-900 hover:scale-105 transition-transform">
-                                <p className='text-primary-foreground text-3xl'>
+                            <div className="w-full h-full mb-1 p-6 rounded-md dark:bg-muted/15 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
+                                <p className='text-foreground text-3xl'>
                                     {project.name}
                                 </p>
                                 <p className='flex items-center mt-4'>

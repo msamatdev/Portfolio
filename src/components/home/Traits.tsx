@@ -1,4 +1,5 @@
 import { Zap, FileHeart, Lightbulb } from "lucide-react";
+import Separator from '@/components/Separator';
 
 const TraitsArray = [
     {
@@ -16,14 +17,16 @@ const TraitsArray = [
         "name": "Curious",
         "description": "Everything in IT is interesting for me, so I am always seeking to learn more about it. That is why I have an important knowledge of multiple subjects."
     }
+
 ];
 
 const Traits = () => {
     return (
       <div className="md:px-24 px-8 mt-32">
-        <h3 className="inline relative font-bold tracking-tight text-primary-foreground text-4xl text-highlight traits">
+        <h3 className="inline relative font-bold tracking-tight text-accent-foreground text-4xl dark:text-highlight traits">
             My traits
         </h3>
+        <Separator />
         <div className="
             grid place-items-center mt-12 
             xl:grid-cols-3 xl:grid-rows-1 lg:gap-14
@@ -33,9 +36,9 @@ const Traits = () => {
         ">
             {TraitsArray.map((trait) => {
                 return (
-                    <div key={trait.name} className="w-full h-full p-6 mb-1 rounded-xl border-muted border-2">
+                    <div key={trait.name} className="w-full h-full p-6 mb-1 rounded-xl border-muted border-2 shadow-md">
                         {<trait.icon className="text-primary size-10" />}
-                        <h5 className="my-6 text-primary-foreground text-3xl font-bold tracking-tight">{trait.name}</h5>
+                        <h5 className="my-6 text-foreground text-3xl font-bold tracking-tight">{trait.name}</h5>
                         <p className="text-muted-foreground tracking-wide">{trait.description}</p>
                     </div>
                 );
