@@ -83,14 +83,14 @@ export default function About() {
                             Chemistry and Physics in secondary school.
                         </p>
                         <p className='mt-4'>
-                            During my free time, I have discovered a lot about computers,
+                            Throughout the years, I have discovered a lot about computers,
                             and the more I dived into it, the more I was curious about it.
-                            After trying to do 3D Modeling, server hosting, image editing, writing my
+                            After trying 3D Modeling, server hosting, image editing, writing my
                             first lines of code, ... I was hooked, so I decided to study IT.
                         </p>
                         <p className='mt-4'>
                             Now, I would love working in an IT company, to gain
-                            experience, improve my skills and of course have a
+                            experience, improve my skills and have a
                             salary, in order to be able to pursue my other passions.
                         </p>
                     </div>
@@ -135,7 +135,7 @@ export default function About() {
                         </p>
                         <p className='mt-4'>
                             Firstly, I am a car enthusiast. I am currently getting my
-                            license, and I especially enjoy sim racing. As a matter of fact, 
+                            license, and I genuinely enjoy sim racing. As a matter of fact, 
                             I participated in a {" "}
                             <Link 
                             href="https://youtu.be/MTAOKLT-zNA?t=10"
@@ -144,14 +144,14 @@ export default function About() {
                             >
                                 time attack competition 
                             </Link>
-                            {" "} in 2023 whose manager was a youtuber with almost 800 000
+                            {" "} back in 2023 whose creator is a youtuber with almost 800 000
                             subscribers. When I uploaded my score, I stayed for multiple days
                             on the podium, and I ended up in 12th place at the end. I am still proud 
                             of it, since, because of school, I didn&apos;t have a lot of time to practice 
                             unlike the others, so I couldn&apos;t do a lot of tries to improve my time.
                         </p>
-                        <p className='mt-4'>
-                            Also, I do like hiking in beautiful places, which helps me to stay
+                        <p className='mt-4 mb-12'>
+                            In addition, I do like hiking in beautiful places, which helps me to stay
                             balanced and full of energy, bringing productivity and fresh perspective 
                             to my work. Here, you can scroll to see some of the best pictures I took
                             when hiking in my opinion.
