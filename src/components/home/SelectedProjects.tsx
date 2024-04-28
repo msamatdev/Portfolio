@@ -37,9 +37,7 @@ const SelectedProjects = () => {
             </h3>
             <Separator />
             <div className="
-                grid place-items-start mt-12
-                xl:grid-cols-2 xl:grid-rows-2 lg:gap-14
-                grid-cols-1 grid-rows-3 gap-8
+                my-12 grid grid-cols-1 lg:grid-cols-2 grid-flow-rows gap-10
             ">
                 {Projects.map((project) => {
                     return (
@@ -47,7 +45,7 @@ const SelectedProjects = () => {
                             key={project.id}
                             href={project.href}
                         >
-                            <div className="w-full h-full mb-1 p-6 rounded-md dark:bg-muted/15 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
+                            <div className="h-full p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
                                 <p className='text-foreground text-3xl'>
                                     {project.name}
                                 </p>

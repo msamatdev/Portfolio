@@ -36,7 +36,7 @@ const Traits = () => {
         ">
             {TraitsArray.map((trait) => {
                 return (
-                    <div key={trait.name} className="w-full h-full p-6 mb-1 rounded-xl border-muted border-2 shadow-md">
+                    <div key={trait.name} className="w-full h-full p-6 mb-1 rounded-xl dark:bg-muted/10 border-muted border-2 shadow-md">
                         {<trait.icon className="text-primary size-10" />}
                         <h5 className="my-6 text-foreground text-3xl font-bold tracking-tight">{trait.name}</h5>
                         <p className="text-muted-foreground tracking-wide">{trait.description}</p>
