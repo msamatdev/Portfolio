@@ -6,11 +6,12 @@ import SubTitle from '@/components/projects/Subtitle';
 import Content from "@/components/projects/Content";
 import SubContent from "@/components/projects/SubContent";
 import ProjectImage from '@/components/projects/ProjectImage';
+import Container from "@/components/projects/Container";
 
 export default function Hosting() {
     return (
         <MaxWidthWrapper>
-            <div className="mt-24 md:mt-36 md:px-20 flex flex-col items-center justify-center">
+            <Container>
                 <Repertory PageName="Setting up a hosting machine"/>
                 <Banner alt="Photo of a server" fileName="server.jpg"/>
                 <Title text="Setting up a hosting machine"/>
@@ -86,7 +87,7 @@ export default function Hosting() {
                         </p>
                     </SubContent>
                 </Content>
-            </div>
+            </Container>
         </MaxWidthWrapper>
     )
 }

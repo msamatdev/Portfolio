@@ -57,10 +57,10 @@
 
   body {
     @apply bg-background text-foreground;
-  }
+  } 
 }
 
-html {
+.scrollSmooth {
   scroll-behavior: smooth !important;
 }
 
@@ -116,4 +116,9 @@ html {
 
 .backdropColor {
   background-color: hsl(var(--primary) / 0.5);
+}
+
+.animateHeight {
+  transition: height 140ms !important;
+  transition-timing-function: ease-in-out !important;
 }

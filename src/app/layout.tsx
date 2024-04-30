@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr-FR" className="h-full colorsThemeTransition">
+    <html lang="fr-FR" className="h-full colorsThemeTransition scroll-smooth">
       <body className="relative h-full font-sans antialiased">
         <Providers>
           <main className="relative flex flex-col min-h-screen">

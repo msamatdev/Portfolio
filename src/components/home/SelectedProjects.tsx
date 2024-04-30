@@ -45,7 +45,7 @@ const SelectedProjects = () => {
                             key={project.id}
                             href={project.href}
                         >
-                            <div className="h-full p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
+                            <div className="p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
                                 <p className='text-foreground text-3xl'>
                                     {project.name}
                                 </p>
@@ -65,7 +65,7 @@ const SelectedProjects = () => {
                                         );
                                     })}
                                 </div>    
-                                <div className='mt-4 flex justify-end text-violet-600'>
+                                <div className='mt-6 flex justify-end text-violet-600'>
                                     <p className=" flex items-center justify-center py-1 px-2 rounded-lg">
                                         <MousePointerClick />
                                         <span className='ms-2 font-semibold'>
