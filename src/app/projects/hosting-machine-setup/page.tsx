@@ -57,7 +57,7 @@ export default function Hosting() {
                         <p>
                             I plugged the USB key in the laptop and I chose it as the first boot option in the BIOS. Then, I followed 
                             the installation process. After installing Linux, I was worried about the security of the machine since 
-                            it would read all the requets coming from specific ports. That is why I started to make the machine safer. 
+                            it would read all the requests coming from specific ports. That is why I started to make the machine safer. 
                             I created a new user withoutthe root privileges, I installed a firewall and fail2ban, and I made sure SSH 
                             was disabled (I would use a remote desktop application to log on the computer when I would need to).
                         </p>

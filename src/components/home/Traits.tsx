@@ -9,8 +9,8 @@ const TraitsArray = [
     },
     {
         "icon": FileHeart,
-        "name": "Passionned",
-        "description": "I deeply enjoy coding, to the extent that I can spend multiple hours, without even realizing it, to discover a new to me tool."
+        "name": "Driven",
+        "description": "I deeply enjoy coding, to the extent that I can spend multiple hours, without even realizing it, to explore a new tool."
     },
     {
         "icon": Lightbulb,

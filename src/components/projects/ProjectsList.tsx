@@ -196,7 +196,7 @@ export default function ProjectsList() {
 
     return (
         <>
-        <div className="md:mt-48 mt-28 md:px-24 px-8">
+        <div className="md:mt-48 mt-28 mb-8 md:px-24 px-8">
                 <div className="flex justify-between items-center">
                     <p className="font-bold tracking-tight text-foreground text-4xl">Some of my Projects</p>
                     <Menubar>
@@ -226,7 +226,12 @@ export default function ProjectsList() {
                     </Menubar>
                 </div>
 
-                <div className="mt-16 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+                <p className="mt-6 text-muted-foreground">
+                    Please note that this page is a work in progress. Most of the projects do not have
+                    their own page yet, and some of my projects are not visible here.
+                </p>
+
+                <div className="mt-8 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
                 {projectsList.map((project: any) => (
                     <Link
                     href={`/projects/${project.link}`}
@@ -256,11 +261,6 @@ export default function ProjectsList() {
                 ))}
                 </div>
             </div>
-
-
-
-
-        
         </>
     )
 }

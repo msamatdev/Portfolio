@@ -12,7 +12,7 @@ export default function ProjectImage( {fileName, alt}: ImgProp) {
         src={`/images${path}/${fileName}`}
         width={350}
         height={350}
-        className="object-cover max-w-3xl rounded-md mt-10"
+        className="object-cover h-auto max-w-3xl rounded-md mt-10"
         />
     )
 }

@@ -79,19 +79,18 @@ export default function About() {
                     <div className='text-lg'>
                         <p>
                             I am Mathis SAMAT, an 18 year old student in France. 
-                            I like science, so I specialized myself in Mathematics, 
+                            I like science, so I specialized in Mathematics, 
                             Chemistry and Physics in secondary school.
                         </p>
                         <p className='mt-4'>
                             Throughout the years, I have discovered a lot about computers,
-                            and the more I dived into it, the more I was curious about it.
+                            and the more I dived into them, the more I was curious about them.
                             After trying 3D Modeling, server hosting, image editing, writing my
                             first lines of code, ... I was hooked, so I decided to study IT.
                         </p>
                         <p className='mt-4'>
-                            Now, I would love working in an IT company, to gain
-                            experience, improve my skills and have a
-                            salary, in order to be able to pursue my other passions.
+                            Now, I would love to join an IT company, to gain
+                            experience, and improve my skills.
                         </p>
                     </div>
                 </div>
@@ -139,7 +138,7 @@ export default function About() {
                             I participated in a {" "}
                             <Link 
                             href="https://youtu.be/MTAOKLT-zNA?t=10"
-                            className="text-primary"
+                            className="decoration-dashed underline underline-offset-4 decoration-1"
                             target='_blank'
                             >
                                 time attack competition 

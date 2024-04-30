@@ -103,7 +103,7 @@ html {
 }
 
 .colorsThemeTransition * {
-  transition: background-color 200ms, border-color 200ms;
+  transition: background-color 275ms, border-color 275ms;
   transition-timing-function: linear;
   transition-delay: 0s;
   animation-delay: 0s;
