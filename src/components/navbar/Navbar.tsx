@@ -18,7 +18,7 @@ const Navbar = () => {
   // Changer la police d'écriture, peut-être du box shadow sur la navbar ?
   // Refaire avec un .map la navbar ?
   return (
-    <header className="fixed w-full md:top-8 md:bg-transparent bg-background top-0 z-50 flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2 rounded-xl">
+    <header className="fixed w-full md:top-8 md:bg-transparent bg-background top-0 z-50 flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2">
       <MaxWidthWrapper>
         <div className="px-6 md:py-0 py-4 rounded-lg xl:mx-14 grid grid-cols-4 grid-rows-1 gap-4 md:grid-cols-3 bg-background md:border-2">
           <Link
@@ -75,13 +75,13 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={clsx("md:hidden px-6 overflow-hidden transition-all transition-linear text-xl flex flex-col ", {
-          "w-auto h-auto": isClick,
-          "w-0 h-0": !isClick
+        <div className={clsx("md:hidden px-6 overflow-hidden transition-all transition-linear text-xl flex flex-col animateHeight text-muted-foreground font-semibold", {
+          "h-[140px]": isClick,
+          "h-0": !isClick
         })}>
             <Link
               href="/"
-              className={clsx("text-muted-foreground", {
+              className={clsx({
                 "text-foreground": pathName == "/",
               })}
               onClick={() => setIsClick(false)}
@@ -90,7 +90,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/projects"
-              className={clsx("mt-4 text-muted-foreground", {
+              className={clsx("mt-4", {
                 "text-foreground": pathName == "/projects",
               })}
               onClick={() => setIsClick(false)}
@@ -99,7 +99,7 @@ const Navbar = () => {
             </Link>
             <Link
               href="/about"
-              className={clsx("mt-4 text-muted-foreground mb-6", {
+              className={clsx("mt-4 mb-6", {
                 "text-foreground": pathName == "/about",
               })}
               onClick={() => setIsClick(false)}
