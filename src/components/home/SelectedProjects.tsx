@@ -5,26 +5,37 @@ import Separator from '@/components/Separator';
 const Projects = [
     {
         "id": 1,
-        "name": "'Recueil de besoin'",
-        "href": "/projects/recueil-de-besoin",
-        "description": "It was a project that involved gathering the needs of a fictional professionnal person, and creating a small website containing a few pages tailored to those needs. To do so, I had to contact the student that played the professionnal to make sure that he liked what I was doing. I also gave him my ideas to make the website even better.",
-        "tags" : ["University", "HTML & CSS", "JavaScript"],
-        "date": "January 2024"
-    },
-    {
-        "id": 2,
         "name": "Algorithms comparison",
         "href": "/projects/algorithms-comparison",
         "description": "Firstly, this project was about creating an algorithm to find the shortest route between multiple cities with their longitude and latitude. Then, it was about creating two other algorithms that calculated it differently, and compare them to find which one is the fastest.",
-        "tags" : ["University", "Python"],
+        "tags" : [
+            {id: "1.1", text: "University"},
+            {id: "1.2", text: "Python"},
+        ],
         "date": "December 2023"
+    },
+    {
+        "id": 2,
+        "name": "Hosting machine setup",
+        "href": "/projects/hosting-machine-setup",
+        "description": "My friends and I wanted to play together but renting servers would be inefficient and cost expensive. So, I turned a friend's spare laptop into a machine that could host multiple game servers simultaneously.",
+        "tags" : [
+            {id: "2.1", text: "Linux"}, 
+            {id: "2.2", text: "Hosting"},
+            {id: "2.3", text: "Games"}
+        ],
+        "date": "January 2024"
     },
     {
         "id": 3,
         "name": "Tic-Tac-Toe",
         "href": "/projects/tic-tac-toe",
         "description": "When I was learning the basics of JavaScript, I challenged myself by trying to create a tic-tac-toe game.",
-        "tags" : ["Made in 2.5 hours", "HTML & CSS", "JavaScript"],
+        "tags" : [
+            {id: "3.1", text: "Made in 2.5 hours"},
+            {id: "3.2", text: "HTML & CSS"},
+            {id: "3.3", text: "JavaScript"}
+        ],
         "date": "January 2024"
     },
 ];
@@ -59,8 +70,8 @@ const SelectedProjects = () => {
                                 <div className='flex mt-4 flex-wrap'>
                                     {project.tags.map((tag) => {
                                         return (
-                                            <p key={project.href} className='me-4 bg-accent px-3 py-1 rounded-xl md:mb-0 mb-2'>
-                                                {tag}
+                                            <p key={tag.id} className='me-4 bg-accent px-3 py-1 rounded-xl md:mb-0 mb-2'>
+                                                {tag.text}
                                             </p>
                                         );
                                     })}
