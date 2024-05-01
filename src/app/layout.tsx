@@ -5,6 +5,7 @@ import Navbar from './../components/navbar/Navbar';
 import ThemeButton from './../components/ThemeButton';
 import { Metadata } from "next";
 import Footer from '@/components/footer/Footer';
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: {
@@ -21,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr-FR" className="h-full colorsThemeTransition scroll-smooth">
+      <Analytics />
       <body className="relative h-full font-sans antialiased">
         <Providers>
           <main className="relative flex flex-col min-h-screen">
