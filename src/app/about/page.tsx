@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import Separator from '@/components/Separator'
+import Pictures from '@/components/about/Pictures';
 
 const Skills = [
     {
@@ -72,7 +73,7 @@ export default function About() {
                 <h1 className='text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
                     About me
                 </h1>
-                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-28 lg:px-40'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-40'>
                     <div>
 
                     </div>
@@ -122,11 +123,11 @@ export default function About() {
                     ))}
                 </div>
             </div>
-            <div className="mt-44 px-12">
+            <div className="mt-44 px-12 mb-12">
                 <h1 className='text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
                     Outside university
                 </h1>
-                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-28 lg:px-30'>
+                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-30 gap-12'>
                 <div className='text-lg'>
                         <p>
                             Besides my interest in coding, I have multiple passions that
@@ -149,16 +150,14 @@ export default function About() {
                             of it, since, because of school, I didn&apos;t have a lot of time to practice 
                             unlike the others, so I couldn&apos;t do a lot of tries to improve my time.
                         </p>
-                        <p className='mt-4 mb-12'>
+                        <p className='mt-4'>
                             In addition, I do like hiking in beautiful places, which helps me to stay
                             balanced and full of energy, bringing productivity and fresh perspective 
                             to my work. Here, you can scroll to see some of the best pictures I took
                             when hiking in my opinion.
                         </p>
                     </div>
-                    <div>
-
-                    </div>
+                    <Pictures />
                 </div>
             </div>
         </MaxWidthWrapper>
