@@ -28,10 +28,9 @@ export default function Banner( { alt }: ImgProp) {
             <Image
                 src={`/images${path}/banner.jpg`}
                 alt={alt}
-                height={200}
-                width={200}
+                height={650}
+                width={650}
                 className="rounded-xl w-full h-56 object-cover border-muted border-2 shadow-md"
-                unoptimized={true}
             />
         </Tilt>
     )

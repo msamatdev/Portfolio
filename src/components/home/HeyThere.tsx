@@ -44,7 +44,9 @@ const HeyThere = () => {
             <Link className={buttonVariants()} href="/projects">
               Browse projects
             </Link>
-            <Button variant="ghost">Contact me &rarr;</Button>
+            <Link className={buttonVariants({ variant: 'ghost' })} href="/contact">
+              Contact me &rarr;
+            </Link>
           </div>
         </div>
         <div className="md:col-span-4 col-span-1  flex-col items-center justify-center hidden md:flex">

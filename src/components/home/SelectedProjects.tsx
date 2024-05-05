@@ -43,7 +43,7 @@ const Projects = [
 const SelectedProjects = () => {
     return (
         <div className="md:px-24 px-8 mt-32">
-            <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl dark:text-highlight selected-projects">
+            <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">
                 Selected projects
             </h3>
             <Separator />
