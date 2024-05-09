@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
 
         <div className={clsx("md:hidden px-6 overflow-hidden transition-all transition-linear text-xl flex flex-col animateHeight text-muted-foreground font-semibold", {
-          "h-[140px]": isClick,
+          "h-[184px]": isClick,
           "h-0": !isClick
         })}>
             <Link
@@ -99,12 +99,21 @@ const Navbar = () => {
             </Link>
             <Link
               href="/about"
-              className={clsx("mt-4 mb-6", {
+              className={clsx("mt-4", {
                 "text-foreground": pathName == "/about",
               })}
               onClick={() => setIsClick(false)}
             >
               About
+            </Link>
+            <Link
+              href="/contact"
+              className={clsx("mt-4 mb-6", {
+                "text-foreground": pathName == "/contact",
+              })}
+              onClick={() => setIsClick(false)}
+            >
+              Contact
             </Link>
         </div>
       </MaxWidthWrapper>
