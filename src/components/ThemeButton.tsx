@@ -17,7 +17,7 @@ export default function ThemeButton() {
 
     return (
         <button 
-        className="fixed right-12 bottom-12 border-primary border-[3px] bg-background p-2 rounded-full shadow-md"
+        className="z-50 fixed right-12 bottom-12 border-primary border-[3px] bg-background p-2 rounded-full"
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
             {theme === 'dark' ? (

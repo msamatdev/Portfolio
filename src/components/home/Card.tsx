@@ -10,7 +10,7 @@ const perks = [
         "more": ""
     },
     {
-        "number": "300+",
+        "number": "400+",
         "text": "hours of coding",
         "more": ""
     }
