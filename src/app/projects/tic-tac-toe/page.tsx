@@ -97,7 +97,7 @@ export default function Portfolio() {
                             <p>
                                 You can play the game {" "}
                                 <Link
-                                href="/static/tic-tac-toe.html"
+                                href="/static/tic-tac-toe/page.html"
                                 className="underline decoration-dashed underline-offset-4 decoration-1"
                                 >
                                     here
