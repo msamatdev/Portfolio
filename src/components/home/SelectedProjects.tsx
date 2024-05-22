@@ -5,38 +5,38 @@ import Separator from '@/components/Separator';
 const Projects = [
     {
         "id": 1,
-        "name": "Algorithms comparison",
-        "href": "/projects/algorithms-comparison",
-        "description": "Firstly, this project was about creating an algorithm to find the shortest route between multiple cities with their longitude and latitude. Then, it was about creating two other algorithms that calculated it differently, and compare them to find which one is the fastest.",
-        "tags" : [
-            {id: "1.1", text: "University"},
-            {id: "1.2", text: "Python"},
-        ],
-        "date": "December 2023"
-    },
-    {
-        "id": 2,
         "name": "Hosting machine setup",
         "href": "/projects/hosting-machine-setup",
         "description": "My friends and I wanted to play together but renting servers would be inefficient and cost expensive. So, I turned a friend's spare laptop into a machine that could host multiple game servers simultaneously.",
         "tags" : [
-            {id: "2.1", text: "Linux"}, 
-            {id: "2.2", text: "Hosting"},
-            {id: "2.3", text: "Games"}
+            {id: "1.1", text: "Linux"}, 
+            {id: "1.2", text: "Hosting"},
+            {id: "1.3", text: "Games"}
+        ],
+        "date": "January 2024"
+    },
+    {
+        "id": 2,
+        "name": "Tic-Tac-Toe",
+        "href": "/projects/tic-tac-toe",
+        "description": "When I was learning the basics of JavaScript, I challenged myself by trying to create a tic-tac-toe game.",
+        "tags" : [
+            {id: "2.1", text: "Made in 2.5 hours"},
+            {id: "2.2", text: "HTML & CSS"},
+            {id: "2.3", text: "JavaScript"}
         ],
         "date": "January 2024"
     },
     {
         "id": 3,
-        "name": "Tic-Tac-Toe",
-        "href": "/projects/tic-tac-toe",
-        "description": "When I was learning the basics of JavaScript, I challenged myself by trying to create a tic-tac-toe game.",
+        "name": "Algorithms comparison",
+        "href": "/projects/algorithms-comparison",
+        "description": "This project has been made in University and it was divised in two parts. Firstly, I coded 3 ways to calculate the shortest route between multiple cities. Then, I compared them to find out which is the fastest and why.",
         "tags" : [
-            {id: "3.1", text: "Made in 2.5 hours"},
-            {id: "3.2", text: "HTML & CSS"},
-            {id: "3.3", text: "JavaScript"}
+            {id: "3.1", text: "University"},
+            {id: "3.2", text: "Python"},
         ],
-        "date": "January 2024"
+        "date": "December 2023"
     },
 ];
 

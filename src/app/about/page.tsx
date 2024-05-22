@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import Separator from '@/components/Separator'
 import Pictures from '@/components/about/Pictures';
+import { Images } from 'lucide-react';
 
 const Skills = [
     {
@@ -73,9 +74,12 @@ export default function About() {
                 <h1 className='text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
                     About me
                 </h1>
-                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-40'>
-                    <div>
-
+                <div className='grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-40 gap-12'>
+                    <div className='w-full h-full'>
+                        <div className="border-primary border-2 rounded-xl w-full h-full items-center justify-center flex">
+                            <Images className='size-16'/>
+                        </div>
+                        <p className='text-lg text-center text-muted-foreground mt-2'>No picture yet!</p>
                     </div>
                     <div className='text-lg'>
                         <p>
