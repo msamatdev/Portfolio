@@ -1,13 +1,12 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Title from "@/components/projects/Title";
 import Repertory from '@/components/projects/Breadcrumb';
-import Banner from '@/components/projects/Banner';
 import SubTitle from '@/components/projects/Subtitle';
 import Content from "@/components/projects/Content";
 import SubContent from "@/components/projects/SubContent";
-import ProjectImage from '@/components/projects/ProjectImage';
 import Container from "@/components/projects/Container";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "Creation of this portfolio",
@@ -116,6 +115,15 @@ export default function Portfolio() {
                             I also discovered how a DNS works by purchasing my domain name and affecting the subdomain 
                             'portfolio' to this site. I encountered a lot of problems but I solved them one by one while 
                             staying motivated. It took me more than two months but now my biggest project to this date is functional.
+                        </p>
+                        <p className="w-full text-start mt-2">
+                            You can play see the source code {" "}
+                            <Link
+                            href="https://github.com/msamatdev/Portfolio/"
+                            className="underline decoration-dashed underline-offset-4 decoration-1"
+                            >
+                                here
+                            </Link>.
                         </p>
                     </SubContent>
                 </Content>

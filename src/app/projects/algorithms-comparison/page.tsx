@@ -22,7 +22,10 @@ export default function Portfolio() {
                 <Content>
                     <SubContent>
                         <p>
-                            This page is a work in progress... Please check out my other projects.
+                            This page is a work in progress... 
+                        </p>
+                        <p>
+                            Please check out my other projects!
                         </p>
                     </SubContent>
                 </Content>
