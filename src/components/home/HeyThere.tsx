@@ -25,10 +25,10 @@ const HeyThere = () => {
             width={310}
             height={310}
           />
-          <p className="md:px-2 md:py-1 md:text-left md:mt-6 text-lg max-w-prose text-muted-foreground tracking-wide py-4 px-12 text-justify">
+          <p className="md:px-2 md:py-1 md:text-left md:mt-6 text-lg max-w-prose text-muted-foreground tracking-[0.01em] py-4 px-8 text-justify">
             As I am curious and very interested in computers, I have decided to study
             development at Villetaneuse since September 2023. I am now looking for an
-            apprenticeship program in cybersecurity, or web development, near
+            apprenticeship program in cybersecurity, DevOps, or web development, near
             Paris for my second and third year of{" "}
             <HoverCard>
               <HoverCardTrigger className="underline underline-offset-4 cursor-default">BUT Informatique</HoverCardTrigger>
