@@ -10,5 +10,5 @@ This is my portfolio made with NextJS to, hopefully, find a 2-year apprentice-sh
         Create a .env.local file, containing the environment variables <code>RESEND_API_KEY</code>, which will be your Resend key in order to send mails,
         and <code>TO_EMAIL</code> which will contain your email to be able to receive the messages sent on the website.
     </li>
-    <li>You can then start it like every Next.js app with <code>npm run dev</code></li>. You can also build it with <code>npm run build</code> and then start it with <code>npm start</code>.
+    <li>You can then start it like every Next.js app with <code>npm run dev</code>. You can also build it with <code>npm run build</code> and then start it with <code>npm start</code>.</li>
 </ol>
