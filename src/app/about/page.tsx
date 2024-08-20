@@ -58,8 +58,26 @@ const Skills = [
     {
         name: "Git",
         icon: "git",
-        level: "Beginner • Learnt by myself",
+        level: "Average • Learnt by myself",
         id: 9
+    },
+    {
+        name: "Docker",
+        icon: "docker",
+        level: "Average • Learnt by myself",
+        id: 10
+    },
+    {
+        name: "Bash",
+        icon: "bash",
+        level: "Average • Learnt at school",
+        id: 11
+    },
+    {
+        name: "Linux",
+        icon: "linux",
+        level: "Average • Learnt mostly by myself",
+        id: 12
     },
 ]
 
