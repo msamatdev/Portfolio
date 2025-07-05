@@ -1,0 +1,10 @@
+{
+    "LocaleSwitcher": {
+        "en": "English",
+        "fr": "Français"
+    },
+    "HomePage": {
+        "hello": "Bonjour !",
+        "iam": "Je suis"
+    }
+}
