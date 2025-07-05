@@ -1,16 +1,16 @@
 const perks = [
     {
-        "number": "2+",
+        "number": "4+",
         "text": "years on Linux",
         "more": "(Ubuntu, Mint, Xubuntu, Arch)"
     },
     {
-        "number": "01",
+        "number": "02",
         "text": "professionnal experience(s)",
         "more": ""
     },
     {
-        "number": "400+",
+        "number": "1000+",
         "text": "hours of coding",
         "more": ""
     }
