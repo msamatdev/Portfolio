@@ -3,8 +3,70 @@
         "en": "English",
         "fr": "Français"
     },
+    "Footer": {
+        "allRightsReserved": "All rights reserved",
+        "privacyPolicy": "Privacy policy",
+        "legalNotice": "Legal notice"
+    },
     "HomePage": {
-        "hello": "Hey there!",
-        "iam": "I am"
+        "Welcome": {
+            "hello": "Hey there!",
+            "iAm": "I am",
+            "a": "a",
+
+            "frenchStudent": "french student",
+            "frenchDeveloper": "french developer",
+            "techSavvy": "tech savvy",
+            "simRacer": "sim racer",
+            "carEnthusiast": "car enthusiast",
+            "intro": "As I am curious and very interested in computers, I have decided to study development at Villetaneuse since September 2023. I am currently working toward a ",
+            "butInformatique": "A three-year academic program in France. It covers topics such as algorithms, databases, and software development.",
+
+            "browseProjects": "Browse projects",
+
+            "contactMe": "Contact me"
+        },
+
+        "StatsCard": {
+            "yearsOnLinux": "Years on Linux",
+            "professionalExperience": "Professional experiences",
+            "hoursOfCoding": "Hours of coding"
+        },
+
+        "Traits": {
+            "myTraits": "My traits",
+
+            "eager": "Eager",
+            "eagerDescription": "Enthusiastic to continuously improve my skills, I dedicate myself to doing my absolute best when facing challenges, and I see them as opportunities to learn more.",
+
+            "driven": "Driven",
+            "drivenDescription": "I deeply enjoy coding, to the extent that I can spend multiple hours, without even realizing it, to explore a new tool.",
+
+            "curious": "Curious",
+            "curiousDescription": "Everything in IT is interesting for me, so I am always seeking to learn more about it. That is why I have an important knowledge of multiple subjects."
+        },
+
+        "SelectedProjects": {
+            "selectedProjects": "Selected projects",
+            "learnMore": "LEARN MORE",
+
+            "First": {
+                "name": "Hosting machine setup",
+                "description": "My friends and I wanted to play together but renting servers would be inefficient and cost expensive. So, I turned a friend's spare laptop into a machine that could host multiple game servers simultaneously.",
+                "date": "January 2024",
+                "firstTag": "Linux",
+                "secondTag": "Hosting",
+                "thirdTag": "Networking"
+            },
+
+            "Second": {
+                "name": "Algorithms comparisons",
+                "description": "This project has been made in University and it was divised in two parts. I coded 3 ways to calculate the shortest route between multiple cities. Then, I compared them to find out which is the fastest and why.",
+                "date": "December 2023",
+                "firstTag": "University",
+                "secondTag": "Python",
+                "thirdTag": "Algorithms"
+            }
+        }
     }
 }

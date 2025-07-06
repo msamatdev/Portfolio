@@ -3,8 +3,70 @@
         "en": "English",
         "fr": "Français"
     },
+    "Footer": {
+        "allRightsReserved": "Tous droits réservés",
+        "privacyPolicy": "Politique de confidentialité",
+        "legalNotice": "Mentions légales"
+    },
     "HomePage": {
-        "hello": "Bonjour !",
-        "iam": "Je suis"
+        "Welcome": {
+            "hello": "Bonjour !",
+            "iAm": "Je suis",
+            "a": "un",
+
+            "frenchStudent": "étudiant français",
+            "frenchDeveloper": "développeur français",
+            "techSavvy": "passionné d'informatique",
+            "simRacer": "fan de SimRacing",
+            "carEnthusiast": "passionné d'automobile",
+            "intro": "Etant curieux et très intéressé par l'informatique, j'étudie depuis septembre 2023 la programmation à l'université de Villetaneuse en ",
+            "butInformatique": "Ex-DUT Informatique. Un cursus sur trois ans qui couvre des sujets tels que l'algorithmie, la gestion des données, et la programmation logiciel.",
+
+            "browseProjects": "Mes projets",
+
+            "contactMe": "Me contacter"
+        },
+
+        "StatsCard": {
+            "yearsOnLinux": "Années sous Linux",
+            "professionalExperience": "Expériences professionnelles",
+            "hoursOfCoding": "Heures de codage"
+        },
+
+        "Traits": {
+            "myTraits": "Mes traits",
+
+            "eager": "Enthousiaste",
+            "eagerDescription": "Toujours enthousiaste à l'idée d'améliorer mes compétences, je me consacre à donner le meilleur de moi-même face aux défis, que je considère comme des occasions d'apprendre davantage.",
+
+            "driven": "Passionné",
+            "drivenDescription": "J'aime particulièrement coder et apprendre de nouvelles technologies, au point de pouvoir passer plusieurs heures sans m'en rendre compte à explorer un nouvel outil.",
+
+            "curious": "Curieux",
+            "curiousDescription": "Tout ce qui touche à l'informatique m'intéresse, c'est pourquoi je cherche constamment à en apprendre davantage. C'est aussi la raison pour laquelle j'ai des connaissance assez avancées dans de nombreux domaines."
+        },
+        
+        "SelectedProjects": {
+            "selectedProjects": "Projets sélectionnés",
+            "learnMore": "EN SAVOIR PLUS",
+
+            "First": {
+                "name": "Configuration d'un serveur",
+                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément.",
+                "date": "Janvier 2024",
+                "firstTag": "Linux",
+                "secondTag": "Hébergement",
+                "thirdTag": "Réseau"
+            },
+
+            "Second": {
+                "name": "Comparaison d'algorithmes",
+                "description": "Projet universitaire qui a consisté à développer 3 méthodes de calcul permettant d'obtenir le chemin le plus rapide entre plusieurs villes, et à les comparer pour trouver laquelle est la plus rapide.",
+                "date": "Décembre 2023",
+                "firstTag": "Université",
+                "secondTag": "Python",
+                "thirdTag": "Algorithmes"
+            }
+        }
     }
 }

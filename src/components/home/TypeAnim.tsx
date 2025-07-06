@@ -1,20 +1,32 @@
 "use client";
 import { TypeAnimation } from 'react-type-animation';
 
-const TypeAnim = () => {
+const TypeAnim = ({
+  frenchStudent,
+  frenchDeveloper,
+  techSavvy,
+  simRacer,
+  carEnthusiast
+}: {
+  frenchStudent: string;
+  frenchDeveloper: string;
+  techSavvy: string;
+  simRacer: string;
+  carEnthusiast: string;
+}) => {
   return (
     <TypeAnimation
       preRenderFirstString={true}
       sequence={[
-        'french student',
+        frenchStudent,
         1500,
-        'french developer',
+        frenchDeveloper,
         1500,
-        'tech savvy',
+        techSavvy,
         1500,
-        'sim racer',
+        simRacer,
         1500,
-        'car enthusiast',
+        carEnthusiast,
         1500
       ]}
       wrapper="span"

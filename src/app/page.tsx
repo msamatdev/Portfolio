@@ -10,10 +10,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  // TODO: Chiffres (2+ ans sur linux, 01 expérience pro, ?), FAQ section,
-  // FOOTER,
-  // SKILLS AVEC CARDS
-  // Faire une popup me contacter ?
   return (
     <MaxWidthWrapper>
       <HeyThere/>
