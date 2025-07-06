@@ -134,5 +134,44 @@
             "title": "Modifications des mentions légales",
             "description": "Mathis SAMAT se réserve le droit de modifier ces mentions légales à tout moment. Les modifications prendront effet dès leur publication sur ce site. Votre utilisation de ce site web après de telles modifications constitue votre acceptation des nouvelles mentions légales. Il est donc conseillé de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications."
         }
+    },
+    "AboutPage": {
+        "aboutMeSection": {
+            "title": "À propos",
+
+            "description": {
+                "firstPart": "Je m'appelle Mathis SAMAT, et je suis un étudiant de 19 ans. J'aime particulièrement la science, donc j'ai décidé de me spécialiser en Mathématiques et Physique-Chimie au lycée.",
+                "secondPart": "Au fil des années, j'ai développé une passion pour l'informatique en essayant plusieurs domaines de ce vaste univers. J'ai essayé la modélisation 3D, l'hébergement, la retouche d'images, et plus encore. C'est au final la programmation qui m'a le plus passionné.",
+                "thirdPart": "Je suis actuellement alternant en BUT Informatique. Je travaille en tant que développeur fullstack dans une petite entreprise où je développe des solutions orientées web."
+            }
+        },
+
+        "tools": {
+            "title": "Mes principaux outils",
+
+            "average": "Niveau moyen",
+            "good": "Assez bon",
+            "beginner": "Débutant",
+
+            "learnAtUniv": "Appris à l'université",
+            "selfTaught": "Appris en autonomie",
+            "mostlySelfTaught": "Principalement appris en autonomie"
+        },
+
+        "outsideUniversity": {
+            "title": "En dehors de l'université",
+
+            "p1": "En dehors de mon intérêt pour le développement, j'ai plusieurs passions auxquelles je me consacre entièrement lorsque je ne suis pas à l'université.",
+
+            "p2" : {
+                "p1": "Premièrement, je suis un passionné d'automobile et de simulation automobile (SimRacing). J'ai participé à une compétition organisée par un Youtuber de plus de 800 000 abonnés. Il s'agissait d'une ",
+                "link": "\"course contre la montre\" où j'ai terminé à la 12ème place",
+                "p2": ". Lorsque j'ai réalisé mon meilleur temps, je suis resté sur le podium pendant plusieurs jours. Cependant, je n'ai pas eu le temps de continuer d'encore m'améliorer à cause de mes études, donc d'autres personnes ont pu obtenir un meilleur temps d'ici la fin de l'évènement. Je suis toutefois très content de mon résultat étant donné que je n'ai pas eu beaucoup de temps pour m'entraîner."
+            },
+
+            "p3": "De plus, j'aime beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Voici quelques photos de mes randonnées :",
+
+            "p4": "Enfin, je suis passionné par la guitare, et plus spécifiquement par la guitare électrique. Je joue principalement du rock, mais j'aime jouer de tous les styles. Je m'entraîne quotidiennement afin de m'améliorer, et de reproduire fidèlement les solo de mes artistes préférés. Il m'arrive de jouer avec un amie guitariste, et un ami qui joue de la batterie et du piano."
+        }
     }
 }

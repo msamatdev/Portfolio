@@ -134,5 +134,44 @@
             "title": "Changes to this legal notice",
             "description": "Mathis SAMAT reserves the right to update or modify this legal notice at any time without prior notice. Your use of this website following any such change constitutes your agreement to follow and be bound by the updated legal notice."
         }
+    },
+    "AboutPage": {
+        "aboutMeSection": {
+            "title": "About me",
+
+            "description": {
+                "firstPart": "I am Mathis SAMAT, a 19 year old student in France. I like science, so I specialized in Mathematics, Chemistry and Physics in secondary school.",
+                "secondPart": "Throughout the years, I have discovered a lot about computers, and the more I dived into them, the more I was curious about them. After trying 3D Modeling, server hosting, image editing, writing my first lines of code, ... I was hooked, so I decided to study IT.",
+                "thirdPart": "Now, I would love to join an IT company, to gain experience, and improve my skills."
+            }
+        },
+
+        "tools": {
+            "title": "My main tools",
+
+            "average": "Average",
+            "good": "Good",
+            "beginner": "Beginner",
+
+            "learnAtUniv": "Learnt at university",
+            "selfTaught": "Learnt on my own",
+            "mostlySelfTaught": "Mostly self-taught"
+        },
+
+        "outsideUniversity": {
+            "title": "Outside university",
+
+            "p1": "Besides my interest in coding, I have multiple passions that I enjoy when I am not at university or coding at home.",
+
+            "p2": {
+                "p1": "Firstly, I am a car enthusiast. I am currently getting my license, and I genuinely enjoy sim racing. As a matter of fact, I participated in a ",
+                "link": "time attack competition",
+                "p2": " back in 2023 whose creator is a youtuber with almost 800 000 subscribers. When I uploaded my score, I stayed for multiple days on the podium, and I ended up in 12th place at the end. I am still proud of it, since, because of school, I didn't have a lot of time to practice unlike the others, so I couldn't do a lot of tries to improve my time."
+            },
+
+            "p3": "In addition, I do like hiking in beautiful places, which helps me to stay balanced and full of energy, bringing productivity and fresh perspective to my work. Here, you can scroll to see some of the best pictures I took when hiking in my opinion.",
+
+            "p4": "Finally, I like guitar and most specifically electric guitar. I play mainly rock, but I like to play all styles. I practice daily to improve my skills to be able to reproduce the solos of my favorite artists. Sometimes, I play with a friend who plays guitar, and a friend who plays drums and piano."
+        }
     }
 }
