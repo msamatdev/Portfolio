@@ -149,13 +149,13 @@
         "tools": {
             "title": "Mes principaux outils",
 
-            "average": "Niveau moyen",
-            "good": "Assez bon",
+            "average": "Assez bon",
+            "good": "Maîtrisé",
             "beginner": "Débutant",
 
             "learnAtUniv": "Appris à l'université",
             "selfTaught": "Appris en autonomie",
-            "mostlySelfTaught": "Principalement appris en autonomie"
+            "mostlySelfTaught": "Surtout appris en autonomie"
         },
 
         "outsideUniversity": {
