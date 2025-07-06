@@ -89,5 +89,15 @@
         "messagePlaceholder": "Bonjour, j'aimerais vous parler de ...",
 
         "send": "Envoyer"
+    },
+    "PrivacyPolicyPage": {
+        "title": "Politique de confidentialité",
+        
+        "thirdParty": "Tierces parties",
+        "thirdPartyContentP1": "Une seule tierce partie est utilisée par le site : ",
+        "thirdPartyContentP2": "Celle-ci traque le nombre de visiteurs, le type de leur machine, leur pays, et le nombre de fois qu'ils visitent une page. Aucune autre donnée est partagée avec une tierce partie.",
+        
+        "cookies": "Cookies",
+        "cookiesContent": "Le premier cookie utilisé par ce site provient de Vercel, l'hébergeur du site. Il est utilisé pour stocker un identifiant unique pour chaque session, afin d'éviter de compter plusieurs fois le même utilisateur. Le second cookie utilisé par le site enregistre la langue préférée de l'utilisateur, et est stocké uniquement sur le navigateur de l'utilisateur."
     }
 }

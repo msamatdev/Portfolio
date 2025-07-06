@@ -89,5 +89,15 @@
         "messagePlaceholder": "Let's talk about...",
 
         "send": "Send"
+    },
+    "PrivacyPolicyPage": {
+        "title": "Privacy policy",
+        
+        "thirdParty": "Third party",
+        "thirdPartyContentP1": "Only one third party is used by this website : ",
+        "thirdPartyContentP2": "It mainly tracks the number of visitors, their devices types, their devices OS, their country, the web vital, and the number of times a page has been visited. No other data is shared with any other third party, and there is not any intrusive tracking.",
+        
+        "cookies": "Cookies",
+        "cookiesContent": "The first cookie used on this website is from Vercel, the hosting provider. Vercel uses a cookie to store an identifier for each user session, in order to avoid counting the same user multiple times. It is only used by Vercel and not shared with any other third party. The second cookie only stores the user's language preference, and it is only stored on the user's browser."
     }
 }
