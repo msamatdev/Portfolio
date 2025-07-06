@@ -74,5 +74,20 @@
                 "thirdTag": "Algorithms"
             }
         }
+    },
+    "ContactPage": {
+        "title": "Contact me",
+
+        "letsConnect": "Let's connect!",
+        "description": "My inbox is always open. If you have a question or if you want to get in touch, I'll try my best to get back to you as soon as possible.",
+        
+        "sendMeAMessage": "Send me a message",
+
+        "subject": "Subject",
+        "subjectPlaceholder": "Just saying hi",
+
+        "messagePlaceholder": "Let's talk about...",
+
+        "send": "Send"
     }
 }

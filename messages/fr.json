@@ -74,5 +74,20 @@
                 "thirdTag": "Algorithmes"
             }
         }
+    },
+    "ContactPage": {
+        "title": "Me contacter",
+
+        "letsConnect": "Entrons en contact !",
+        "description": "Si vous souhaitez me contacter, n'hésitez pas à m'envoyer un message via le formulaire présent sur cette page. Je vous répondrai dès que possible !",
+        
+        "sendMeAMessage": "Envoyez-moi un message",
+
+        "subject": "Sujet",
+        "subjectPlaceholder": "Demande de renseignement",
+
+        "messagePlaceholder": "Bonjour, j'aimerais vous parler de ...",
+
+        "send": "Envoyer"
     }
 }
