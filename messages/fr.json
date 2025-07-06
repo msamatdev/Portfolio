@@ -99,5 +99,40 @@
         
         "cookies": "Cookies",
         "cookiesContent": "Le premier cookie utilisé par ce site provient de Vercel, l'hébergeur du site. Il est utilisé pour stocker un identifiant unique pour chaque session, afin d'éviter de compter plusieurs fois le même utilisateur. Le second cookie utilisé par le site enregistre la langue préférée de l'utilisateur, et est stocké uniquement sur le navigateur de l'utilisateur."
+    },
+    "LegalNoticePage": {
+        "title": "Mentions légales",
+
+        "copyrightNotice": {
+            "title": "Notice de droit d'auteur",
+            "description": "Tout le contenu, y compris les textes, images et graphiques de ce site web, est la propriété de Mathis SAMAT, sauf indication contraire. Ce contenu est protégé par les lois sur le droit d’auteur et les traités internationaux. Toute utilisation, reproduction ou distribution non autorisée de tout élément de ce site est strictement interdite sans le consentement écrit préalable de Mathis SAMAT."
+        },
+
+        "websiteOwner": {
+            "title": "Propriétaire du site web",
+            "description": "Le propriétaire et administrateur de ce site web est Mathis SAMAT. Pour toute question ou demande d'information, vous pouvez le contacter à l'adresse "
+        },
+
+        "websiteHosting": {
+            "title": "Hébergement du site web",
+            "description": "Ce site est hébergé par Vercel avec le tier gratuit. Pour plus d'information sur Vercel, dirigez-vous vers leur site web."
+        },
+
+        "links": {
+            "title": "Liens vers d'autres sites",
+            "description": "Ce site peut contenir des liens vers d'autres sites web. Ces liens sont fournis uniquement pour votre commodité et à titre de référence. Le propriétaire du site ne saurait être tenu responsable du contenu de tout site lié, ni de tout lien contenu dans un site lié. De plus, tous les liens vers ce site web sont autorisés, à condition que le site d’origine ne diffuse aucun contenu pouvant être considéré comme offensant."
+        },
+
+        "lawsAndDataCollection": {
+            "title": "Lois et collecte de données",
+            "descriptionP1": "Ce site web est conforme aux lois en vigueur en France. Il ne collecte aucune donnée personnelle, hormis celles précisées dans la ",
+            "privacyPolicy": "politique de confidentialité",
+            "descriptionP2": "Par ailleurs, le site respecte le règlement général sur la protection des données (RGPD)."
+        },
+
+        "changes": {
+            "title": "Modifications des mentions légales",
+            "description": "Mathis SAMAT se réserve le droit de modifier ces mentions légales à tout moment. Les modifications prendront effet dès leur publication sur ce site. Votre utilisation de ce site web après de telles modifications constitue votre acceptation des nouvelles mentions légales. Il est donc conseillé de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications."
+        }
     }
 }

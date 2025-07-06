@@ -99,5 +99,40 @@
         
         "cookies": "Cookies",
         "cookiesContent": "The first cookie used on this website is from Vercel, the hosting provider. Vercel uses a cookie to store an identifier for each user session, in order to avoid counting the same user multiple times. It is only used by Vercel and not shared with any other third party. The second cookie only stores the user's language preference, and it is only stored on the user's browser."
+    },
+    "LegalNoticePage": {
+        "title": "Legal notice",
+
+        "copyrightNotice": {
+            "title": "Copyright notice",
+            "description": "All content, including text, images, and graphics on this website is the property of Mathis SAMAT unless otherwise stated. This content is protected by copyright laws and international treaties. Unauthorized use, reproduction, or distribution of any material from this site is strictly prohibited without prior written consent from Mathis SAMAT."
+        },
+
+        "websiteOwner": {
+            "title": "Website owner",
+            "description": "The owner and administrator of this website is Mathis SAMAT. You can contact him at "
+        },
+
+        "websiteHosting": {
+            "title": "Website hosting",
+            "description": "This website is hosted by Vercel with the free plan."
+        },
+
+        "links": {
+            "title": "Links",
+            "description": "This website may contain links to external websites that are not provided or maintained by Mathis SAMAT. These links are provided solely for your convenience and reference. He shall not be responsible for the content of any linked site, or any link contained within a linked site. In addition, all links towards this website are permitted as long as the origin does not diffuse any content that could be considered as offensive."
+        },
+
+        "lawsAndDataCollection": {
+            "title": "Laws and data collection",
+            "descriptionP1": "Everything collected on this website is mentionned in the ",
+            "privacyPolicy": "privacy policty",
+            "descriptionP2": "Also, the collected data follows the General Data Protection Regulation (GDPR)."
+        },
+
+        "changes": {
+            "title": "Changes to this legal notice",
+            "description": "Mathis SAMAT reserves the right to update or modify this legal notice at any time without prior notice. Your use of this website following any such change constitutes your agreement to follow and be bound by the updated legal notice."
+        }
     }
 }
