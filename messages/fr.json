@@ -3,6 +3,12 @@
         "en": "English",
         "fr": "Français"
     },
+    "Navbar": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Me contacter"
+    },
     "Footer": {
         "allRightsReserved": "Tous droits réservés",
         "privacyPolicy": "Politique de confidentialité",

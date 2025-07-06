@@ -1,4 +1,5 @@
 "use client";
+import {useTranslations} from 'next-intl';
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Link from "next/link";
 import { Braces, X } from "lucide-react";
@@ -10,13 +11,13 @@ import { useState } from "react";
 const Navbar = () => {
   const pathName = usePathname();
 
+  const t = useTranslations('Navbar');
+
   const [isClick, setIsClick] = useState(false)
   const toggleNavbar = (): void => {
     setIsClick(!isClick)
   }
-  // TODO : grid 3x / 2x sur mobile avec le logo, navbar au milieu, contacter à droite + menu (utiliser shadcn ?)
-  // Changer la police d'écriture, peut-être du box shadow sur la navbar ?
-  // Refaire avec un .map la navbar ?
+
   return (
     <header className="fixed w-full md:top-8 md:bg-transparent bg-background top-0 z-50 flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2">
       <MaxWidthWrapper>
@@ -36,7 +37,7 @@ const Navbar = () => {
                 "dark:text-foreground text-secondary-foreground": pathName == "/",
               })}
             >
-              Home
+              { t('home') }
             </Link>
             <Link
               href="/projects"
@@ -44,7 +45,7 @@ const Navbar = () => {
                 "dark:text-foreground text-secondary-foreground": pathName == "/projects",
               })}
             >
-              Projects
+              { t('projects') }
             </Link>
             <Link
               href="/about"
@@ -52,7 +53,7 @@ const Navbar = () => {
                 "dark:text-foreground text-secondary-foreground": pathName == "/about",
               })}
             >
-              About
+              { t('about') }
             </Link>
           </nav>
           
@@ -60,7 +61,7 @@ const Navbar = () => {
             href="/contact"
             className="text-md text-primary-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
           >
-            Contact me
+            { t('contact') }
           </Link>
 
           <button 
