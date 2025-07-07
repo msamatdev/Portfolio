@@ -238,6 +238,52 @@
                 "p7": "À ce jour, la machine héberge toujours plusieurs serveurs. Même si je n’ai plus beaucoup de temps pour jouer avec mes amis, je continue à leur créer de nouveaux serveurs quand je le peux, et je veille à ce que ceux qui sont en ligne soient toujours à jour.",
                 "p8": "Mes amis et moi étions confrontés à un problème : nous ne pouvions pas jouer à plusieurs jeux vidéo ensemble car louer des serveurs a un coût assez important. Nous avons fait un brainstorming et trouvé une solution : héberger nos propres serveurs. Ayant les compétences pour le faire, je me suis occupé de la configuration de la machine, et de la création et de la gestion des serveurs. Cela m’a permis d’acquérir des connaissances sur Linux, le fonctionnement d’un réseau, la sécurisation d’une machine, et l’hébergement de serveurs en général."
             }
+        },
+
+        "PortfolioProject": {
+            "title": "Site web portfolio",
+
+            "TableOfContents": {
+                "context": "Contexte",
+                "frameworks": "Choix des outils",
+                "starting": "Début du projet",
+                "landing": "Création de la page d'accueil",
+                "progressing": "Création des autres pages",
+                "conclusion": "Pour conclure"
+            },
+
+            "Text": {
+                "p1": "Je souhaitais créer un endroit où je pourrais présenter mes projets afin de trouver une alternance. C’est ainsi qu’a commencé mon plus gros projet jusqu’à maintenant : créer un portfolio sur internet à partir de zéro.",
+                "p2": "Après plus de deux mois de travail, je suis plutôt satisfait du résultat. Je suis fier d’avoir réussi à développer un site web moderne complet, en utilisant un framework que j'ai appris au fil du projet.",
+                "p3": "Dans cet article, je vais expliquer comment j’ai procédé, les choix que j’ai faits et les principales difficultés que j’ai rencontrées. J'aborderai aussi ce que ce projet m’a permis d'apprendre après y avoir consacré autant de temps.",
+                "p4": "Pour créer mon site, j’ai d’abord dû choisir les bons outils. Je me suis posé plusieurs questions : devais-je partir sur une stack classique avec HTML, CSS et JavaScript pour faire un site statique ? Ou bien utiliser un framework ? Et si oui, lequel ?",
+                "p5": "Ayant déjà créé plusieurs sites statiques auparavant, j’avais envie de découvrir autre chose. Les frameworks offrent beaucoup d’avantages : génération dynamique des pages, composants réutilisables, URLs propres sans .html, etc. J’étais donc motivé pour en apprendre un... mais lequel choisir ?",
+                "p6": "Après quelques recherches, j’ai découvert Next.js. Il m’a tout de suite intéressé : son système de gestion des routes (routing) est très pratique, et le fait de pouvoir faire à la fois du frontend et du backend fait de Next.js un framework solide. En plus, Next.js est basé sur React, une technologie largement utilisée dans l’industrie. L’apprendre me permettait donc aussi de découvrir l’univers de React.",
+                "p7-1": "Après avoir suivi le tutoriel officiel sur le site de Next.js, j’ai commencé à faire quelques tests. Ensuite, j’ai lancé mon projet avec ",
+                "p7-2": " À ce stade, il n’y avait rien mis à part les fichiers de base générés par le framework, le site était comme une page blanche.",
+                "p8": "J’ai planifié toutes les étapes du projet dans un fichier texte. J’ai essayé d’avoir une vision claire du résultat final avant d’écrire la moindre ligne de code. Cette préparation m’a permis de rester organisé du début à la fin : je savais toujours ce que je devais faire à tel moment, et dans quel ordre.",
+                "p9": "Une fois tout planifié, j’ai commencé à coder la page d’accueil. J’ai mis un peu de temps à avoir un résultat satisfaisant, car je découvrais en détail à la fois Tailwind CSS, TypeScript et Next.js. Il m’a fallu un peu de temps pour bien prendre en main ces technologies.",
+                "p10": "En parallèle, j’ai travaillé sur la barre de navigation. Çela n’a pas été facile, notamment pour gérer des éléments comme la couleur d'un lien actif ou encore afficher/masquer le menu en haut de l'écran sur mobile avec un bouton.",
+                "p11": "En développant le menu mobile, j’ai rencontré un bug étrange : il était impossible d’animer l'ouverture de la barre de navigation. L’animation ne fonctionnait pas, le menu apparaissait d’un coup. J’ai finalement appris que Tailwind ne permet pas d’animer un élément dont la hauteur est définie automatiquement, il faut utiliser une hauteur fixe si on veut que l’animation fonctionne correctement.",
+                "p12": "Le développement des autres pages m’a beaucoup appris. J’ai créé des composants de plus en plus complexes, et j'ai de plus en plus utilisé les fonctionnalités qui proviennent de React. J'ai même réalisé un peu de backend en créant une route API reliée au formulaire de la page de contact, afin de pouvoir recevoir des mails lorsqu'une personne remplit le formulaire de contact.",
+                "p13": "Globalement, ce projet a été une très bonne expérience. J’ai découvert mon premier framework, appris Tailwind CSS, mis en place mon premier formulaire fonctionnel, et même compris comment fonctionne un DNS en achetant un nom de domaine et en liant le sous-domaine 'portfolio' à ce site. J’ai rencontré beaucoup de problèmes, mais je les ai surmontés un par un, sans jamais perdre la motivation. Ce projet m’a pris plus de deux mois, mais aujourd’hui, mon plus gros projet terminé est en ligne et opérationnel.",
+                "sourceCode": "Le code source de mon portfolio est accessible",
+                "here": "ici"
+            }
+        },
+
+        "RentalAppProject": {
+            "title": "Application de réservation",
+
+            "TableOfContents": {
+                "context": "Contexte",
+                "stack": "Outils et langages utilisés",
+                "projectManagement": "Gestion de projet",
+                "creatingTheAPI": "Création de l'API",
+                "creatingTheFrontend": "Création du frontend",
+                "auth": "Système d'authentification",
+                "conclusion": "Conclusion"
+            }
         }
     }
 }
