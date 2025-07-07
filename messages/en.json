@@ -3,6 +3,11 @@
         "en": "English",
         "fr": "Français"
     },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "description": "The page you are looking for does not exist.",
+        "goBack": "Return home"
+    },
     "Navbar": {
         "home": "Home",
         "projects": "Projects",
@@ -169,9 +174,7 @@
                 "p2": " back in 2023 whose creator is a youtuber with almost 800 000 subscribers. When I uploaded my score, I stayed for multiple days on the podium, and I ended up in 12th place at the end. I am still proud of it, since, because of school, I didn't have a lot of time to practice unlike the others, so I couldn't do a lot of tries to improve my time."
             },
 
-            "p3": "In addition, I do like hiking in beautiful places, which helps me to stay balanced and full of energy, bringing productivity and fresh perspective to my work. Here, you can scroll to see some of the best pictures I took when hiking in my opinion.",
-
-            "p4": "Finally, I like guitar and most specifically electric guitar. I play mainly rock, but I like to play all styles. I practice daily to improve my skills to be able to reproduce the solos of my favorite artists. Sometimes, I play with a friend who plays guitar, and a friend who plays drums and piano."
+            "p3": "In addition, I do like hiking in beautiful places, which helps me to stay balanced and full of energy, bringing productivity and fresh perspective to my work. Here, you can scroll to see some of the best pictures I took when hiking in my opinion."
         }
     },
     "ProjectsPage": {

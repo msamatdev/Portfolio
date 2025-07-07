@@ -97,12 +97,15 @@ export default function About() {
         </h1>
         <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-40 gap-12">
           <div className="w-full h-full">
-            <div className="border-primary border-2 rounded-xl w-full h-full items-center justify-center flex">
-              <Images className="size-16" />
+            <div className="border-primary border-2 rounded-[80px] w-full h-full items-center justify-center flex">
+              <Image 
+                alt="Picture of me"
+                src="/images/photos/homePhoto.png"
+                width={300}
+                height={300}
+                className="object-cover rounded-[80px] h-full w-full"
+              />
             </div>
-            <p className="text-lg text-center text-muted-foreground mt-2">
-              No picture yet!
-            </p>
           </div>
           <div className="text-lg">
             <p>{t("aboutMeSection.description.firstPart")}</p>
@@ -140,7 +143,7 @@ export default function About() {
         <h1 className="text-center text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
           {t("outsideUniversity.title")}
         </h1>
-        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-30 gap-12">
+        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-30 gap-12 lg:gap-16">
           <div className="text-lg">
             <p>{t("outsideUniversity.p1")}</p>
             <p className="mt-4">
@@ -157,11 +160,6 @@ export default function About() {
             <p className="mt-4">{t("outsideUniversity.p3")}</p>
           </div>
           <Pictures />
-        </div>
-        <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-30 gap-12">
-          <Image />
-
-          <p>{t("outsideUniversity.p4")}</p>
         </div>
       </div>
     </MaxWidthWrapper>

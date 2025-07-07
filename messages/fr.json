@@ -3,6 +3,11 @@
         "en": "English",
         "fr": "Français"
     },
+    "NotFoundPage": {
+        "title": "Page non trouvée",
+        "description": "La page que vous cherchez n'existe pas.",
+        "goBack": "Retourner à l'accueil"
+    },
     "Navbar": {
         "home": "Accueil",
         "projects": "Projets",
@@ -166,12 +171,10 @@
             "p2" : {
                 "p1": "Premièrement, je suis un passionné d'automobile et de simulation automobile (SimRacing). J'ai participé à une compétition organisée par un Youtuber de plus de 800 000 abonnés. Il s'agissait d'une ",
                 "link": "\"course contre la montre\" où j'ai terminé à la 12ème place",
-                "p2": ". Lorsque j'ai réalisé mon meilleur temps, je suis resté sur le podium pendant plusieurs jours. Cependant, je n'ai pas eu le temps de continuer d'encore m'améliorer à cause de mes études, donc d'autres personnes ont pu obtenir un meilleur temps d'ici la fin de l'évènement. Je suis toutefois très content de mon résultat étant donné que je n'ai pas eu beaucoup de temps pour m'entraîner."
+                "p2": ". Lorsque j'ai réalisé mon meilleur temps, je suis resté sur le podium pendant plusieurs jours. Cependant, je n'ai pas eu le temps de continuer d'encore m'améliorer à cause de mes études, donc d'autres personnes ont pu obtenir un meilleur temps d'ici la fin de l'évènement. Je suis toutefois très content de mon résultat."
             },
 
-            "p3": "De plus, j'aime beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Voici quelques photos de mes randonnées :",
-
-            "p4": "Enfin, je suis passionné par la guitare, et plus spécifiquement par la guitare électrique. Je joue principalement du rock, mais j'aime jouer de tous les styles. Je m'entraîne quotidiennement afin de m'améliorer, et de reproduire fidèlement les solo de mes artistes préférés. Il m'arrive de jouer avec un amie guitariste, et un ami qui joue de la batterie et du piano."
+            "p3": "J'aime par ailleurs beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Vous pouvez ici faire défiler quelques photos que j'ai pu prendre lors de mes randonnées."
         }
     },
     "ProjectsPage": {
