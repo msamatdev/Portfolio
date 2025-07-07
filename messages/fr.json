@@ -272,7 +272,7 @@
             }
         },
 
-        "RentalAppProject": {
+        "BikeRentalAppProject": {
             "title": "Application de réservation",
 
             "TableOfContents": {
@@ -280,9 +280,35 @@
                 "stack": "Outils et langages utilisés",
                 "projectManagement": "Gestion de projet",
                 "creatingTheAPI": "Création de l'API",
-                "creatingTheFrontend": "Création du frontend",
+                "creatingTheFrontend": "Création des applications frontend",
                 "auth": "Système d'authentification",
                 "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "En seconde année de BUT Informatique, j'ai participé à un projet de groupe qui a consisté à développer une application de réservation de vélib'. Le projet s'est déroulé sur toute une année, et m'a permis de travailler avec mon équipe sur une API avec base de données, un site web et une application mobile.",
+                "p2": "Bien que nous étions assez libre dans le choix des outils, nous avons dû respecter des contraintes. Nous devions en effet utiliser le format JSON pour la transmission des données, et l'API se devait de respecter l'architecture REST. Nous devions par ailleurs réaliser un développement piloté par les tests.",
+                "p3": "Certaines fonctionnalités devaient être en outre obligatoirement implémentées. L'application finale devait par exemple permettre à un utilisateur d'obtenir un itinéraire vers une station, consulter son historique de réservations, et plus encore. Bien que la réservation était simulée, le reste était fonctionnel et réel.",
+
+                "p4": "Pour ce projet, nous avons utilisé plusieurs outils. Nous avons choisi de développer l'API en Python avec le framework Django, car il est intuitif et puissant grâce à ses nombreuses fonctionnalités comme l'ORM (Mapping objet-relationnel). Pour la base de données, nous avons opté pour PostgreSQL, qui est robuste et bien adapté aux besoins. Le frontend a été développé avec Next.js, ce qui m'a permis de mettre en oeuvre les compétences que j'avais acquises lors de la création de mon portfolio. En ce qui concerne l'application mobile, nous avons utilisé Flutter afin de pouvoir développer une application compatible sur iOS et Android.",
+                "p5": "Afin de conteneuriser l'API et la base de données, nous avons utilisé Docker. Cela nous a permis de simplifier le déploiement et de garantir que l'API fonctionne de manière cohérente sur différents environnements. Nous avons également utilisé Git pour la gestion du code source, ce qui a facilité la collaboration entre les membres de l'équipe.",
+
+                "p6": "Afin de s'organiser et de collaborer efficacement, nous avons utilisé la fonctionnalité de projet sur GitHub. Cela nous a permis de réaliser un développement agile. Nous avons réalisé une planification des tâches avec estimation du temps et de la difficulté, ainsi qu'un suivi de l'avancement de celles-ci. Pour s'assurer que chaque nouvelle fonctionnalité n'introduise pas de bugs, nous avons mis en place une intégration continue.",
+
+                "p7": "Je me suis occupé de la configuration de l'API, avec notamment l'utilisation de variables d'environnement pour récupérer les clés secrètes. J'ai mis en place certaines fonctionnalités comme le CORS, qui est essentiel pour que les requêtes depuis l'application web vers l'API fonctionne.",
+                "p8": "J'ai également développé un script de génération de clés secrètes utilisées pour le chiffrement des données afin de faciliter la mise en place de l'API sur une machine. Cela permet à un administrateur système de ne pas avoir à générer chaque clé manuellement.",
+                "p9": "Concernant les endpoints, j'ai pu en réaliser plusieurs en rapport avec les stations vélib' et l'authentification dont je parlerai plus en détail ci-dessous.",
+
+                "p10": "Pour l'application web, j'ai pu apporter mes connaissances acquises lors de la création de mon portfolio. J'ai mis en place un design qui a été réutilisé sur toutes les pages du site. Pour ce faire, j'ai créé un Wrapper qui permet d'allouer la même largeur et la même disposition des éléments sur toutes les pages du site. J'ai par ailleurs trouvé les bibliothèques de composants et d'icônes qui ont été utilisées tout au long du développement pour garder une interface cohérente sur toutes les pages. J'ai travaillé sur de nombreuses pages, mais surtout sur celles en rapport avec l'authentification. Je me suis occupé entièrement de la page de connexion, de création de compte, et d'affichage et de modification des informations.",
+                "p11": "Sur l'application mobile, j'ai réalisé les mêmes pages que sur l'application web. J'ai aussi réalisé d'autres éléments comme la page de chargement lors de l'ouverture de l'application. Comme sur l'application web, j'ai réalisé le design global qui a été gardé sur toutes les pages de l'application.",
+
+                "p12": "Comme précisé précédemment, j'ai conçu tout le système d'authentification, que cela soit au niveau de l'API, de l'application mobile ou bien du site web. J'ai créé un système de génération de token de session qui est envoyé à l'utilisateur lors de sa connexion. Les tokens et leur date d'expiration sont stockés dans la base de données, et sont utilisés par les applications web et mobiles lors de chaque requête nécessitant d'être authentifié.",
+                "p13": "J'ai aussi mis en place un système de vérification d'email, qui permet de s'assurer que l'utilisateur a bien accès à l'adresse email qu'il a renseignée lors de la création de son compte. Pour ce faire, j'ai utilisé la bibliothèque Resend pour envoyer le mail. Dans le contenu de ce mail, on y trouve un lien vers l'application web, avec un token passé en paramètres. Pour créer le token, j'ai utilisé un système similaire à celui des tokens d'authentification, mais avec une durée de vie bien plus courte. Lorsque l'utilisateur clique sur le lien, l'application web envoie une requête à l'API pour vérifier que le token est valide et n'a pas expiré. Si c'est le cas, l'email est marqué comme vérifié dans la base de données.",
+
+                "p14": "Pour conclure, ce projet m'a permis de travailler sur un projet complexe en groupe, et de découvrir de nombreux outils et langages. J'ai pu mettre en pratique mes connaissances en développement web et mobile, ainsi qu'en gestion de projet. J'ai beaucoup appris, surtout au niveau de la création d'API et de la gestion de l'authentification. Le travail en équipe m'a permis d'à la fois transmettre mes connaissances aux autres membres du groupe, mais aussi de progresser grâce à leurs compétences et leurs retours. Ce projet a été une expérience enrichissante qui m'a permis de développer mes compétences techniques, organisationnelles, et de collaboration.",
+
+                "sourceCode": "Le code source de l'application est accessible",
+                "here": "ici"
             }
         }
     }

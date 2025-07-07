@@ -270,6 +270,45 @@
                 "sourceCode": "The source code is available",
                 "here": "here"
             }
+        },
+        "BikeRentalAppProject": {
+          "title": "Bike rental app development",
+                
+          "TableOfContents": {
+            "context": "Context",
+            "stack": "Tools and technologies",
+            "projectManagement": "Project management",
+            "creatingTheAPI": "Building the API",
+            "creatingTheFrontend": "Building the frontend applications",
+            "auth": "Authentication system",
+            "conclusion": "Conclusion"
+          },
+      
+          "Text": {
+              "p1": "In my second year of university (BUT in Computer Science), I took part in a year-long group project where we developed a bike rental app. It gave us the opportunity to build an API with a database, a website, and a mobile app, all while working together as a team.",
+              "p2": "Although we were mostly free to choose the tools we want, we still had to follow a few constraints. We had to use JSON to transfer data, the API had to follow REST architecture, and the project needed to be test-driven.",
+              "p3": "Some features were also mandatory. For example, the final app had to let users get directions to a station, view their reservation history, and more. While the actual reservation process was simulated, the rest of the application was fully functional.",
+
+              "p4": "We used several tools for this project. We built the API with Django, a Python framework that is both intuitive and powerful, especially with features like its ORM (Object-Relational Mapping). We chose PostgreSQL for the database since it's solid and well-suited for our needs. The frontend was built using Next.js, which gave me a chance to reuse the skills I had developed while working on my portfolio. As for the mobile app, we used Flutter so that it could run on both iOS and Android.",
+              "p5": "To containerize the API and the database, we used Docker. It made deployment easier and ensured the API behaved consistently across different environments. We also used Git for version control, which helped us collaborate more effectively.",
+
+              "p6": "To stay organized and work efficiently as a team, we used GitHub Projects to follow an agile development approach. We planned tasks with time and difficulty estimates and kept track of our progress throughout. We also set up continuous integration to make sure that new features didn’t introduce any bugs.",
+
+              "p7": "I handled the initial API configuration, including the use of environment variables to load secret keys. I also implemented features like CORS, which was essential to allow the web app to make requests to the API.",
+              "p8": "To make the API setup easier, I also wrote a script that automatically generates encryption keys, so system administrators wouldn’t have to create each one manually.",
+              "p9": "I developed several endpoints related to bike stations and authentication, which I’ll explain more in detail below.",
+
+              "p10": "On the web app, I applied the skills I learned from building my portfolio. I designed a layout that was reused across all pages by creating a wrapper component to ensure consistent width and element alignment. I also selected the component and icon libraries we used throughout the site to maintain a clean and consistent UI. I worked on many pages, but mainly those related to authentication. I fully built the login, account creation, and profile management pages.",
+              "p11": "For the mobile app, I created the same pages as in the web version, and also worked on other elements like the splash screen. Just like on the web, I designed the general layout and structure that was used across all pages.",
+
+              "p12": "As mentioned earlier, I designed the entire authentication system for the API, the mobile app, and the web app. I created a session token system: when a user logs in, a token is generated and sent to them. These tokens, along with their expiration dates, are stored in the database and used by the frontend apps for any request that requires authentication.",
+              "p13": "I also built an email verification system to ensure that users actually have access to the email they used when signing up. For that, I used the Resend library to send the email, which contains a link to the web app with a token passed in the URL. The token is similar to the authentication tokens but has a much shorter lifespan. When the user clicks the link, the frontend sends a request to the API to validate the token. If it’s valid and not expired, the email is marked as verified in the database.",
+
+              "p14": "To summarize, this project gave me the chance to work on a complex group project and explore a wide range of tools and technologies. I took advantage of my knowledge of web and mobile development, as well as project management. I learned a lot, especially when it comes to building APIs and handling authentication. Working in a team also allowed me to share what I knew, while learning from my teammates through their feedback and ideas. It was a valuable experience that helped me grow as a developer.",
+
+              "sourceCode": "You can access the source code of the app",
+              "here": "here"
+            }
         }
     }
 }
