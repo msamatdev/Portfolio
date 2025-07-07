@@ -3,13 +3,13 @@ import { Metadata } from "next";
 import ProjectsList from "@/components/projects/ProjectsList";
 
 export const metadata: Metadata = {
-    title: "Projects",
-}
+  title: "Projects",
+};
 
 export default function Projects() {
-    return (
-        <MaxWidthWrapper>
-            <ProjectsList />
-        </MaxWidthWrapper>
-    );
+  return (
+    <MaxWidthWrapper>
+      <ProjectsList />
+    </MaxWidthWrapper>
+  );
 }

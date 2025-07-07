@@ -57,7 +57,7 @@
             "learnMore": "EN SAVOIR PLUS",
 
             "First": {
-                "name": "Configuration d'un serveur",
+                "name": "Hébergement de serveurs",
                 "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément.",
                 "date": "Janvier 2024",
                 "firstTag": "Linux",
@@ -172,6 +172,72 @@
             "p3": "De plus, j'aime beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Voici quelques photos de mes randonnées :",
 
             "p4": "Enfin, je suis passionné par la guitare, et plus spécifiquement par la guitare électrique. Je joue principalement du rock, mais j'aime jouer de tous les styles. Je m'entraîne quotidiennement afin de m'améliorer, et de reproduire fidèlement les solo de mes artistes préférés. Il m'arrive de jouer avec un amie guitariste, et un ami qui joue de la batterie et du piano."
+        }
+    },
+    "ProjectsPage": {
+        "title": "Mes projets",
+        "description": "Voici plusieurs projets sur lesquels j'ai travaillé. Certains d'entre eux sont personnels, d'autres sont des projets universitaires. Cette page ne contient pas tous mes projets, certains seront ajoutés dans le futur.",
+        "showEverything": "Tout afficher",
+        "sort": "Trier",
+
+        "Projects": {
+            "1": {
+                "title": "Hébergement de serveurs",
+                "text": "J'ai transformé un ordinateur portable en un hébergeur de serveurs de jeux sous Linux pour jouer avec mes amis."
+            },
+            "2": {
+                "title": "Site web portfolio",
+                "text": "Afin d'apprendre mon premier framework, Next.js, et de trouver une alternance, j'ai créé le portfolio sur lequel vous vous trouvez actuellement."
+            },
+            "3": {
+                "title": "Application de réservation",
+                "text": "J'ai travaillé en groupe sur une application complexe de réservation de vélib' lors d'un projet universitaire."
+            }
+        },
+
+        "Tags": {
+            "linux": "Linux",
+            "networking": "Réseau",
+            "hosting": "Hébergement",
+            "university": "Université",
+            "python": "Python",
+            "algorithms": "Algorithmes",
+            "fullstack": "Full-stack"
+        }
+    },
+    "Projects": {
+        "TableOfContents": {
+            "title": "Table des matières"
+        },
+
+        "Components": {
+            "Breadcrumb": {
+                "home": "Accueil",
+                "projects": "Projets"
+            }
+        },
+
+        "HostingProject": {
+            "title": "Hébergement de serveurs",
+            
+            "TableOfContents": {
+                "context": "Contexte",
+                "usb": "Création d'une clé USB démarrable",
+                "settingup": "Configuration",
+                "hosting": "Hébergement des serveurs de jeu",
+                "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "Mes amis et moi voulions jouer à des jeux vidéo ensemble, mais louer un serveur serait coûteux, et nous ne pourrions pas changer le jeu hébergé sur le serveur : il aurait fallu louer un serveur différent à chaque fois que nous voulions jouer à un autre jeu. L’un d’eux a eu une idée : il avait un ordinateur portable de rechange suffisamment puissant pour faire tourner plusieurs serveurs en même temps, et j’avais les connaissances nécessaires pour héberger des serveurs de jeu dessus. Nous avons donc décidé d'héberger nos propres serveurs avec mes connaissances en administration système et l'ordinateur portable fourni par mon ami.",
+                "p2": "Tout d’abord, j’ai dû choisir un système d’exploitation. J’ai opté pour Linux plutôt que Windows car j’avais suffisamment d’expérience pour créer des serveurs dessus, et Linux est plus léger que Windows, ce qui permet d’allouer plus de ressources aux serveurs de jeu. Par exemple, Windows utilise plus de 4 Go de RAM lorsqu'il n'y a aucune tâche en fond, alors qu’une distribution légère de Linux en utilise moins de 2 Go.",
+                "p3": "J’ai décidé d’installer la distribution Ubuntu : je l’avais déjà utilisé, et je savais qu’il y avait une option lors de l’installation pour n’installer que les paquets nécessaires afin qu’il soit le plus léger possible. J’ai hésité entre Ubuntu 22 et Ubuntu Server, mais Ubuntu Server n’a pas d’interface graphique, et je ne savais pas si je serais capable de tout faire sans interface. J’ai donc choisi Ubuntu 22.",
+                "p4": "Pour installer Linux sur l’ordinateur portable, j’ai dû créer une clé USB bootable. Pour cela, j’ai installé Rufus sur mon ordinateur. C’est un outil spécialement conçu pour créer des clés USB bootables. J’ai téléchargé l’image disque (ISO) de la dernière version d’Ubuntu 22.04 LTS, et j’ai utilisé Rufus pour créer facilement la clé USB bootable.",
+                "p5": "J’ai branché la clé USB sur l’ordinateur portable et je l’ai placée en tête de la liste des options de démarrage dans le BIOS. Ensuite, j’ai suivi le processus d’installation. Après avoir installé Linux, j’étais inquiet quant à la sécurité de la machine, car quiconque allait pouvoir y effectuer des requêtes. C’est pourquoi je l'ai sécurisé au maximum. J’ai créé un nouvel utilisateur sans privilèges root, j’ai installé un pare-feu et Fail2ban, et je me suis assuré que le SSH était désactivé (j'utilise une application de bureau à distance pour me connecter à la machine lorsque c'est nécessaire, donc je n'ai pas besoin du SSH et cela évite de créer une faille de sécurité).",
+                "p6": "Il ne restait plus qu’à héberger les serveurs. Pendant trois ans, j’ai créé et géré une grande variété de serveurs sur différents jeux vidéo : Minecraft, Space Engineers, ARK, Garry’s Mod, BeamMP, Unturned, et bien d’autres encore. Même si je ne l’ai pas détaillé, j’ai dû faire de la gestion de ports (port-forwarding) pour chaque serveur, sans quoi nous ne pourrions pas y accéder à distance.",
+                "p7": "À ce jour, la machine héberge toujours plusieurs serveurs. Même si je n’ai plus beaucoup de temps pour jouer avec mes amis, je continue à leur créer de nouveaux serveurs quand je le peux, et je veille à ce que ceux qui sont en ligne soient toujours à jour.",
+                "p8": "Mes amis et moi étions confrontés à un problème : nous ne pouvions pas jouer à plusieurs jeux vidéo ensemble car louer des serveurs a un coût assez important. Nous avons fait un brainstorming et trouvé une solution : héberger nos propres serveurs. Ayant les compétences pour le faire, je me suis occupé de la configuration de la machine, et de la création et de la gestion des serveurs. Cela m’a permis d’acquérir des connaissances sur Linux, le fonctionnement d’un réseau, la sécurisation d’une machine, et l’hébergement de serveurs en général."
+            }
         }
     }
 }
