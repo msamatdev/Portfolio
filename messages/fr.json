@@ -1,0 +1,318 @@
+{
+    "LocaleSwitcher": {
+        "en": "English",
+        "fr": "Français"
+    },
+    "NotFoundPage": {
+        "title": "Page non trouvée",
+        "description": "La page que vous cherchez n'existe pas.",
+        "goBack": "Retourner à l'accueil"
+    },
+    "Navbar": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Me contacter"
+    },
+    "Footer": {
+        "allRightsReserved": "Tous droits réservés",
+        "privacyPolicy": "Politique de confidentialité",
+        "legalNotice": "Mentions légales"
+    },
+    "HomePage": {
+        "Welcome": {
+            "hello": "Bonjour !",
+            "iAm": "Je suis",
+            "a": "un",
+
+            "frenchStudent": "étudiant français",
+            "frenchDeveloper": "développeur français",
+            "techSavvy": "passionné d'informatique",
+            "simRacer": "fan de SimRacing",
+            "carEnthusiast": "passionné d'automobile",
+            "intro": "Etant curieux et très intéressé par l'informatique, j'étudie depuis septembre 2023 la programmation à l'université de Villetaneuse en ",
+            "butInformatique": "Ex-DUT Informatique. Un cursus sur trois ans qui couvre des sujets tels que l'algorithmie, la gestion des données, et la programmation logiciel.",
+
+            "browseProjects": "Mes projets",
+
+            "contactMe": "Me contacter"
+        },
+
+        "StatsCard": {
+            "yearsOnLinux": "Années sous Linux",
+            "professionalExperience": "Expériences professionnelles",
+            "hoursOfCoding": "Heures de codage"
+        },
+
+        "Traits": {
+            "myTraits": "Mes traits",
+
+            "eager": "Enthousiaste",
+            "eagerDescription": "Toujours enthousiaste à l'idée d'améliorer mes compétences, je me consacre à donner le meilleur de moi-même face aux défis, que je considère comme des occasions d'apprendre davantage.",
+
+            "driven": "Passionné",
+            "drivenDescription": "J'aime particulièrement coder et apprendre de nouvelles technologies, au point de pouvoir passer plusieurs heures sans m'en rendre compte à explorer un nouvel outil.",
+
+            "curious": "Curieux",
+            "curiousDescription": "Tout ce qui touche à l'informatique m'intéresse, c'est pourquoi je cherche constamment à en apprendre davantage. C'est aussi la raison pour laquelle j'ai des connaissance assez avancées dans de nombreux domaines."
+        },
+        
+        "SelectedProjects": {
+            "selectedProjects": "Projets sélectionnés",
+            "learnMore": "EN SAVOIR PLUS",
+
+            "First": {
+                "name": "Hébergement de serveurs",
+                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément.",
+                "date": "Janvier 2024",
+                "firstTag": "Linux",
+                "secondTag": "Hébergement",
+                "thirdTag": "Réseau"
+            },
+
+            "Second": {
+                "name": "Comparaison d'algorithmes",
+                "description": "Projet universitaire qui a consisté à développer 3 méthodes de calcul permettant d'obtenir le chemin le plus rapide entre plusieurs villes, et à les comparer pour trouver laquelle est la plus rapide.",
+                "date": "Décembre 2023",
+                "firstTag": "Université",
+                "secondTag": "Python",
+                "thirdTag": "Algorithmes"
+            }
+        }
+    },
+    "ContactPage": {
+        "title": "Me contacter",
+
+        "letsConnect": "Entrons en contact !",
+        "description": "Si vous souhaitez me contacter, n'hésitez pas à m'envoyer un message via le formulaire présent sur cette page. Je vous répondrai dès que possible !",
+        
+        "sendMeAMessage": "Envoyez-moi un message",
+
+        "subject": "Sujet",
+        "subjectPlaceholder": "Demande de renseignement",
+
+        "messagePlaceholder": "Bonjour, j'aimerais vous parler de ...",
+
+        "send": "Envoyer"
+    },
+    "PrivacyPolicyPage": {
+        "title": "Politique de confidentialité",
+        
+        "thirdParty": "Tierces parties",
+        "thirdPartyContentP1": "Une seule tierce partie est utilisée par le site : ",
+        "thirdPartyContentP2": "Celle-ci traque le nombre de visiteurs, le type de leur machine, leur pays, et le nombre de fois qu'ils visitent une page. Aucune autre donnée est partagée avec une tierce partie.",
+        
+        "cookies": "Cookies",
+        "cookiesContent": "Le premier cookie utilisé par ce site provient de Vercel, l'hébergeur du site. Il est utilisé pour stocker un identifiant unique pour chaque session, afin d'éviter de compter plusieurs fois le même utilisateur. Le second cookie utilisé par le site enregistre la langue préférée de l'utilisateur, et est stocké uniquement sur le navigateur de l'utilisateur."
+    },
+    "LegalNoticePage": {
+        "title": "Mentions légales",
+
+        "copyrightNotice": {
+            "title": "Notice de droit d'auteur",
+            "description": "Tout le contenu, y compris les textes, images et graphiques de ce site web, est la propriété de Mathis SAMAT, sauf indication contraire. Ce contenu est protégé par les lois sur le droit d’auteur et les traités internationaux. Toute utilisation, reproduction ou distribution non autorisée de tout élément de ce site est strictement interdite sans le consentement écrit préalable de Mathis SAMAT."
+        },
+
+        "websiteOwner": {
+            "title": "Propriétaire du site web",
+            "description": "Le propriétaire et administrateur de ce site web est Mathis SAMAT. Pour toute question ou demande d'information, vous pouvez le contacter à l'adresse "
+        },
+
+        "websiteHosting": {
+            "title": "Hébergement du site web",
+            "description": "Ce site est hébergé par Vercel avec le tier gratuit. Pour plus d'information sur Vercel, dirigez-vous vers leur site web."
+        },
+
+        "links": {
+            "title": "Liens vers d'autres sites",
+            "description": "Ce site peut contenir des liens vers d'autres sites web. Ces liens sont fournis uniquement pour votre commodité et à titre de référence. Le propriétaire du site ne saurait être tenu responsable du contenu de tout site lié, ni de tout lien contenu dans un site lié. De plus, tous les liens vers ce site web sont autorisés, à condition que le site d’origine ne diffuse aucun contenu pouvant être considéré comme offensant."
+        },
+
+        "lawsAndDataCollection": {
+            "title": "Lois et collecte de données",
+            "descriptionP1": "Ce site web est conforme aux lois en vigueur en France. Il ne collecte aucune donnée personnelle, hormis celles précisées dans la ",
+            "privacyPolicy": "politique de confidentialité",
+            "descriptionP2": "Par ailleurs, le site respecte le règlement général sur la protection des données (RGPD)."
+        },
+
+        "changes": {
+            "title": "Modifications des mentions légales",
+            "description": "Mathis SAMAT se réserve le droit de modifier ces mentions légales à tout moment. Les modifications prendront effet dès leur publication sur ce site. Votre utilisation de ce site web après de telles modifications constitue votre acceptation des nouvelles mentions légales. Il est donc conseillé de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications."
+        }
+    },
+    "AboutPage": {
+        "aboutMeSection": {
+            "title": "À propos",
+
+            "description": {
+                "firstPart": "Je m'appelle Mathis SAMAT, et je suis un étudiant de 19 ans. J'aime particulièrement la science, donc j'ai décidé de me spécialiser en Mathématiques et Physique-Chimie au lycée.",
+                "secondPart": "Au fil des années, j'ai développé une passion pour l'informatique en essayant plusieurs domaines de ce vaste univers. J'ai essayé la modélisation 3D, l'hébergement, la retouche d'images, et plus encore. C'est au final la programmation qui m'a le plus passionné.",
+                "thirdPart": "Je suis actuellement alternant en BUT Informatique. Je travaille en tant que développeur fullstack dans une petite entreprise où je développe des solutions orientées web."
+            }
+        },
+
+        "tools": {
+            "title": "Mes principaux outils",
+
+            "average": "Assez bon",
+            "good": "Maîtrisé",
+            "beginner": "Débutant",
+
+            "learnAtUniv": "Appris à l'université",
+            "selfTaught": "Appris en autonomie",
+            "mostlySelfTaught": "Surtout appris en autonomie"
+        },
+
+        "outsideUniversity": {
+            "title": "En dehors de l'université",
+
+            "p1": "En dehors de mon intérêt pour le développement, j'ai plusieurs passions auxquelles je me consacre entièrement lorsque je ne suis pas à l'université.",
+
+            "p2" : {
+                "p1": "Premièrement, je suis un passionné d'automobile et de simulation automobile (SimRacing). J'ai participé à une compétition organisée par un Youtuber de plus de 800 000 abonnés. Il s'agissait d'une ",
+                "link": "\"course contre la montre\" où j'ai terminé à la 12ème place",
+                "p2": ". Lorsque j'ai réalisé mon meilleur temps, je suis resté sur le podium pendant plusieurs jours. Cependant, je n'ai pas eu le temps de continuer d'encore m'améliorer à cause de mes études, donc d'autres personnes ont pu obtenir un meilleur temps d'ici la fin de l'évènement. Je suis toutefois très content de mon résultat."
+            },
+
+            "p3": "J'aime par ailleurs beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Vous pouvez ici faire défiler quelques photos que j'ai pu prendre lors de mes randonnées."
+        }
+    },
+    "ProjectsPage": {
+        "title": "Mes projets",
+        "description": "Voici plusieurs projets sur lesquels j'ai travaillé. Certains d'entre eux sont personnels, d'autres sont des projets universitaires. Cette page ne contient pas tous mes projets, certains seront ajoutés dans le futur.",
+        "showEverything": "Tout afficher",
+        "sort": "Trier",
+
+        "Projects": {
+            "1": {
+                "title": "Hébergement de serveurs",
+                "text": "J'ai transformé un ordinateur portable en un hébergeur de serveurs de jeux sous Linux pour jouer avec mes amis."
+            },
+            "2": {
+                "title": "Site web portfolio",
+                "text": "Afin d'apprendre mon premier framework, Next.js, et de trouver une alternance, j'ai créé le portfolio sur lequel vous vous trouvez actuellement."
+            },
+            "3": {
+                "title": "Application de réservation",
+                "text": "J'ai travaillé en groupe sur une application complexe de réservation de vélib' lors d'un projet universitaire."
+            }
+        },
+
+        "Tags": {
+            "linux": "Linux",
+            "networking": "Réseau",
+            "hosting": "Hébergement",
+            "university": "Université",
+            "python": "Python",
+            "algorithms": "Algorithmes",
+            "fullstack": "Full-stack"
+        }
+    },
+    "Projects": {
+        "TableOfContents": {
+            "title": "Table des matières"
+        },
+
+        "Components": {
+            "Breadcrumb": {
+                "home": "Accueil",
+                "projects": "Projets"
+            }
+        },
+
+        "HostingProject": {
+            "title": "Hébergement de serveurs",
+            
+            "TableOfContents": {
+                "context": "Contexte",
+                "usb": "Création d'une clé USB démarrable",
+                "settingup": "Configuration",
+                "hosting": "Hébergement des serveurs de jeu",
+                "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "Mes amis et moi voulions jouer à des jeux vidéo ensemble, mais louer un serveur serait coûteux, et nous ne pourrions pas changer le jeu hébergé sur le serveur : il aurait fallu louer un serveur différent à chaque fois que nous voulions jouer à un autre jeu. L’un d’eux a eu une idée : il avait un ordinateur portable de rechange suffisamment puissant pour faire tourner plusieurs serveurs en même temps, et j’avais les connaissances nécessaires pour héberger des serveurs de jeu dessus. Nous avons donc décidé d'héberger nos propres serveurs avec mes connaissances en administration système et l'ordinateur portable fourni par mon ami.",
+                "p2": "Tout d’abord, j’ai dû choisir un système d’exploitation. J’ai opté pour Linux plutôt que Windows car j’avais suffisamment d’expérience pour créer des serveurs dessus, et Linux est plus léger que Windows, ce qui permet d’allouer plus de ressources aux serveurs de jeu. Par exemple, Windows utilise plus de 4 Go de RAM lorsqu'il n'y a aucune tâche en fond, alors qu’une distribution légère de Linux en utilise moins de 2 Go.",
+                "p3": "J’ai décidé d’installer la distribution Ubuntu : je l’avais déjà utilisé, et je savais qu’il y avait une option lors de l’installation pour n’installer que les paquets nécessaires afin qu’il soit le plus léger possible. J’ai hésité entre Ubuntu 22 et Ubuntu Server, mais Ubuntu Server n’a pas d’interface graphique, et je ne savais pas si je serais capable de tout faire sans interface. J’ai donc choisi Ubuntu 22.",
+                "p4": "Pour installer Linux sur l’ordinateur portable, j’ai dû créer une clé USB bootable. Pour cela, j’ai installé Rufus sur mon ordinateur. C’est un outil spécialement conçu pour créer des clés USB bootables. J’ai téléchargé l’image disque (ISO) de la dernière version d’Ubuntu 22.04 LTS, et j’ai utilisé Rufus pour créer facilement la clé USB bootable.",
+                "p5": "J’ai branché la clé USB sur l’ordinateur portable et je l’ai placée en tête de la liste des options de démarrage dans le BIOS. Ensuite, j’ai suivi le processus d’installation. Après avoir installé Linux, j’étais inquiet quant à la sécurité de la machine, car quiconque allait pouvoir y effectuer des requêtes. C’est pourquoi je l'ai sécurisé au maximum. J’ai créé un nouvel utilisateur sans privilèges root, j’ai installé un pare-feu et Fail2ban, et je me suis assuré que le SSH était désactivé (j'utilise une application de bureau à distance pour me connecter à la machine lorsque c'est nécessaire, donc je n'ai pas besoin du SSH et cela évite de créer une faille de sécurité).",
+                "p6": "Il ne restait plus qu’à héberger les serveurs. Pendant trois ans, j’ai créé et géré une grande variété de serveurs sur différents jeux vidéo : Minecraft, Space Engineers, ARK, Garry’s Mod, BeamMP, Unturned, et bien d’autres encore. Même si je ne l’ai pas détaillé, j’ai dû faire de la gestion de ports (port-forwarding) pour chaque serveur, sans quoi nous ne pourrions pas y accéder à distance.",
+                "p7": "À ce jour, la machine héberge toujours plusieurs serveurs. Même si je n’ai plus beaucoup de temps pour jouer avec mes amis, je continue à leur créer de nouveaux serveurs quand je le peux, et je veille à ce que ceux qui sont en ligne soient toujours à jour.",
+                "p8": "Mes amis et moi étions confrontés à un problème : nous ne pouvions pas jouer à plusieurs jeux vidéo ensemble car louer des serveurs a un coût assez important. Nous avons fait un brainstorming et trouvé une solution : héberger nos propres serveurs. Ayant les compétences pour le faire, je me suis occupé de la configuration de la machine, et de la création et de la gestion des serveurs. Cela m’a permis d’acquérir des connaissances sur Linux, le fonctionnement d’un réseau, la sécurisation d’une machine, et l’hébergement de serveurs en général."
+            }
+        },
+
+        "PortfolioProject": {
+            "title": "Site web portfolio",
+
+            "TableOfContents": {
+                "context": "Contexte",
+                "frameworks": "Choix des outils",
+                "starting": "Début du projet",
+                "landing": "Création de la page d'accueil",
+                "progressing": "Création des autres pages",
+                "conclusion": "Pour conclure"
+            },
+
+            "Text": {
+                "p1": "Je souhaitais créer un endroit où je pourrais présenter mes projets afin de trouver une alternance. C’est ainsi qu’a commencé mon plus gros projet jusqu’à maintenant : créer un portfolio sur internet à partir de zéro.",
+                "p2": "Après plus de deux mois de travail, je suis plutôt satisfait du résultat. Je suis fier d’avoir réussi à développer un site web moderne complet, en utilisant un framework que j'ai appris au fil du projet.",
+                "p3": "Dans cet article, je vais expliquer comment j’ai procédé, les choix que j’ai faits et les principales difficultés que j’ai rencontrées. J'aborderai aussi ce que ce projet m’a permis d'apprendre après y avoir consacré autant de temps.",
+                "p4": "Pour créer mon site, j’ai d’abord dû choisir les bons outils. Je me suis posé plusieurs questions : devais-je partir sur une stack classique avec HTML, CSS et JavaScript pour faire un site statique ? Ou bien utiliser un framework ? Et si oui, lequel ?",
+                "p5": "Ayant déjà créé plusieurs sites statiques auparavant, j’avais envie de découvrir autre chose. Les frameworks offrent beaucoup d’avantages : génération dynamique des pages, composants réutilisables, URLs propres sans .html, etc. J’étais donc motivé pour en apprendre un... mais lequel choisir ?",
+                "p6": "Après quelques recherches, j’ai découvert Next.js. Il m’a tout de suite intéressé : son système de gestion des routes (routing) est très pratique, et le fait de pouvoir faire à la fois du frontend et du backend fait de Next.js un framework solide. En plus, Next.js est basé sur React, une technologie largement utilisée dans l’industrie. L’apprendre me permettait donc aussi de découvrir l’univers de React.",
+                "p7-1": "Après avoir suivi le tutoriel officiel sur le site de Next.js, j’ai commencé à faire quelques tests. Ensuite, j’ai lancé mon projet avec ",
+                "p7-2": " À ce stade, il n’y avait rien mis à part les fichiers de base générés par le framework, le site était comme une page blanche.",
+                "p8": "J’ai planifié toutes les étapes du projet dans un fichier texte. J’ai essayé d’avoir une vision claire du résultat final avant d’écrire la moindre ligne de code. Cette préparation m’a permis de rester organisé du début à la fin : je savais toujours ce que je devais faire à tel moment, et dans quel ordre.",
+                "p9": "Une fois tout planifié, j’ai commencé à coder la page d’accueil. J’ai mis un peu de temps à avoir un résultat satisfaisant, car je découvrais en détail à la fois Tailwind CSS, TypeScript et Next.js. Il m’a fallu un peu de temps pour bien prendre en main ces technologies.",
+                "p10": "En parallèle, j’ai travaillé sur la barre de navigation. Çela n’a pas été facile, notamment pour gérer des éléments comme la couleur d'un lien actif ou encore afficher/masquer le menu en haut de l'écran sur mobile avec un bouton.",
+                "p11": "En développant le menu mobile, j’ai rencontré un bug étrange : il était impossible d’animer l'ouverture de la barre de navigation. L’animation ne fonctionnait pas, le menu apparaissait d’un coup. J’ai finalement appris que Tailwind ne permet pas d’animer un élément dont la hauteur est définie automatiquement, il faut utiliser une hauteur fixe si on veut que l’animation fonctionne correctement.",
+                "p12": "Le développement des autres pages m’a beaucoup appris. J’ai créé des composants de plus en plus complexes, et j'ai de plus en plus utilisé les fonctionnalités qui proviennent de React. J'ai même réalisé un peu de backend en créant une route API reliée au formulaire de la page de contact, afin de pouvoir recevoir des mails lorsqu'une personne remplit le formulaire de contact.",
+                "p13": "Globalement, ce projet a été une très bonne expérience. J’ai découvert mon premier framework, appris Tailwind CSS, mis en place mon premier formulaire fonctionnel, et même compris comment fonctionne un DNS en achetant un nom de domaine et en liant le sous-domaine 'portfolio' à ce site. J’ai rencontré beaucoup de problèmes, mais je les ai surmontés un par un, sans jamais perdre la motivation. Ce projet m’a pris plus de deux mois, mais aujourd’hui, mon plus gros projet terminé est en ligne et opérationnel.",
+                "sourceCode": "Le code source de mon portfolio est accessible",
+                "here": "ici"
+            }
+        },
+
+        "BikeRentalAppProject": {
+            "title": "Application de réservation",
+
+            "TableOfContents": {
+                "context": "Contexte",
+                "stack": "Outils et langages utilisés",
+                "projectManagement": "Gestion de projet",
+                "creatingTheAPI": "Création de l'API",
+                "creatingTheFrontend": "Création des applications frontend",
+                "auth": "Système d'authentification",
+                "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "En seconde année de BUT Informatique, j'ai participé à un projet de groupe qui a consisté à développer une application de réservation de vélib'. Le projet s'est déroulé sur toute une année, et m'a permis de travailler avec mon équipe sur une API avec base de données, un site web et une application mobile.",
+                "p2": "Bien que nous étions assez libre dans le choix des outils, nous avons dû respecter des contraintes. Nous devions en effet utiliser le format JSON pour la transmission des données, et l'API se devait de respecter l'architecture REST. Nous devions par ailleurs réaliser un développement piloté par les tests.",
+                "p3": "Certaines fonctionnalités devaient être en outre obligatoirement implémentées. L'application finale devait par exemple permettre à un utilisateur d'obtenir un itinéraire vers une station, consulter son historique de réservations, et plus encore. Bien que la réservation était simulée, le reste était fonctionnel et réel.",
+
+                "p4": "Pour ce projet, nous avons utilisé plusieurs outils. Nous avons choisi de développer l'API en Python avec le framework Django, car il est intuitif et puissant grâce à ses nombreuses fonctionnalités comme l'ORM (Mapping objet-relationnel). Pour la base de données, nous avons opté pour PostgreSQL, qui est robuste et bien adapté aux besoins. Le frontend a été développé avec Next.js, ce qui m'a permis de mettre en oeuvre les compétences que j'avais acquises lors de la création de mon portfolio. En ce qui concerne l'application mobile, nous avons utilisé Flutter afin de pouvoir développer une application compatible sur iOS et Android.",
+                "p5": "Afin de conteneuriser l'API et la base de données, nous avons utilisé Docker. Cela nous a permis de simplifier le déploiement et de garantir que l'API fonctionne de manière cohérente sur différents environnements. Nous avons également utilisé Git pour la gestion du code source, ce qui a facilité la collaboration entre les membres de l'équipe.",
+
+                "p6": "Afin de s'organiser et de collaborer efficacement, nous avons utilisé la fonctionnalité de projet sur GitHub. Cela nous a permis de réaliser un développement agile. Nous avons réalisé une planification des tâches avec estimation du temps et de la difficulté, ainsi qu'un suivi de l'avancement de celles-ci. Pour s'assurer que chaque nouvelle fonctionnalité n'introduise pas de bugs, nous avons mis en place une intégration continue.",
+
+                "p7": "Je me suis occupé de la configuration de l'API, avec notamment l'utilisation de variables d'environnement pour récupérer les clés secrètes. J'ai mis en place certaines fonctionnalités comme le CORS, qui est essentiel pour que les requêtes depuis l'application web vers l'API fonctionne.",
+                "p8": "J'ai également développé un script de génération de clés secrètes utilisées pour le chiffrement des données afin de faciliter la mise en place de l'API sur une machine. Cela permet à un administrateur système de ne pas avoir à générer chaque clé manuellement.",
+                "p9": "Concernant les endpoints, j'ai pu en réaliser plusieurs en rapport avec les stations vélib' et l'authentification dont je parlerai plus en détail ci-dessous.",
+
+                "p10": "Pour l'application web, j'ai pu apporter mes connaissances acquises lors de la création de mon portfolio. J'ai mis en place un design qui a été réutilisé sur toutes les pages du site. Pour ce faire, j'ai créé un Wrapper qui permet d'allouer la même largeur et la même disposition des éléments sur toutes les pages du site. J'ai par ailleurs trouvé les bibliothèques de composants et d'icônes qui ont été utilisées tout au long du développement pour garder une interface cohérente sur toutes les pages. J'ai travaillé sur de nombreuses pages, mais surtout sur celles en rapport avec l'authentification. Je me suis occupé entièrement de la page de connexion, de création de compte, et d'affichage et de modification des informations.",
+                "p11": "Sur l'application mobile, j'ai réalisé les mêmes pages que sur l'application web. J'ai aussi réalisé d'autres éléments comme la page de chargement lors de l'ouverture de l'application. Comme sur l'application web, j'ai réalisé le design global qui a été gardé sur toutes les pages de l'application.",
+
+                "p12": "Comme précisé précédemment, j'ai conçu tout le système d'authentification, que cela soit au niveau de l'API, de l'application mobile ou bien du site web. J'ai créé un système de génération de token de session qui est envoyé à l'utilisateur lors de sa connexion. Les tokens et leur date d'expiration sont stockés dans la base de données, et sont utilisés par les applications web et mobiles lors de chaque requête nécessitant d'être authentifié.",
+                "p13": "J'ai aussi mis en place un système de vérification d'email, qui permet de s'assurer que l'utilisateur a bien accès à l'adresse email qu'il a renseignée lors de la création de son compte. Pour ce faire, j'ai utilisé la bibliothèque Resend pour envoyer le mail. Dans le contenu de ce mail, on y trouve un lien vers l'application web, avec un token passé en paramètres. Pour créer le token, j'ai utilisé un système similaire à celui des tokens d'authentification, mais avec une durée de vie bien plus courte. Lorsque l'utilisateur clique sur le lien, l'application web envoie une requête à l'API pour vérifier que le token est valide et n'a pas expiré. Si c'est le cas, l'email est marqué comme vérifié dans la base de données.",
+
+                "p14": "Pour conclure, ce projet m'a permis de travailler sur un projet complexe en groupe, et de découvrir de nombreux outils et langages. J'ai pu mettre en pratique mes connaissances en développement web et mobile, ainsi qu'en gestion de projet. J'ai beaucoup appris, surtout au niveau de la création d'API et de la gestion de l'authentification. Le travail en équipe m'a permis d'à la fois transmettre mes connaissances aux autres membres du groupe, mais aussi de progresser grâce à leurs compétences et leurs retours. Ce projet a été une expérience enrichissante qui m'a permis de développer mes compétences techniques, organisationnelles, et de collaboration.",
+
+                "sourceCode": "Le code source de l'application est accessible",
+                "here": "ici"
+            }
+        }
+    }
+}

@@ -7,122 +7,97 @@ import SubContent from "@/components/projects/SubContent";
 import Container from "@/components/projects/Container";
 import { Metadata } from "next";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+import TableOfContents from "@/components/projects/TableOfContents";
 
 export const metadata: Metadata = {
     title: "Creation of this portfolio",
 }
 
 export default function Portfolio() {
+    const t = useTranslations("Projects.PortfolioProject");
+
     return (
         <MaxWidthWrapper>
             <Container>
-                <Repertory PageName="Creation of this portfolio"/>
-                <Title text="Creation of this portfolio"/>
+                <Repertory PageName={ t('title') } />
+                <Title text={ t('title') } />
                 <Content>
-                    <SubTitle title="Context" id="context"/>
+                    <TableOfContents
+                        items={[
+                            { title: t('TableOfContents.context'), href: 'context' },
+                            { title: t('TableOfContents.frameworks'), href: 'frameworks' },
+                            { title: t('TableOfContents.starting'), href: 'starting' },
+                            { title: t('TableOfContents.landing'), href: 'landing' },
+                            { title: t('TableOfContents.progressing'), href: 'progressing' },
+                            { title: t('TableOfContents.conclusion'), href: 'conclusion' }
+                        ]}
+                    />
+                    <SubTitle title={t('TableOfContents.context')} id="context"/>
                     <SubContent>
                         <p>
-                            I wanted to have a place to show my projects and my personality. 
-                            So, I started my biggest project yet: an online portfolio made 
-                            from scratch.
+                            { t('Text.p1') }
                         </p>
                         <p className="my-4">
-                            After working on it for more than two months, I am honestly happy 
-                            to see how it turned out. I am proud that I managed to create an
-                            entire modern website using a framework, and on my own.
-                            I also hope that it will help me find an apprenticeship, since it 
-                            shows what I am capable of in web development.    
+                            { t('Text.p2') }  
                         </p>
                         <p>
-                            During this article, you will learn how I did it,
-                            which decisions I made, and what were the main 
-                            difficulties I encountered. I will also talk about what
-                            I learnt after all this time working on my website.
+                            { t('Text.p3') }
                         </p>     
                     </SubContent>
-                    <SubTitle title="The beginning of the project" id="frameworks" />
+                    <SubTitle title={t('TableOfContents.frameworks')} id="frameworks" />
                     <SubContent>
                         <p>
-                            To create my own website, I needed to decide which tools I would pick.
-                            Should I go with the regular stack consisting of HTML, CSS and JavaScript
-                            to create a static website? Should I use a framework? If so, which one?
+                            { t('Text.p4') }
                         </p>
                         <p className="my-4">
-                            Since I already developed some static websites, I wanted to try something
-                            different. Moreover, a framework comes with many advantages: it allows you to 
-                            dynamically generate pages, create reusable components, have clean links that do
-                            not end in .html, etc. So, I decided that I would learn a framework... but which one ?
+                            { t('Text.p5') }
                         </p>
                         <p>
-                            After doing some research, I found Next.js. I chose it because I find it very appealing.
-                            Indeed, its app router and the fact that we can do frontend and backend makes it a solid
-                            framework. Moreover, it is a react framework, which is a framework that is used by
-                            many huge companies. Consequently, learning Next.js means learning some parts of react as well,
-                            which is a strong advantage too.
+                            { t('Text.p6') }
                         </p>
                     </SubContent>
-                    <SubTitle title="Starting from nothing" id="starting"/>
+                    <SubTitle title={t('TableOfContents.starting')} id="starting"/>
                     <SubContent>
                         <p>
-                            After following the tutorial of Next on its website, I made some tests.
-                            Then, I created the project with <code>npx create-next-app@latest</code>.
-                            At this time, it was only containing the files related to the framework. There
-                            was nothing, except a blank page.
+                            { t('Text.p7-1') } 
+                            <code>npx create-next-app@latest</code>.
+                            { t('Text.p7-2') }
                         </p>
                         <p className="mt-4">
-                            I planified the realization of the project, by writing in a text file every
-                            step. I tried my best to have a clear vision of the result before writing any line
-                            of code. Thanks to that, I have always been organized when working on it: I knew
-                            what to do, and in which order.
+                            { t('Text.p8') }
                         </p>
                     </SubContent>
-                    <SubTitle title="Creating the landing page" id="landing"/>
+                    <SubTitle title={t('TableOfContents.landing')} id="landing"/>
                     <SubContent>
                         <p>
-                            Everything was planified and set-up, I was finally ready to write
-                            the code. I started by making the home page. I was slow though: I was discovering 
-                            Tailwind CSS and TypeScript, so it took me some time to get used to it.
+                            { t('Text.p9') }
                         </p>
                         <p className="my-4">
-                            At the same time, I started to work on the navigation bar. It was truly difficult
-                            for me because I needed to make some complex actions like changing the color
-                            of the name of the page in the navigation bar when you are on it. I also had
-                            to hide and show the menu with a button when you are accessing the website 
-                            on a mobile phone.
+                            { t('Text.p10') }
                         </p>
                         <p>
-                            When I was working on the menu of the bar for mobile users, I encountered a strange problem: 
-                            for some reason, I couldn't animate the height of the navigation bar. The animation simply did not work and 
-                            the menu just popped when you pressed the button. I learnt after some time that it was caused by 
-                            Tailwind, and that you need to use a specific height instead of the automatic height because it won't work
-                            otherwise.
+                            { t('Text.p11') }
                         </p>
                     </SubContent>
-                    <SubTitle title="Making the other pages" id="progressing"/>
+                    <SubTitle title={t('TableOfContents.progressing')} id="progressing"/>
                     <SubContent>
                         <p>
-                            Coding the other pages has made me learn a lot too. I have created components
-                            that takes arguments, I have used some React tools like the hooks and the map
-                            function, and I even learnt some backend by creating an api that works with the 
-                            form in the 'contact' page and that sends me a message.
+                            { t('Text.p12') }
                         </p>
                     </SubContent>
-                    <SubTitle title="Conclusion" id="conclusion" />
+                    <SubTitle title={t('TableOfContents.conclusion')} id="conclusion" />
                     <SubContent>
                         <p>
-                            Overall, it has been a nice experience for me to work on this website. I learnt a lot
-                            by trying my first framework, discovering Tailwind CSS, and  making my first working form. 
-                            I also discovered how a DNS works by purchasing my domain name and affecting the subdomain 
-                            'portfolio' to this site. I encountered a lot of problems but I solved them one by one while 
-                            staying motivated. It took me more than two months but now my biggest project to this date is functional.
+                            { t('Text.p13') }
                         </p>
                         <p className="w-full text-start mt-2">
-                            You can play see the source code {" "}
+                            { t('Text.sourceCode') } {" "}
                             <Link
                             href="https://github.com/msamatdev/Portfolio/"
                             className="underline decoration-dashed underline-offset-4 decoration-1"
                             >
-                                here
+                                { t('Text.here') }
                             </Link>.
                         </p>
                     </SubContent>

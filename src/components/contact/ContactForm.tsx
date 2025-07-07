@@ -5,8 +5,10 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 
 export default function ContactForm() {
+    const t = useTranslations('ContactPage');
 
     const emailStatusRef = useRef<HTMLSpanElement>(null!);
 
@@ -72,24 +74,24 @@ export default function ContactForm() {
     return (
         <>
             <form className="flex flex-col justify-start items-center" onSubmit={handleSubmit}>
-                <p className="text-3xl text-foreground font-semibold">Send me a message</p>
+                <p className="text-3xl text-foreground font-semibold">{ t('sendMeAMessage') }</p>
                 <div className="grid w-full max-w-sm items-center gap-2 mt-8">
                     <Label htmlFor="email">Email</Label>
                     <Input type="email" name="email" id="email" placeholder="jean.dupont@gmail.com" />
                 </div>
                 <div className="grid w-full max-w-sm items-center gap-2 mt-8">
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input name="subject" id="subject" placeholder="Just saying hi" />
+                    <Label htmlFor="subject">{ t('subject') }</Label>
+                    <Input name="subject" id="subject" placeholder={ t("subjectPlaceholder") } />
                 </div>
                 <div className="grid w-full max-w-sm items-center gap-2 mt-8">
                     <Label htmlFor="message">Message</Label>
-                    <Textarea name="message" id="message" className="block h-24" placeholder="Let&apos;s talk about..." />
+                    <Textarea name="message" id="message" className="block h-24" placeholder={ t("messagePlaceholder") } />
                 </div>
                 <span 
                     ref={emailStatusRef}
                     className="text-md mt-2"
                 ></span>
-                <Button className="mt-8 w-full max-w-sm text-lg" type="submit">Send</Button>
+                <Button className="mt-8 w-full max-w-sm text-lg" type="submit">{ t('send') }</Button>
             </form>
         </>
     )

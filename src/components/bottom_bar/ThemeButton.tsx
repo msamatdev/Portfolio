@@ -16,14 +16,13 @@ export default function ThemeButton() {
     }
 
     return (
-        <button 
-        className="z-50 fixed right-12 bottom-12 border-primary border-[3px] bg-background p-2 rounded-full"
+        <button
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         >
             {theme === 'dark' ? (
-                <Sun className="size-8" />
+                <Sun className="size-8 me-1" />
             ) : (
-                <Moon className="size-8" />
+                <Moon className="size-8 me-1" />
             )}
         </button>
     );

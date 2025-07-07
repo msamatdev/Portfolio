@@ -1,0 +1,317 @@
+{
+    "LocaleSwitcher": {
+        "en": "English",
+        "fr": "Français"
+    },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "description": "The page you are looking for does not exist.",
+        "goBack": "Return home"
+    },
+    "Navbar": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact me"
+    },
+    "Footer": {
+        "allRightsReserved": "All rights reserved",
+        "privacyPolicy": "Privacy policy",
+        "legalNotice": "Legal notice"
+    },
+    "HomePage": {
+        "Welcome": {
+            "hello": "Hey there!",
+            "iAm": "I am",
+            "a": "a",
+
+            "frenchStudent": "french student",
+            "frenchDeveloper": "french developer",
+            "techSavvy": "tech savvy",
+            "simRacer": "sim racer",
+            "carEnthusiast": "car enthusiast",
+            "intro": "As I am curious and very interested in computers, I have decided to study development at Villetaneuse since September 2023. I am currently working toward a ",
+            "butInformatique": "A three-year academic program in France. It covers topics such as algorithms, databases, and software development.",
+
+            "browseProjects": "Browse projects",
+
+            "contactMe": "Contact me"
+        },
+
+        "StatsCard": {
+            "yearsOnLinux": "Years on Linux",
+            "professionalExperience": "Professional experiences",
+            "hoursOfCoding": "Hours of coding"
+        },
+
+        "Traits": {
+            "myTraits": "My traits",
+
+            "eager": "Eager",
+            "eagerDescription": "Enthusiastic to continuously improve my skills, I dedicate myself to doing my absolute best when facing challenges, and I see them as opportunities to learn more.",
+
+            "driven": "Driven",
+            "drivenDescription": "I deeply enjoy coding, to the extent that I can spend multiple hours, without even realizing it, to explore a new tool.",
+
+            "curious": "Curious",
+            "curiousDescription": "Everything in IT is interesting for me, so I am always seeking to learn more about it. That is why I have an important knowledge of multiple subjects."
+        },
+
+        "SelectedProjects": {
+            "selectedProjects": "Selected projects",
+            "learnMore": "LEARN MORE",
+
+            "First": {
+                "name": "Hosting machine setup",
+                "description": "My friends and I wanted to play together but renting servers would be inefficient and cost expensive. So, I turned a friend's spare laptop into a machine that could host multiple game servers simultaneously.",
+                "date": "January 2024",
+                "firstTag": "Linux",
+                "secondTag": "Hosting",
+                "thirdTag": "Networking"
+            },
+
+            "Second": {
+                "name": "Algorithms comparisons",
+                "description": "This project has been made in University and it was divised in two parts. I coded 3 ways to calculate the shortest route between multiple cities. Then, I compared them to find out which is the fastest and why.",
+                "date": "December 2023",
+                "firstTag": "University",
+                "secondTag": "Python",
+                "thirdTag": "Algorithms"
+            }
+        }
+    },
+    "ContactPage": {
+        "title": "Contact me",
+
+        "letsConnect": "Let's connect!",
+        "description": "My inbox is always open. If you have a question or if you want to get in touch, I'll try my best to get back to you as soon as possible.",
+        
+        "sendMeAMessage": "Send me a message",
+
+        "subject": "Subject",
+        "subjectPlaceholder": "Just saying hi",
+
+        "messagePlaceholder": "Let's talk about...",
+
+        "send": "Send"
+    },
+    "PrivacyPolicyPage": {
+        "title": "Privacy policy",
+        
+        "thirdParty": "Third party",
+        "thirdPartyContentP1": "Only one third party is used by this website : ",
+        "thirdPartyContentP2": "It mainly tracks the number of visitors, their devices types, their devices OS, their country, the web vital, and the number of times a page has been visited. No other data is shared with any other third party, and there is not any intrusive tracking.",
+        
+        "cookies": "Cookies",
+        "cookiesContent": "The first cookie used on this website is from Vercel, the hosting provider. Vercel uses a cookie to store an identifier for each user session, in order to avoid counting the same user multiple times. It is only used by Vercel and not shared with any other third party. The second cookie only stores the user's language preference, and it is only stored on the user's browser."
+    },
+    "LegalNoticePage": {
+        "title": "Legal notice",
+
+        "copyrightNotice": {
+            "title": "Copyright notice",
+            "description": "All content, including text, images, and graphics on this website is the property of Mathis SAMAT unless otherwise stated. This content is protected by copyright laws and international treaties. Unauthorized use, reproduction, or distribution of any material from this site is strictly prohibited without prior written consent from Mathis SAMAT."
+        },
+
+        "websiteOwner": {
+            "title": "Website owner",
+            "description": "The owner and administrator of this website is Mathis SAMAT. You can contact him at "
+        },
+
+        "websiteHosting": {
+            "title": "Website hosting",
+            "description": "This website is hosted by Vercel with the free plan."
+        },
+
+        "links": {
+            "title": "Links",
+            "description": "This website may contain links to external websites that are not provided or maintained by Mathis SAMAT. These links are provided solely for your convenience and reference. He shall not be responsible for the content of any linked site, or any link contained within a linked site. In addition, all links towards this website are permitted as long as the origin does not diffuse any content that could be considered as offensive."
+        },
+
+        "lawsAndDataCollection": {
+            "title": "Laws and data collection",
+            "descriptionP1": "Everything collected on this website is mentionned in the ",
+            "privacyPolicy": "privacy policty",
+            "descriptionP2": "Also, the collected data follows the General Data Protection Regulation (GDPR)."
+        },
+
+        "changes": {
+            "title": "Changes to this legal notice",
+            "description": "Mathis SAMAT reserves the right to update or modify this legal notice at any time without prior notice. Your use of this website following any such change constitutes your agreement to follow and be bound by the updated legal notice."
+        }
+    },
+    "AboutPage": {
+        "aboutMeSection": {
+            "title": "About me",
+
+            "description": {
+                "firstPart": "I am Mathis SAMAT, a 19 year old student in France. I like science, so I specialized in Mathematics, Chemistry and Physics in secondary school.",
+                "secondPart": "Throughout the years, I have discovered a lot about computers, and the more I dived into them, the more I was curious about them. After trying 3D Modeling, server hosting, image editing, writing my first lines of code, ... I was hooked, so I decided to study IT.",
+                "thirdPart": "Now, I would love to join an IT company, to gain experience, and improve my skills."
+            }
+        },
+
+        "tools": {
+            "title": "My main tools",
+
+            "average": "Average",
+            "good": "Good",
+            "beginner": "Beginner",
+
+            "learnAtUniv": "Learnt at university",
+            "selfTaught": "Learnt on my own",
+            "mostlySelfTaught": "Mostly self-taught"
+        },
+
+        "outsideUniversity": {
+            "title": "Outside university",
+
+            "p1": "Besides my interest in coding, I have multiple passions that I enjoy when I am not at university or coding at home.",
+
+            "p2": {
+                "p1": "Firstly, I am a car enthusiast. I am currently getting my license, and I genuinely enjoy sim racing. As a matter of fact, I participated in a ",
+                "link": "time attack competition",
+                "p2": " back in 2023 whose creator is a youtuber with almost 800 000 subscribers. When I uploaded my score, I stayed for multiple days on the podium, and I ended up in 12th place at the end. I am still proud of it, since, because of school, I didn't have a lot of time to practice unlike the others, so I couldn't do a lot of tries to improve my time."
+            },
+
+            "p3": "In addition, I do like hiking in beautiful places, which helps me to stay balanced and full of energy, bringing productivity and fresh perspective to my work. Here, you can scroll to see some of the best pictures I took when hiking in my opinion."
+        }
+    },
+    "ProjectsPage": {
+        "title": "My projects",
+        "description": "Here are several projects I have worked on. Some of them were made on my free time, while others have been made in university. This page does not contain all my projects, some will be added in the future.",
+        "showEverything": "Show everything",
+        "sort": "Sort by",
+
+        "Projects": {
+            "1": {
+                "title": "Hosting machine setup",
+                "text": "I turned a friend's spare laptop into a fully fonctionnal 24/7 game hosting server, accessible by remote access, on Ubuntu with port forwarding."
+            },
+            "2": {
+                "title": "Portfolio creation",
+                "text": "To learn my first framework, Next.js, and find an apprenticeship program, I made a modern portfolio website that contains some of my recent projects"
+            },
+            "3": {
+                "title": "Bike rental app development",
+                "text": "I worked with a group of four other people to create a bike rental application for a university project. It is made of a web application, an android application, an API and a database."
+            }
+        },
+
+        "Tags": {
+            "linux": "Linux",
+            "networking": "Networking",
+            "hosting": "Hosting",
+            "university": "University",
+            "python": "Python",
+            "algorithms": "Algorithms",
+            "fullstack": "Full-stack"
+        }
+    },
+    "Projects": {
+        "TableOfContents": {
+            "title": "Table of contents"
+        },
+
+        "Components": {
+            "Breadcrumb": {
+                "home": "Home",
+                "projects": "Projects"
+            }
+        },
+
+        "HostingProject": {
+            "title": "Hosting machine setup",
+            
+            "TableOfContents": {
+                "context": "Context",
+                "usb": "Making a bootable USB drive",
+                "settingup": "Setting up the machine",
+                "hosting": "Hosting game servers",
+                "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "My friends and I wanted to play video games together, but renting a server was expensive, and we could not change the game the server hosted: we would need to rent a different server every time we wanted to play another game together. One of them came up with an idea: he had a spare laptop that is powerful enough to run multiple servers at the same time, and I had the knowledge to host game servers on it. So, we agreed that he would provide the laptop, and that I would be the one configuring the machine and the servers.",
+                "p2": "Firstly, I had to pick an operating system. I chose Linux over Windows because I had enough experience to make servers on it, and Linux is more lightweight than Windows so our game servers could have more resources allocated. For instance, Windows uses more than 4GB of RAM on idle whereas a lightweight distribution of Linux uses less than 2GB.",
+                "p3": "I decided to install Ubuntu: I had already used it, and I knew that there was an option during its installation to only install the necessary packages to make it as lightweight as possible. I hesitated a bit between Ubuntu 22 and Ubuntu server, but Ubuntu server does not have a user interface, and I didn't know if I would be able to do everything with no user interface. Therefore, I picked Ubuntu 22.",
+                "p4": "To install Linux on the laptop, I had to make a bootable USB drive. In order to do it, I installed Rufus on my computer. It is a tool specifically made for creating bootable USB drives. I downloaded the optical disk image (iso) of the latest version of Ubuntu 22.04 LTS, and I used Rufus to create the Linux Bootable USB drive easily.",
+                "p5": "I plugged the USB key in the laptop and I chose it as the first boot option in the BIOS. Then, I followed the installation process. After installing Linux, I was worried about the security of the machine since it would read all the requests coming from specific ports. That is why I started to make the machine safer. I created a new user withoutthe root privileges, I installed a firewall and fail2ban, and I made sure SSH was disabled (I would use a remote desktop application to log on the computer when I would need to).",
+                "p6": "All that remained was to host the servers. Over the course of two years, I created and took care of a diverse range of servers across various video games: Minecraft, Space Engineers, ARK, Garry's Mod, BeamMP, Unturned, and many more. Although I did not talk about it in more details, I had to do port-forwarding for every server, otherwise we could not access it remotely.",
+                "p7": "To this day, the machine is still hosting several servers. Although I don't have a lot of time to play with my friends anymore, I still make new servers for them sometimes when I can, and I make sure that the ones that are running are always up to date.",
+                "p8": "My friends and I were facing a problem: we could not play several video games together because renting servers would cost us money. We made a brainstorming and we found a solution: to host our own servers. Being skilled enough to do that, I have been the one setting up the machine and creating and managing the servers. It allowed me to gain knowledge about Linux, the way a network works, how to secure a machine, and how to host servers in general."
+            }
+        },
+
+        "PortfolioProject": {
+            "title": "Portfolio creation",
+
+            "TableOfContents": {
+                "context": "Context",
+                "frameworks": "Choosing the tools",
+                "starting": "Starting from nothing",
+                "landing": "Creating the landing page",
+                "progressing": "Making the other pages",
+                "conclusion": "Conclusion"
+            },
+
+            "Text": {
+                "p1": "I wanted to have a place to show my projects and my personality. So, I started my biggest project yet: an online portfolio made from scratch.",
+                "p2": "After working on it for more than two months, I am honestly happy to see how it turned out. I am proud that I managed to create an entire modern website using a framework, and on my own. I also hope that it will help me find an apprenticeship, since it shows what I am capable of in web development.",
+                "p3": "During this article, you will learn how I did it, which decisions I made, and what were the main  difficulties I encountered. I will also talk about what I learnt after all this time working on my website.",
+                "p4": "To create my own website, I needed to decide which tools I would pick. Should I go with the regular stack consisting of HTML, CSS and JavaScript to create a static website? Should I use a framework? If so, which one?",
+                "p5": "Since I already developed some static websites, I wanted to try something different. Moreover, a framework comes with many advantages: it allows you to  dynamically generate pages, create reusable components, have clean links that do not end in .html, etc. So, I decided that I would learn a framework... but which one ?",
+                "p6": "After doing some research, I found Next.js. I chose it because I find it very appealing. Indeed, its app router and the fact that we can do frontend and backend makes it a solid framework. Moreover, it is a react framework, which is a framework that is used by many huge companies. Consequently, learning Next.js means learning some parts of react as well, which is a strong advantage too.",
+                "p7-1": "After following the tutorial of Next on its website, I made some tests.Then, I created the project with ",
+                "p7-2": "At this time, it was only containing the files related to the framework. There was nothing, except a blank page.",
+                "p8": "I planified the realization of the project, by writing in a text file every step. I tried my best to have a clear vision of the result before writing any line of code. Thanks to that, I have always been organized when working on it: I knew what to do, and in which order.",
+                "p9": "Everything was planified and set-up, I was finally ready to write the code. I started by making the home page. I was slow though: I was discovering  Tailwind CSS and TypeScript, so it took me some time to get used to it.",
+                "p10": "At the same time, I started to work on the navigation bar. It was truly difficult for me because I needed to make some complex actions like changing the color of the name of the page in the navigation bar when you are on it. I also had to hide and show the menu with a button when you are accessing the website  on a mobile phone.",
+                "p11": "When I was working on the menu of the bar for mobile users, I encountered a strange problem: for some reason, I couldn't animate the height of the navigation bar. The animation simply did not work and the menu just popped when you pressed the button. I learnt after some time that it was caused by Tailwind, and that you need to use a specific height instead of the automatic height because it won't workotherwise.",
+                "p12": "Coding the other pages has made me learn a lot too. I have created components that takes arguments, I have used some React tools like the hooks and the map function, and I even learnt some backend by creating an api that works with the  form in the 'contact' page and that sends me a message.",
+                "p13": "Overall, it has been a nice experience for me to work on this website. I learnt a lot by trying my first framework, discovering Tailwind CSS, and  making my first working form.  I also discovered how a DNS works by purchasing my domain name and affecting the subdomain  'portfolio' to this site. I encountered a lot of problems but I solved them one by one while  staying motivated. It took me more than two months but now my biggest project to this date is functional",
+                "sourceCode": "The source code is available",
+                "here": "here"
+            }
+        },
+        "BikeRentalAppProject": {
+          "title": "Bike rental app development",
+                
+          "TableOfContents": {
+            "context": "Context",
+            "stack": "Tools and technologies",
+            "projectManagement": "Project management",
+            "creatingTheAPI": "Building the API",
+            "creatingTheFrontend": "Building the frontend applications",
+            "auth": "Authentication system",
+            "conclusion": "Conclusion"
+          },
+      
+          "Text": {
+              "p1": "In my second year of university (BUT in Computer Science), I took part in a year-long group project where we developed a bike rental app. It gave us the opportunity to build an API with a database, a website, and a mobile app, all while working together as a team.",
+              "p2": "Although we were mostly free to choose the tools we want, we still had to follow a few constraints. We had to use JSON to transfer data, the API had to follow REST architecture, and the project needed to be test-driven.",
+              "p3": "Some features were also mandatory. For example, the final app had to let users get directions to a station, view their reservation history, and more. While the actual reservation process was simulated, the rest of the application was fully functional.",
+
+              "p4": "We used several tools for this project. We built the API with Django, a Python framework that is both intuitive and powerful, especially with features like its ORM (Object-Relational Mapping). We chose PostgreSQL for the database since it's solid and well-suited for our needs. The frontend was built using Next.js, which gave me a chance to reuse the skills I had developed while working on my portfolio. As for the mobile app, we used Flutter so that it could run on both iOS and Android.",
+              "p5": "To containerize the API and the database, we used Docker. It made deployment easier and ensured the API behaved consistently across different environments. We also used Git for version control, which helped us collaborate more effectively.",
+
+              "p6": "To stay organized and work efficiently as a team, we used GitHub Projects to follow an agile development approach. We planned tasks with time and difficulty estimates and kept track of our progress throughout. We also set up continuous integration to make sure that new features didn’t introduce any bugs.",
+
+              "p7": "I handled the initial API configuration, including the use of environment variables to load secret keys. I also implemented features like CORS, which was essential to allow the web app to make requests to the API.",
+              "p8": "To make the API setup easier, I also wrote a script that automatically generates encryption keys, so system administrators wouldn’t have to create each one manually.",
+              "p9": "I developed several endpoints related to bike stations and authentication, which I’ll explain more in detail below.",
+
+              "p10": "On the web app, I applied the skills I learned from building my portfolio. I designed a layout that was reused across all pages by creating a wrapper component to ensure consistent width and element alignment. I also selected the component and icon libraries we used throughout the site to maintain a clean and consistent UI. I worked on many pages, but mainly those related to authentication. I fully built the login, account creation, and profile management pages.",
+              "p11": "For the mobile app, I created the same pages as in the web version, and also worked on other elements like the splash screen. Just like on the web, I designed the general layout and structure that was used across all pages.",
+
+              "p12": "As mentioned earlier, I designed the entire authentication system for the API, the mobile app, and the web app. I created a session token system: when a user logs in, a token is generated and sent to them. These tokens, along with their expiration dates, are stored in the database and used by the frontend apps for any request that requires authentication.",
+              "p13": "I also built an email verification system to ensure that users actually have access to the email they used when signing up. For that, I used the Resend library to send the email, which contains a link to the web app with a token passed in the URL. The token is similar to the authentication tokens but has a much shorter lifespan. When the user clicks the link, the frontend sends a request to the API to validate the token. If it’s valid and not expired, the email is marked as verified in the database.",
+
+              "p14": "To summarize, this project gave me the chance to work on a complex group project and explore a wide range of tools and technologies. I took advantage of my knowledge of web and mobile development, as well as project management. I learned a lot, especially when it comes to building APIs and handling authentication. Working in a team also allowed me to share what I knew, while learning from my teammates through their feedback and ideas. It was a valuable experience that helped me grow as a developer.",
+
+              "sourceCode": "You can access the source code of the app",
+              "here": "here"
+            }
+        }
+    }
+}

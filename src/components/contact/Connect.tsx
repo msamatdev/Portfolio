@@ -1,14 +1,19 @@
 import { MessageCircle, Github, Linkedin } from "lucide-react"
 import Link from "next/link"
+import { useTranslations } from 'next-intl';
 
 export default function LetsConnect() {
+    const t = useTranslations('ContactPage');
+
     return (
         <div className="w-full px-4">
             <p className="flex justify-center gap-1 items-center">
                 <MessageCircle />
-                <span className="font-semibold text-3xl">Let&apos;s connect !</span>
+                <span className="font-semibold text-3xl">
+                    { t('letsConnect') }
+                </span>
             </p>
-            <p className="text-center mt-4 px-8 text-lg text-muted-foreground">My inbox is always open. If you have a question or if you want to get in touch, I&apos;ll try my best to get back to you!</p>
+            <p className="text-center mt-4 px-8 text-lg text-muted-foreground">{ t('description') }</p>
             <div className="mt-4 flex justify-center items-center gap-8">
                 <Link 
                     href="https://www.linkedin.com/in/mathis-samat/"

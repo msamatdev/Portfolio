@@ -1,11 +1,19 @@
-"use client";
+import { getMessages } from 'next-intl/server';
+import { Locale } from '@/i18n/config';
+import { ClientProviders } from './ClientProvider';
 
-import { ThemeProvider } from "next-themes";
+export async function Providers({
+  children,
+  locale
+}: {
+  children: React.ReactNode;
+  locale: Locale;
+}) {
+  const messages = await getMessages({ locale });
 
-export function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+    <ClientProviders locale={locale} messages={messages}>
       {children}
-    </ThemeProvider>
+    </ClientProviders>
   );
 }
