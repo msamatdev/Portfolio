@@ -96,14 +96,14 @@ export default function About() {
           {t("aboutMeSection.title")}
         </h1>
         <div className="grid lg:grid-cols-2 grid-cols-1 place-items-center mt-12 lg:mt-24 lg:px-40 gap-12">
-          <div className="w-full h-full">
-            <div className="border-primary border-2 rounded-[80px] w-full h-full items-center justify-center flex">
+          <div className="w-full h-full p-6">
+            <div className="shadow-primary shadow-sm border-primary border-2 rounded-[32px] w-full h-full items-center justify-center flex">
               <Image 
                 alt="Picture of me"
-                src="/images/photos/homePhoto.png"
-                width={300}
-                height={300}
-                className="object-cover rounded-[80px] h-full w-full"
+                src="/images/photos/aboutPhoto.jpg"
+                width={400}
+                height={400}
+                className="object-cover rounded-[30px] h-full w-full"
               />
             </div>
           </div>
