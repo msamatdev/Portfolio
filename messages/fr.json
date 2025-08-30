@@ -63,7 +63,7 @@
 
             "First": {
                 "name": "Hébergement de serveurs",
-                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément.",
+                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément. J'ai configuré la machine, sécurisé le système, et géré les serveurs.",
                 "date": "Janvier 2024",
                 "firstTag": "Linux",
                 "secondTag": "Hébergement",
@@ -71,12 +71,12 @@
             },
 
             "Second": {
-                "name": "Comparaison d'algorithmes",
-                "description": "Projet universitaire qui a consisté à développer 3 méthodes de calcul permettant d'obtenir le chemin le plus rapide entre plusieurs villes, et à les comparer pour trouver laquelle est la plus rapide.",
-                "date": "Décembre 2023",
+                "name": "Application de réservation",
+                "description": "J'ai travaillé avec un groupe de quatre autres personnes pour créer une application de location de vélos dans le cadre d'un projet universitaire. Nous avons construit une API, une application web, une application mobile et nous avons utilisé Docker pour conteneuriser le backend.",
+                "date": "Octobre 2024 - juin 2025",
                 "firstTag": "Université",
                 "secondTag": "Python",
-                "thirdTag": "Algorithmes"
+                "thirdTag": "Docker"
             }
         }
     },

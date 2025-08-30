@@ -23,7 +23,7 @@ const SelectedProjects = () => {
     {
       id: 2,
       name: t('Second.name'),
-      href: "/projects/algorithms-comparison",
+      href: "/projects/bike-rental-app",
       description:
         t('Second.description'),
       tags: [

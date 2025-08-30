@@ -71,12 +71,12 @@
             },
 
             "Second": {
-                "name": "Algorithms comparisons",
-                "description": "This project has been made in University and it was divised in two parts. I coded 3 ways to calculate the shortest route between multiple cities. Then, I compared them to find out which is the fastest and why.",
-                "date": "December 2023",
+                "name": "Bike rental app development",
+                "description": "I worked with a group of four other people to create a bike rental application for a university project. We built an API, a web application, a mobile application and we used Docker to containerize the backend.",
+                "date": "October 2024 - June 2025",
                 "firstTag": "University",
                 "secondTag": "Python",
-                "thirdTag": "Algorithms"
+                "thirdTag": "Docker"
             }
         }
     },
