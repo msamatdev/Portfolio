@@ -1,6 +1,8 @@
+"use client";
 import { Zap, FileHeart, Lightbulb } from "lucide-react";
 import Separator from "@/components/Separator";
 import { useTranslations } from "next-intl";
+import BorderGlow from "@/components/BorderGlow";
 
 const Traits = () => {
   const t = useTranslations("HomePage.Traits");
@@ -40,8 +42,17 @@ const Traits = () => {
       >
         {TraitsArray.map((trait) => {
           return (
-            <div
+            <BorderGlow
               key={trait.name}
+              edgeSensitivity={30}
+              glowColor="40 80 80"
+              backgroundColor="#120F17"
+              borderRadius={12}
+              glowRadius={40}
+              glowIntensity={1}
+              coneSpread={100}
+              animated={false}
+              colors={['#7C3AED', '#7C3AED', '#5538f8']}
               className="w-full h-full p-6 mb-1 rounded-xl dark:bg-muted/10 border-muted border-2 shadow-md"
             >
               {<trait.icon className="text-primary size-10" />}
@@ -51,7 +62,7 @@ const Traits = () => {
               <p className="text-muted-foreground tracking-wide">
                 {trait.description}
               </p>
-            </div>
+            </BorderGlow>
           );
         })}
       </div>

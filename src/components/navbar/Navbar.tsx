@@ -19,9 +19,9 @@ const Navbar = () => {
   }
 
   return (
-    <header className="fixed w-full md:top-8 md:bg-transparent bg-background top-0 z-50 flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2">
+    <header className="fixed w-full md:top-8 top-0 z-[100] flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2">
       <MaxWidthWrapper>
-        <div className="px-6 md:py-0 py-4 rounded-lg xl:mx-14 grid grid-cols-4 grid-rows-1 gap-4 md:grid-cols-3 bg-background md:border-2">
+        <div className="px-6 md:py-0 py-4 rounded-lg xl:mx-14 grid grid-cols-4 grid-rows-1 gap-4 md:grid-cols-3 md:border-2 backdrop-blur-xl bg-background/10 z-[100]">
           <Link
             className="text-2xl font-semibold flex place-self-start items-center self-center md:col-span-1 col-span-3"
             href="/"

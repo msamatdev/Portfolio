@@ -14,8 +14,8 @@ const HeyThere = () => {
 
   return (
     <div className="lg:px-12 md:mt-40 mt-16 py-10 grid md:grid-cols-10 grid-cols-1">
-      <div className="md:col-span-6 m-auto text-center flex flex-col col-span-1 items-center max-w-max ">
-        <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black">
+      <div className="md:col-span-6 m-auto text-center flex flex-col col-span-1 items-center max-w-max">
+        <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black z-[50]">
           👋 {t('hello')} <br /> {t('iAm')} Mathis SAMAT, <br /> {t('a')} {" "}
           <span className="text-primary">
             <TypeAnim 
@@ -31,11 +31,11 @@ const HeyThere = () => {
         <Image 
           src="/images/photos/homePhoto.png"
           alt="Picture of me"
-          className="block md:hidden border-box rounded-full border-primary border-[4px] mb-16 mt-16"
+          className="block md:hidden border-box rounded-full border-primary border-[4px] mb-16 mt-16 z-[50]"
           width={310}
           height={310}
         />
-        <p className="md:px-2 md:py-1 md:text-left md:mt-6 text-lg max-w-prose text-muted-foreground tracking-[0.01em] py-4 px-8 text-justify">
+        <p className="md:px-2 md:py-1 md:text-left md:mt-6 text-lg max-w-prose text-muted-foreground tracking-[0.01em] py-4 px-8 text-justify z-[50]">
           {t('intro')} {" "}
           <HoverCard>
             <HoverCardTrigger className="underline underline-offset-4 cursor-default">BUT Informatique</HoverCardTrigger>
@@ -45,7 +45,7 @@ const HeyThere = () => {
           </HoverCard>
           .
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-6">
+        <div className="flex flex-col sm:flex-row gap-4 mt-6 z-[50]">
           <Link className={buttonVariants()} href="/projects">
             {t('browseProjects')}
           </Link>
@@ -60,7 +60,7 @@ const HeyThere = () => {
           alt="Picture of me"
           width={352}
           height={352}
-          className="border-box customRound border-primary border-[3px] "
+          className="border-box customRound border-primary border-[3px] z-[50]"
       />
       </div>
     </div>
