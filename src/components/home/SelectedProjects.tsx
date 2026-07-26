@@ -1,7 +1,10 @@
+"use client";
+
 import Link from "next/link";
 import { MousePointerClick, CalendarDays } from "lucide-react";
 import Separator from "@/components/Separator";
 import { useTranslations } from "next-intl";
+import BorderGlow from "@/components/BorderGlow";
 
 const SelectedProjects = () => {
   const t = useTranslations('HomePage.SelectedProjects');
@@ -42,14 +45,23 @@ const SelectedProjects = () => {
       </h3>
       <Separator />
       <div
-        className="
-                my-12 grid grid-cols-1 lg:grid-cols-2 grid-flow-rows gap-10
-            "
+        className="my-12 grid grid-cols-1 lg:grid-cols-2 grid-flow-rows gap-10"
       >
         {Projects.map((project) => {
           return (
             <Link key={project.id} href={project.href}>
-              <div className="p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize">
+              <BorderGlow
+                edgeSensitivity={30}
+                glowColor="40 80 80"
+                backgroundColor="#120F17"
+                borderRadius={10}
+                glowRadius={40}
+                glowIntensity={1}
+                coneSpread={100}
+                animated={false}
+                colors={['#7C3AED', '#7C3AED','#5b38f8']}
+                className="p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize"
+              >
                 <p className="text-foreground text-3xl">{project.name}</p>
                 <p className="flex items-center mt-4">
                   <CalendarDays className="size-5" />
@@ -76,7 +88,7 @@ const SelectedProjects = () => {
                     <span className="ms-2 font-semibold">{t('learnMore')}</span>
                   </p>
                 </div>
-              </div>
+              </BorderGlow>
             </Link>
           );
         })}
