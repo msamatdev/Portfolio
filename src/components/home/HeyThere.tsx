@@ -1,4 +1,4 @@
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import TypeAnim from "@/components/home/TypeAnim";
@@ -18,7 +18,7 @@ const HeyThere = () => {
         <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black z-[50]">
           👋 {t('hello')} <br /> {t('iAm')} Mathis SAMAT, <br /> {t('a')} {" "}
           <span className="text-primary">
-            <TypeAnim 
+            <TypeAnim
               key={t('frenchStudent')}
               frenchStudent={t('frenchStudent')}
               frenchDeveloper={t('frenchDeveloper')}
@@ -28,7 +28,7 @@ const HeyThere = () => {
             />
           </span>
         </h1>
-        <Image 
+        <Image
           src="/images/photos/homePhoto.png"
           alt="Picture of me"
           className="block md:hidden border-box rounded-full border-primary border-[4px] mb-16 mt-16 z-[50]"
@@ -45,7 +45,7 @@ const HeyThere = () => {
           </HoverCard>
           .
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mt-6 z-[50]">
+        <div className="flex flex-col sm:flex-row gap-4 mt-8 z-[50]">
           <Link className={buttonVariants()} href="/projects">
             {t('browseProjects')}
           </Link>
@@ -54,14 +54,16 @@ const HeyThere = () => {
           </Link>
         </div>
       </div>
-      <div className="md:col-span-4 col-span-1  flex-col items-center justify-center hidden md:flex">
-      <Image 
-          src="/images/photos/homePhoto.png"
-          alt="Picture of me"
-          width={352}
-          height={352}
-          className="border-box customRound border-primary border-[3px] z-[50]"
-      />
+      <div className="relative md:col-span-4 col-span-1 mx-auto rotate-2 z-50">
+        <div className="relative min-h-[260px] min-w-[260px] sm:min-h-[280px] sm:min-w-[280px] hidden md:flex rotate-2 p-3 border-2 border-dashed rounded-[40px] border-primary/30">
+          <Image
+            src="/images/photos/homePhoto.png"
+            alt="Picture of me"
+            width={290}
+            height={290}
+            className="border-box rounded-[40px] border-primary border-[4px] z-[50] rotate-1"
+          />
+        </div>
       </div>
     </div>
   );

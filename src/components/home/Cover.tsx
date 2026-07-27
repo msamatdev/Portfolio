@@ -4,6 +4,7 @@ import Particles from "@/components/Particles";
 import HeyThere from "@/components/home/HeyThere";
 import Card from "@/components/home/Card";
 import MaxWidthWrapper from "../MaxWidthWrapper";
+import { Reveal } from "../Reveal";
 
 export default function HomeCover() {
   return (
@@ -26,8 +27,10 @@ export default function HomeCover() {
 
       {/* Foreground */}
       <MaxWidthWrapper className="relative min-h-screen flex flex-col">
-        <HeyThere />
-        <Card />
+        <Reveal className="">
+          <HeyThere />
+          <Card />
+        </Reveal>
       </MaxWidthWrapper>
     </div>
   );
