@@ -16,8 +16,8 @@ export default function Home() {
       <HomeCover />
       <MaxWidthWrapper className="max-w-[1360px]">
         <Resume />
-        <Traits />
         <SelectedProjects />
+        <Traits />
       </MaxWidthWrapper>
     </>
   );

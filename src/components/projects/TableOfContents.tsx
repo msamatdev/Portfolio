@@ -5,28 +5,31 @@ interface Part {
   href: string;
 }
 
-export default function TableOfContents({
-  items
-}: {  
-  items: Part[]
-}) {
+export default function TableOfContents({ items }: { items: Part[] }) {
   const t = useTranslations("Projects.TableOfContents");
 
   return (
-    <div className="rounded-lg border-2 border-primary p-6 flex flex-col items-start justify-center gap-4 self-start mb-10">
-      <p className="text-xl font-bold">{ t('title') }</p>
-      <div className="flex flex-col items-start justify-center gap-2">
+    <nav className="w-full rounded-xl border border-border bg-card/60 backdrop-blur-sm p-6 shadow-sm">
+      <p className="text-sm font-semibold uppercase tracking-wide text-muted-foreground mb-4">
+        {t("title")}
+      </p>
+      <ol className="flex flex-col gap-1">
         {items.map((item, index) => (
-          <a
-            key={index}
-            href={`#${item.href}`}
-            className="group"
-          >
-            <span className="text-lg text-primary">{index + 1}. </span>
-            <span className="text-md group-hover:underline">{item.title}</span>
-          </a>
+          <li key={index}>
+            <a
+              href={`#${item.href}`}
+              className="group flex items-center gap-3 rounded-md px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-primary/10 hover:text-foreground"
+            >
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/10 text-xs font-medium text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                {index + 1}
+              </span>
+              <span className="underline-offset-4 group-hover:underline">
+                {item.title}
+              </span>
+            </a>
+          </li>
         ))}
-      </div>
-    </div>
+      </ol>
+    </nav>
   );
 }

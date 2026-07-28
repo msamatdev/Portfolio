@@ -1,4 +1,4 @@
-interface Propos {
+interface Props {
   children: React.ReactNode;
   className?: string;
 }
@@ -6,7 +6,7 @@ interface Propos {
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
-export const Reveal = ({ children, className }: Propos) => {
+export const Reveal = ({ children, className }: Props) => {
   return (
     <div className={cn("overflow-hidden w-full", className)}>
       <motion.div
@@ -15,11 +15,12 @@ export const Reveal = ({ children, className }: Propos) => {
           visible: { opacity: 1, y: 0, x: 0 },
         }}
         initial="hidden"
-        animate="visible"
-        transition={{ duration: 0.3, ease: [0.6, 0.01, -0.05, 0.95] }}
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.75, ease: [0.6, 0.01, -0.05, 0.95] }}
       >
         {children}
-      </motion.div>      
+      </motion.div>
     </div>
-  )
-}
+  );
+};

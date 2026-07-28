@@ -23,7 +23,7 @@ export default function Repertory(prop: PageNameProp) {
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbLink href="/projects">{ t('projects') }</BreadcrumbLink>
+          <BreadcrumbLink href="/#projects">{ t('projects') }</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>

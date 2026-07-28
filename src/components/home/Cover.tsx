@@ -8,7 +8,7 @@ import { Reveal } from "../Reveal";
 
 export default function HomeCover() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-secondary/5">
       {/* Background */}
       <div className="absolute inset-0 z-10">
         <Particles

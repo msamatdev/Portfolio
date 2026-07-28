@@ -55,7 +55,7 @@ const HeyThere = () => {
         </div>
       </div>
       <div className="relative md:col-span-4 col-span-1 mx-auto rotate-2 z-50">
-        <div className="relative min-h-[260px] min-w-[260px] sm:min-h-[280px] sm:min-w-[280px] hidden md:flex rotate-2 p-3 border-2 border-dashed rounded-[40px] border-primary/30">
+        <div className="relative min-h-[260px] min-w-[260px] sm:min-h-[280px] sm:min-w-[280px] hidden md:flex rotate-2 p-3 border-2 border-dashed rounded-[40px] border-primary/60">
           <Image
             src="/images/photos/homePhoto.png"
             alt="Picture of me"

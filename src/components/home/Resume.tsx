@@ -12,8 +12,8 @@ const experience = [
     description:
       "Maintenance et configuration de clusters de calcul haute performance pour des clients dans le domaine de la recherche scientifique et de l'industrie.",
     points: [
-      "Connaissance des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring",
-      "Connaissance de l'administration de systèmes GNU/Linux",
+      "Apprentissage des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring",
+      "Maîtrise de l'administration de systèmes GNU/Linux",
       "Développement de procédures d'automatisations via des scripts (Python)",
       "Rédaction de documentations techniques et de procédures d'exploitation",
       "Support de niveau 1 et 2 sur la stack logicielle fournie par le client",
@@ -78,7 +78,7 @@ const education = [
 
 export default function Resume() {
   return (
-    <div className="grid grid-cols-1 gap-12 md:grid-cols-2 mt-12 px-2">
+    <div className="grid grid-cols-1 gap-12 md:grid-cols-2 mt-16 px-2">
       <Timeline
         title="Education"
         icon={GraduationCap}
