@@ -5,14 +5,14 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 const experience = [
   {
-    title: "Ingénieur linux HPC (Apprentissage)",
+    title: "Ingénieur administrateur système HPC (Apprentissage)",
     subtitle: "Bull",
     startDate: "Sep 2026",
     endDate: "Aug 2029",
     description:
-      "Maintenance et configuration de clusters de calcul haute performance pour des clients dans le domaine de la recherche scientifique et de l'industrie.",
+      "Maintenance et administration de clusters de calcul haute performance (HPC) sous GNU/Linux..",
     points: [
-      "Apprentissage des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring",
+      "Apprentissage des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring, ...",
       "Maîtrise de l'administration de systèmes GNU/Linux",
       "Développement de procédures d'automatisations via des scripts (Python)",
       "Rédaction de documentations techniques et de procédures d'exploitation",
@@ -27,11 +27,12 @@ const experience = [
     description:
       "Développement de solutions majoritairement orientées web, avec une composante en comptabilité.",
     points: [
-      "Développement d'APIs HTTP en Python (FastAPI)",
+      "Développement d'API HTTP en Python (FastAPI)",
       "Création d'interfaces web en TypeScript (Next.js 15)",
       "Conception de systèmes d'authentification",
-      "Création de scripts de synchronisation et de traitement des données comptables sensibles",
-      "Mise en place d'un pipeline de traitement des messages d'une entreprise en temps réel. \
+            "Maintenance et configuration du parc informatique de l'entreprise",
+      "Création de scripts de synchronisation et de traitement manipulant des données comptables sensibles",
+      "Mise en place d'un pipeline de traitement des mails et messages whatsapp d'une entreprise en temps réel. \
       Analyse et reclassement automatique par un grand modèle de langage hébergé localement (Hermes agent, Python, ollama)"
     ]
   }
@@ -44,7 +45,12 @@ const education = [
     startDate: "Sep 2026",
     endDate: "Aug 2029",
     description:
-      "Diplôme d'ingénieur développé autour de 4 axes : informatique, mathématiques de la décision, connaissance des entreprises, et formation humaine. Spécialité souhaitée : programmation GPU.",
+      "Diplôme d'ingénieur développé autour de 4 axes : informatique, mathématiques de la décision, connaissance des entreprises, et formation humaine. J'envisage de choisir la spécialité \"Programmation GPU\" qui comprend :",
+    points: [
+      "Programmation (parallélisme, optimisation, gestion des erreurs, API, ...)",
+      "Architecture GPU et écosystème CUDA",
+      "Portage de code C ou C++ vers GPU",
+    ]
   },
   {
     title: "Bachelor Universitaire de Technologie Informatique",
@@ -52,14 +58,12 @@ const education = [
     startDate: "Sep 2023",
     endDate: "Sep 2026",
     description:
-      "Formation en informatique avec une approche pratique et une forte composante professionnalisante.",
+      "Formation en informatique axée sur la pratique au travers de projets concrets. De nombreux domaines sont enseignés :",
     points: [
-      "Programmation orientée objet",
+      "Optimisation algorithmique",
       "Développement web et mobile",
-      "Bases de données",
-      "Réseaux et virtualisation",
-      "Economie et droit de l'informatique",
-      "Communication, travail en équipe et gestion de projet"
+      "Administration système et réseau",
+      "Communication, travail en équipe et gestion de projet",
     ]
   },
   {
@@ -70,7 +74,7 @@ const education = [
     description:
       "Diplôme obtenu avec mention bien.",
     points: [
-      "Spécialités : Mathématiques, Physique-Chimie, ainsi que Langues, Littérature et Culture Étrangère (uniquement en première)",
+      "Spécialités : Mathématiques, Physique-Chimie, LLCR (en première)",
       "Options : Mathématiques expertes, Anglais section européenne",
     ]
   }

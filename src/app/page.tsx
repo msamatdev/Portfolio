@@ -1,9 +1,9 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
-import Traits from './../components/home/Traits';
 import SelectedProjects from './../components/home/SelectedProjects';
 import { Metadata } from "next";
 import HomeCover from "@/components/home/Cover";
 import Resume from "@/components/home/Resume";
+import MyStory from "@/components/home/MyStory";
 
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export default function Home() {
       <MaxWidthWrapper className="max-w-[1360px]">
         <Resume />
         <SelectedProjects />
-        <Traits />
+        <MyStory />
       </MaxWidthWrapper>
     </>
   );
