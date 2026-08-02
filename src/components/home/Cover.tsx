@@ -26,8 +26,8 @@ export default function HomeCover() {
       </div>
 
       {/* Foreground */}
-      <MaxWidthWrapper className="relative min-h-screen flex flex-col">
-        <Reveal className="">
+      <MaxWidthWrapper className="relative min-h-screen flex flex-col items-center justify-center">
+        <Reveal>
           <HeyThere />
           <Card />
         </Reveal>

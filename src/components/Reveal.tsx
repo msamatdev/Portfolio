@@ -3,13 +3,13 @@ interface Props {
   className?: string;
 }
 
-import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 
 export const Reveal = ({ children, className }: Props) => {
   return (
-    <div className={cn("overflow-hidden w-full", className)}>
+    <div className="overflow-hidden w-full h-full">
       <motion.div
+        className={className}
         variants={{
           hidden: { opacity: 0, y: 50, x: -5 },
           visible: { opacity: 1, y: 0, x: 0 },

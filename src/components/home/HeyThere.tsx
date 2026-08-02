@@ -13,7 +13,7 @@ const HeyThere = () => {
   const t = useTranslations('HomePage.Welcome');
 
   return (
-    <div className="lg:px-12 md:mt-40 mt-16 py-10 grid md:grid-cols-10 grid-cols-1">
+    <div className="lg:px-12 py-10 grid md:grid-cols-10 grid-cols-1">
       <div className="md:col-span-6 m-auto text-center flex flex-col col-span-1 items-center max-w-max">
         <h1 className="text-4xl font-bold tracking-tight dark:text-foreground sm:text-5xl text-black z-[50]">
           👋 {t('hello')} <br /> {t('iAm')} Mathis SAMAT, <br /> {t('a')} {" "}
