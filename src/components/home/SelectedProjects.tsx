@@ -40,7 +40,7 @@ const SelectedProjects = () => {
   ];
 
   return (
-    <Reveal className="px-4 mt-16">
+    <Reveal className="px-4 mt-24">
       <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">
         {t('selectedProjects')}
       </h3>

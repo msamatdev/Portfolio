@@ -30,7 +30,8 @@
             "techSavvy": "tech savvy",
             "simRacer": "sim racer",
             "carEnthusiast": "car enthusiast",
-            "intro": "As I am curious and very interested in computers, I have decided to study development at Villetaneuse since September 2023. I am currently finishing my degree, the",
+            "introP1": "From September onward, I will pursue a Computer Science Engineering degree at ",
+            "introP2": " while working as a Systems Engineer Apprentice in High-Performance Computing (HPC) at ",
             "butInformatique": "A three-year academic program in France. It covers topics such as algorithms, databases, and software development.",
 
             "browseProjects": "Browse projects",
@@ -77,6 +78,78 @@
                 "firstTag": "University",
                 "secondTag": "Python",
                 "thirdTag": "Docker"
+            }
+        },
+
+        "Resume": {
+            "WorkExp": {
+                "First": {
+                    "title": "HPC Systems Engineer Apprentice",
+                    "subtitle": "Bull",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Maintenance and administration of high-performance computing (HPC) clusters under GNU/Linux.",
+                    "points": {
+                        "first": "Learning software layers and HPC administration : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring, ...",
+                        "second": "Mastering the administration of GNU/Linux systems",
+                        "third": "Developing automation procedures via scripts (Python)",
+                        "fourth": "Writing technical documentation and operational procedures",
+                        "fifth": "Level 1 and 2 support on the software stack provided by the client"
+                    }
+                },
+                "Second": {
+                    "title": "Full-stack Developer (Apprenticeship)",
+                    "subtitle": "ADCOSOFT",
+                    "startDate": "Oct 2024",
+                    "endDate": "Sep 2026",
+                    "description": "Development of accounting solutions for small and medium-sized companies.",
+                    "points": {
+                        "first": "Development of HTTP APIs in Python (FastAPI)",
+                        "second": "Creation of web interfaces in TypeScript (Next.js 15)",
+                        "third": "Design of authentication systems",
+                        "fourth": "Maintenance and configuration of the company's IT infrastructure",
+                        "fifth": "Creation of synchronization and processing scripts handling sensitive accounting data",
+                        "sixth": "Implementation of a real-time email and WhatsApp message processing pipeline for a company. Automatic analysis and reclassification using a locally hosted large language model (Hermes agent, Python, ollama)"
+                    }
+                }
+            },
+            "Education": {
+                "First": {
+                    "title": "(Master's degree) Engineering degree in Computer Science",
+                    "subtitle": "Ecole nationale supérieure d'informatique pour l'industrie et l'entreprise",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Engineering degree focused on 4 subjects : computer science, decision mathematics, business knowledge, and human training. I am considering choosing the \"GPU Programming\" specialization which includes :",
+                    "points": {
+                        "first": "Programming (parallelism, optimization, error handling, API, ...)",
+                        "second": "GPU Architecture and CUDA Ecosystem",
+                        "third": "Porting C or C++ Code to GPU"
+                    }
+                },
+                "Second": {
+                    "title": "Bachelor's degree in CS",
+                    "subtitle": "IUT de Villetaneuse",
+                    "startDate": "Sep 2023",
+                    "endDate": "Sep 2026",
+                    "description": "Bachelor's degree focused on computer science, mathematics, and management. It includes:",
+                    "points": {
+                        "first": "Algorithm optimization",
+                        "second": "Web and mobile development",
+                        "third": "System and network administration",
+                        "fourth": "Communication, team work and project management"
+                    }
+                },
+                "Third": {
+                    "title": "Baccalaureate",
+                    "subtitle": "Lycée Jean Zay",
+                    "startDate": "Sep 2020",
+                    "endDate": "Jun 2023",
+                    "description": "French high school diploma.",
+                    "points": {
+                        "first": "Specialties : Mathematics, Physics and Chemistry",
+                        "second": "Options : Advanced Mathematics, English"
+                    }
+                }
             }
         }
     },

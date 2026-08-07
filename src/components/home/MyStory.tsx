@@ -28,7 +28,7 @@ const interests: Interest[] = [
 
 export default function MyStory() {
   return (
-    <Reveal className="grid grid-cols-1 md:grid-cols-5 mt-8 px-4 gap-y-10 md:gap-x-12">
+    <Reveal className="grid grid-cols-1 md:grid-cols-5 mt-4 px-4 gap-y-10 md:gap-x-12">
       <div className="flex flex-col gap-8 text-foreground/70 md:col-span-3 col-span-1 text-justify">
         <div>
           <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">

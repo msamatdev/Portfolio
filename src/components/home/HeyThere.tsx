@@ -36,14 +36,14 @@ const HeyThere = () => {
           height={310}
         />
         <p className="md:px-2 md:py-1 md:text-left md:mt-6 text-lg max-w-prose text-muted-foreground tracking-[0.01em] py-4 px-8 text-justify z-[50]">
-          {t('intro')} {" "}
-          <HoverCard>
-            <HoverCardTrigger className="underline underline-offset-4 cursor-default">BUT Informatique</HoverCardTrigger>
-            <HoverCardContent className="text-sm">
-              {t('butInformatique')}
-            </HoverCardContent>
-          </HoverCard>
-          .
+          {t('introP1')} 
+          <Link href="https://www.ensiie.fr/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">
+            ensIIE
+          </Link> 
+          {t('introP2')}
+          <Link href="https://www.bull.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-4">
+            Bull
+          </Link>.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-8 z-[50]">
           <Link className={buttonVariants()} href="/projects">

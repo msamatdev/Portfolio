@@ -20,7 +20,7 @@ export default function ContactMe() {
   };
 
   return (
-    <section className="relative w-full h-[45vh] min-h-[420px] mt-16 px-4 mb-8 overflow-hidden rounded-2xl">
+    <section className="relative w-full h-[45vh] min-h-[420px] mt-24 px-4 mb-8 overflow-hidden rounded-2xl">
       <div className="absolute inset-0">
         <Lightfall
           className="h-full w-full"

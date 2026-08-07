@@ -30,7 +30,8 @@
             "techSavvy": "passionné d'informatique",
             "simRacer": "fan de SimRacing",
             "carEnthusiast": "passionné d'automobile",
-            "intro": "J'étudie depuis septembre 2023 la programmation à l'université de Villetaneuse en ",
+            "introP1": "À partir de septembre, j'intégrerai l'",
+            "introP2" : " afin d'obtenir un diplôme d'ingénieur en informatique, tout en travaillant en tant qu'apprenti ingénieur systèmes en calcul haute performance (HPC) chez ",
             "butInformatique": "Ex-DUT Informatique. Un cursus sur trois ans qui couvre des sujets tels que l'algorithmie, la gestion des données, et la programmation logiciel.",
 
             "browseProjects": "Mes projets",
@@ -77,6 +78,78 @@
                 "firstTag": "Université",
                 "secondTag": "Python",
                 "thirdTag": "Docker"
+            }
+        },
+
+        "Resume": {
+            "WorkExp": {
+                "First": {
+                    "title": "Ingénieur administrateur système HPC (Apprentissage)",
+                    "subtitle": "Bull",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Maintenance et administration de clusters de calcul haute performance (HPC) sous GNU/Linux..",
+                    "points": {
+                        "first": "Apprentissage des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring, ...",
+                        "second": "Maîtrise de l'administration de systèmes GNU/Linux",
+                        "third": "Développement de procédures d'automatisations via des scripts (Python)",
+                        "fourth": "Rédaction de documentations techniques et de procédures d'exploitation",
+                        "fifth": "Support de niveau 1 et 2 sur la stack logicielle fournie par le client"
+                    }
+                },
+                "Second": {
+                    "title": "Développeur full-stack (Apprentissage)",
+                    "subtitle": "ADCOSOFT",
+                    "startDate": "Oct 2024",
+                    "endDate": "Sep 2026",
+                    "description": "Développement de solutions majoritairement orientées web, avec une composante en comptabilité.",
+                    "points": {
+                        "first": "Développement d'API HTTP en Python (FastAPI)",
+                        "second": "Création d'interfaces web en TypeScript (Next.js 15)",
+                        "third": "Conception de systèmes d'authentification",
+                        "fourth": "Maintenance et configuration du parc informatique de l'entreprise",
+                        "fifth": "Création de scripts de synchronisation et de traitement manipulant des données comptables sensibles",
+                        "sixth": "Mise en place d'un pipeline de traitement des mails et messages whatsapp d'une entreprise en temps réel. Analyse et reclassement automatique par un grand modèle de langage hébergé localement (Hermes agent, Python, ollama)"
+                    }
+                }
+            },
+            "Education": {
+                "First": {
+                    "title": "Diplôme d'ingénieur spécialité Informatique",
+                    "subtitle": "Ecole nationale supérieure d'informatique pour l'industrie et l'entreprise",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Diplôme d'ingénieur développé autour de 4 axes : informatique, mathématiques de la décision, connaissance des entreprises, et formation humaine. J'envisage de choisir la spécialité \"Programmation GPU\" qui comprend :",
+                    "points": {
+                        "first": "Programmation (parallélisme, optimisation, gestion des erreurs, API, ...)",
+                        "second": "Architecture GPU et écosystème CUDA",
+                        "third": "Portage de code C ou C++ vers GPU"
+                    }
+                },
+                "Second": {
+                    "title": "Bachelor Universitaire de Technologie Informatique",
+                    "subtitle": "IUT de Villetaneuse",
+                    "startDate": "Sep 2023",
+                    "endDate": "Sep 2026",
+                    "description": "Formation en informatique axée sur la pratique au travers de projets concrets. De nombreux domaines sont enseignés :",
+                    "points": {
+                        "first": "Optimisation algorithmique",
+                        "second": "Développement web et mobile",
+                        "third": "Administration système et réseau",
+                        "fourth": "Communication, travail en équipe et gestion de projet"
+                    }
+                },
+                "Third": {
+                    "title": "Baccalauréat général",
+                    "subtitle": "Lycée Jean Zay",
+                    "startDate": "Sep 2020",
+                    "endDate": "Jun 2023",
+                    "description": "Diplôme obtenu avec mention bien.",
+                    "points": {
+                        "first": "Spécialités : Mathématiques, Physique-Chimie, LLCR (en première)",
+                        "second": "Options : Mathématiques expertes, Anglais section européenne"
+                    }
+                }
             }
         }
     },
