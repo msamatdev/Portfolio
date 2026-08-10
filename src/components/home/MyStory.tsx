@@ -3,6 +3,7 @@
 import { Reveal } from "@/components/Reveal";
 import Separator from "@/components/Separator";
 import { Guitar, MountainSnow, Fuel, LucideIcon } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 type Language = {
   name: string;
@@ -14,39 +15,38 @@ type Interest = {
   icon: LucideIcon;
 };
 
-const languages: Language[] = [
-  { name: "Français", level: "Langue maternelle" },
-  { name: "Anglais", level: "Courant" },
-  { name: "Allemand", level: "Notions" },
-];
-
-const interests: Interest[] = [
-  { label: "Guitare électrique (autodidacte)", icon: Guitar },
-  { label: "Simracing", icon: Fuel },
-  { label: "Randonnée", icon: MountainSnow },
-];
-
 export default function MyStory() {
+  const t = useTranslations("HomePage.Biography");
+
+  const languages: Language[] = [
+    { name: t('languages.french'), level: t('languages.frenchLevel') },
+    { name: t('languages.english'), level: t('languages.englishLevel') },
+    { name: t('languages.german'), level: t('languages.germanLevel') },
+  ];
+
+  const interests: Interest[] = [
+    { label: t('interests.guitar'), icon: Guitar },
+    { label: t('interests.simRacing'), icon: Fuel },
+    { label: t('interests.hiking'), icon: MountainSnow },
+  ];
+
   return (
     <Reveal className="grid grid-cols-1 md:grid-cols-5 mt-4 px-4 gap-y-10 md:gap-x-12">
       <div className="flex flex-col gap-8 text-foreground/70 md:col-span-3 col-span-1 text-justify">
         <div>
           <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">
-            Biographie
+            {t('title')}
           </h3>
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Aenean euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl.
+          {t('paragraph1')}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl.
+          {t('paragraph2')}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl eget ultricies aliquam, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl.
+          {t('paragraph3')}
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function MyStory() {
         <div className="flex flex-col gap-6 rounded-2xl border border-foreground/10 p-6">
           <div className="flex flex-col gap-4">
             <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">
-              Langues
+              {t('languages.title')}
             </h4>
 
             <ul className="flex flex-col gap-4">
@@ -71,7 +71,7 @@ export default function MyStory() {
 
           <div className="flex flex-col gap-4">
             <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-foreground/50">
-              Centres d&apos;intérêt
+              {t('interests.title')}
             </h4>
 
             <ul className="flex flex-col gap-3">

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/Reveal";
 import Lightfall from "@/components/Lightfall";
 import { Linkedin, Github, Copy, Check } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const EMAIL = "mathis.samat@gmail.com";
 const LINKEDIN_URL = "https://linkedin.com/in/mathis-samat";
@@ -18,6 +19,8 @@ export default function ContactMe() {
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
+  const t = useTranslations("HomePage.Contact");
 
   return (
     <section className="relative w-full h-[45vh] min-h-[420px] mt-24 px-4 mb-8 overflow-hidden rounded-2xl">
@@ -48,10 +51,10 @@ export default function ContactMe() {
       <Reveal className="relative z-10 flex h-full flex-col items-center justify-center gap-6 px-4 text-center">
         <div className="flex flex-col gap-3 max-w-2xl">
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
-            Let&apos;s have a chat
+            {t('title')}
           </h2>
-          <p className="text-foreground/70 text-sm md:text-base max-w-md mx-auto">
-            My inbox is always open. If you have a question or if you want to get in touch, I&apos;ll try my best to get back to you as soon as possible.
+          <p className="text-foreground/70 text-sm md:text-base max-w-md mx-auto text-center">
+            {t('subtitle')}
           </p>
         </div>
 

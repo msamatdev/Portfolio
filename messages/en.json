@@ -24,7 +24,6 @@
             "hello": "Hey there!",
             "iAm": "I am",
             "a": "a",
-
             "frenchStudent": "french student",
             "frenchDeveloper": "french developer",
             "techSavvy": "tech savvy",
@@ -33,35 +32,26 @@
             "introP1": "From September onward, I will pursue a Computer Science Engineering degree at ",
             "introP2": " while working as a Systems Engineer Apprentice in High-Performance Computing (HPC) at ",
             "butInformatique": "A three-year academic program in France. It covers topics such as algorithms, databases, and software development.",
-
             "browseProjects": "Browse projects",
-
             "contactMe": "Contact me"
         },
-
         "StatsCard": {
             "yearsOnLinux": "Years on Linux",
             "professionalExperience": "Professional experiences",
             "hoursOfCoding": "Hours of coding"
         },
-
         "Traits": {
             "myTraits": "My traits",
-
             "eager": "Eager",
             "eagerDescription": "Enthusiastic to continuously improve my skills, I dedicate myself to doing my absolute best when facing challenges, and I see them as opportunities to learn more.",
-
             "driven": "Driven",
             "drivenDescription": "I deeply enjoy coding, to the extent that I can spend multiple hours, without even realizing it, to explore a new tool.",
-
             "curious": "Curious",
             "curiousDescription": "Everything in IT is interesting for me, so I am always seeking to learn more about it. That is why I have an important knowledge of multiple subjects."
         },
-
         "SelectedProjects": {
             "selectedProjects": "Selected projects",
             "learnMore": "LEARN MORE",
-
             "First": {
                 "name": "Hosting machine setup",
                 "description": "My friends and I wanted to play together but renting servers would be inefficient and cost expensive. So, I turned a friend's spare laptop into a machine that could host multiple game servers simultaneously.",
@@ -70,7 +60,6 @@
                 "secondTag": "Hosting",
                 "thirdTag": "Networking"
             },
-
             "Second": {
                 "name": "Bike rental app development",
                 "description": "I worked with a group of four other people to create a bike rental application for a university project. We built an API, a web application, a mobile application and we used Docker to containerize the backend.",
@@ -80,7 +69,6 @@
                 "thirdTag": "Docker"
             }
         },
-
         "Resume": {
             "WorkExp": {
                 "First": {
@@ -115,7 +103,7 @@
             },
             "Education": {
                 "First": {
-                    "title": "(Master's degree) Engineering degree in Computer Science",
+                    "title": "(Master's degree) Engineering degree in CS",
                     "subtitle": "Ecole nationale supérieure d'informatique pour l'industrie et l'entreprise",
                     "startDate": "Sep 2026",
                     "endDate": "Aug 2029",
@@ -151,63 +139,80 @@
                     }
                 }
             }
+        },
+        "Biography": {
+            "title": "Biography",
+            "languages": {
+                "title": "Languages",
+                "french": "French",
+                "frenchLevel": "Native (C2)",
+                "english": "English",
+                "englishLevel": "Fluent (B2/C1)",
+                "german": "German",
+                "germanLevel": "Pre-intermediate (~A1)"
+            },
+            "interests": {
+                "title": "Interests",
+                "guitar": "Electric Guitar",
+                "simRacing": "SimRacing",
+                "hiking": "Hiking"
+            },
+            "paragraph1": "I am Mathis SAMAT, a 19-year-old student passionate about computer science. I discovered my interest in this field at the age of 15, when I created my first Linux virtual machine and started hosting servers locally. I naturally went on to pursue a BUT in Computer Science (a French Bachelor's-level degree) after high school to deepen my knowledge.",
+            "paragraph2": "During my Bachelor's, I had the opportunity to work as an apprentice full-stack developer. This allowed me to become familiar with API design, web application development, and communication between different machines using various protocols such as WebSocket.",
+            "paragraph3": "Over time, I gradually became interested in low-level computing. I gained a solid understanding of advanced concepts, including pointers, memory management with the stack and the heap, as well as virtualization using Linux namespaces. I then turned toward advanced system administration, specifically in HPC (High-Performance Computing). I particularly enjoy the challenges it presents: automation, fast access to resources, managing a substantial IT infrastructure, and more."
+        },
+        "WorkPhilosophy": {
+            "titlePrefix": "My approach",
+            "title": "Professional philosophy",
+            "quote": "I approach every problem the way I'd design a system: decompose it into well-defined components, validate each one independently, then assemble them into something robust. Shortcuts might save time today, but solid structure saves it tomorrow."
+        },
+        "Contact": {
+            "title": "Let's connect",
+            "subtitle": "My inbox is always open if you have a question or if you want to get in touch. I will get back to you as soon as possible."
         }
     },
     "ContactPage": {
         "title": "Contact me",
-
         "letsConnect": "Let's connect!",
         "description": "My inbox is always open. If you have a question or if you want to get in touch, I'll try my best to get back to you as soon as possible.",
-        
         "sendMeAMessage": "Send me a message",
-
         "subject": "Subject",
         "subjectPlaceholder": "Just saying hi",
-
         "messagePlaceholder": "Let's talk about...",
-
         "send": "Send"
     },
     "PrivacyPolicyPage": {
         "title": "Privacy policy",
-        
         "thirdParty": "Third party",
         "thirdPartyContentP1": "Only one third party is used by this website : ",
         "thirdPartyContentP2": "It mainly tracks the number of visitors, their devices types, their devices OS, their country, the web vital, and the number of times a page has been visited. No other data is shared with any other third party, and there is not any intrusive tracking.",
-        
         "cookies": "Cookies",
         "cookiesContent": "The first cookie used on this website is from Vercel, the hosting provider. Vercel uses a cookie to store an identifier for each user session, in order to avoid counting the same user multiple times. It is only used by Vercel and not shared with any other third party. The second cookie only stores the user's language preference, and it is only stored on the user's browser."
     },
     "LegalNoticePage": {
         "title": "Legal notice",
-
         "copyrightNotice": {
             "title": "Copyright notice",
             "description": "All content, including text, images, and graphics on this website is the property of Mathis SAMAT unless otherwise stated. This content is protected by copyright laws and international treaties. Unauthorized use, reproduction, or distribution of any material from this site is strictly prohibited without prior written consent from Mathis SAMAT."
         },
-
         "websiteOwner": {
             "title": "Website owner",
             "description": "The owner and administrator of this website is Mathis SAMAT. You can contact him at "
         },
-
         "websiteHosting": {
             "title": "Website hosting",
             "description": "This website is hosted by Vercel with the free plan."
         },
-
         "links": {
             "title": "Links",
             "description": "This website may contain links to external websites that are not provided or maintained by Mathis SAMAT. These links are provided solely for your convenience and reference. He shall not be responsible for the content of any linked site, or any link contained within a linked site. In addition, all links towards this website are permitted as long as the origin does not diffuse any content that could be considered as offensive."
         },
-
         "lawsAndDataCollection": {
             "title": "Laws and data collection",
             "descriptionP1": "Everything collected on this website is mentionned in the ",
             "privacyPolicy": "privacy policty",
             "descriptionP2": "Also, the collected data follows the General Data Protection Regulation (GDPR)."
         },
-
         "changes": {
             "title": "Changes to this legal notice",
             "description": "Mathis SAMAT reserves the right to update or modify this legal notice at any time without prior notice. Your use of this website following any such change constitutes your agreement to follow and be bound by the updated legal notice."
@@ -216,37 +221,29 @@
     "AboutPage": {
         "aboutMeSection": {
             "title": "About me",
-
             "description": {
                 "firstPart": "I am Mathis SAMAT, a 19 year old student in France. I like science, so I specialized in Mathematics, Chemistry and Physics in secondary school.",
                 "secondPart": "Throughout the years, I have discovered a lot about computers, and the more I dived into them, the more I was curious about them. After trying 3D Modeling, server hosting, image editing, writing my first lines of code, ... I was hooked, so I decided to study IT.",
                 "thirdPart": "Now, I am working during an internship as a fullstack developer in a small company, where I develop accounting solutions. In the future, I would love to become a cybersecurity engineer because I am passionate about it."
             }
         },
-
         "tools": {
             "title": "My main tools",
-
             "average": "Average",
             "good": "Good",
             "beginner": "Beginner",
-
             "learnAtUniv": "Learnt at university",
             "selfTaught": "Learnt on my own",
             "mostlySelfTaught": "Mostly self-taught"
         },
-
         "outsideUniversity": {
             "title": "Outside university",
-
             "p1": "Besides my interest in coding, I have multiple passions that I enjoy when I am not at university or coding at home.",
-
             "p2": {
                 "p1": "Firstly, I am a car enthusiast. I am currently getting my license, and I genuinely enjoy sim racing. As a matter of fact, I participated in a ",
                 "link": "time attack competition",
                 "p2": " back in 2023 whose creator is a youtuber with almost 800 000 subscribers. When I uploaded my score, I stayed for multiple days on the podium, and I ended up in 12th place at the end. I am still proud of it, since, because of school, I didn't have a lot of time to practice unlike the others, so I couldn't do a lot of tries to improve my time."
             },
-
             "p3": "In addition, I do like hiking in beautiful places, which helps me to stay balanced and full of energy, bringing productivity and fresh perspective to my work. Here, you can scroll to see some of the best pictures I took when hiking in my opinion."
         }
     },
@@ -255,7 +252,6 @@
         "description": "Here are several projects I have worked on. Some of them were made on my free time, while others have been made in university. This page does not contain all my projects, some will be added in the future.",
         "showEverything": "Show everything",
         "sort": "Sort by",
-
         "Projects": {
             "1": {
                 "title": "Hosting machine setup",
@@ -270,7 +266,6 @@
                 "text": "I worked with a group of four other people to create a bike rental application for a university project. It is made of a web application, an android application, an API and a database."
             }
         },
-
         "Tags": {
             "linux": "Linux",
             "networking": "Networking",
@@ -285,17 +280,14 @@
         "TableOfContents": {
             "title": "Table of contents"
         },
-
         "Components": {
             "Breadcrumb": {
                 "home": "Home",
                 "projects": "Projects"
             }
         },
-
         "HostingProject": {
             "title": "Hosting machine setup",
-            
             "TableOfContents": {
                 "context": "Context",
                 "usb": "Making a bootable USB drive",
@@ -303,7 +295,6 @@
                 "hosting": "Hosting game servers",
                 "conclusion": "Conclusion"
             },
-
             "Text": {
                 "p1": "My friends and I wanted to play video games together, but renting a server was expensive, and we could not change the game the server hosted: we would need to rent a different server every time we wanted to play another game together. One of them came up with an idea: he had a spare laptop that is powerful enough to run multiple servers at the same time, and I had the knowledge to host game servers on it. So, we agreed that he would provide the laptop, and that I would be the one configuring the machine and the servers.",
                 "p2": "Firstly, I had to pick an operating system. I chose Linux over Windows because I had enough experience to make servers on it, and Linux is more lightweight than Windows so our game servers could have more resources allocated. For instance, Windows uses more than 4GB of RAM on idle whereas a lightweight distribution of Linux uses less than 2GB.",
@@ -315,10 +306,8 @@
                 "p8": "My friends and I were facing a problem: we could not play several video games together because renting servers would cost us money. We made a brainstorming and we found a solution: to host our own servers. Being skilled enough to do that, I have been the one setting up the machine and creating and managing the servers. It allowed me to gain knowledge about Linux, the way a network works, how to secure a machine, and how to host servers in general."
             }
         },
-
         "PortfolioProject": {
             "title": "Portfolio creation",
-
             "TableOfContents": {
                 "context": "Context",
                 "frameworks": "Choosing the tools",
@@ -327,7 +316,6 @@
                 "progressing": "Making the other pages",
                 "conclusion": "Conclusion"
             },
-
             "Text": {
                 "p1": "I wanted to have a place to show my projects and my personality. So, I started my biggest project yet: an online portfolio made from scratch.",
                 "p2": "After working on it for more than two months, I am honestly happy to see how it turned out. I am proud that I managed to create an entire modern website using a framework, and on my own. I also hope that it will help me find an apprenticeship, since it shows what I am capable of in web development.",
@@ -348,42 +336,33 @@
             }
         },
         "BikeRentalAppProject": {
-          "title": "Bike rental app development",
-                
-          "TableOfContents": {
-            "context": "Context",
-            "stack": "Tools and technologies",
-            "projectManagement": "Project management",
-            "creatingTheAPI": "Building the API",
-            "creatingTheFrontend": "Building the frontend applications",
-            "auth": "Authentication system",
-            "conclusion": "Conclusion"
-          },
-      
-          "Text": {
-              "p1": "In my second year of university (BUT in Computer Science), I took part in a year-long group project where we developed a bike rental app. It gave us the opportunity to build an API with a database, a website, and a mobile app, all while working together as a team.",
-              "p2": "Although we were mostly free to choose the tools we want, we still had to follow a few constraints. We had to use JSON to transfer data, the API had to follow REST architecture, and the project needed to be test-driven.",
-              "p3": "Some features were also mandatory. For example, the final app had to let users get directions to a station, view their reservation history, and more. While the actual reservation process was simulated, the rest of the application was fully functional.",
-
-              "p4": "We used several tools for this project. We built the API with Django, a Python framework that is both intuitive and powerful, especially with features like its ORM (Object-Relational Mapping). We chose PostgreSQL for the database since it's solid and well-suited for our needs. The frontend was built using Next.js, which gave me a chance to reuse the skills I had developed while working on my portfolio. As for the mobile app, we used Flutter so that it could run on both iOS and Android.",
-              "p5": "To containerize the API and the database, we used Docker. It made deployment easier and ensured the API behaved consistently across different environments. We also used Git for version control, which helped us collaborate more effectively.",
-
-              "p6": "To stay organized and work efficiently as a team, we used GitHub Projects to follow an agile development approach. We planned tasks with time and difficulty estimates and kept track of our progress throughout. We also set up continuous integration to make sure that new features didn’t introduce any bugs.",
-
-              "p7": "I handled the initial API configuration, including the use of environment variables to load secret keys. I also implemented features like CORS, which was essential to allow the web app to make requests to the API.",
-              "p8": "To make the API setup easier, I also wrote a script that automatically generates encryption keys, so system administrators wouldn’t have to create each one manually.",
-              "p9": "I developed several endpoints related to bike stations and authentication, which I’ll explain more in detail below.",
-
-              "p10": "On the web app, I applied the skills I learned from building my portfolio. I designed a layout that was reused across all pages by creating a wrapper component to ensure consistent width and element alignment. I also selected the component and icon libraries we used throughout the site to maintain a clean and consistent UI. I worked on many pages, but mainly those related to authentication. I fully built the login, account creation, and profile management pages.",
-              "p11": "For the mobile app, I created the same pages as in the web version, and also worked on other elements like the splash screen. Just like on the web, I designed the general layout and structure that was used across all pages.",
-
-              "p12": "As mentioned earlier, I designed the entire authentication system for the API, the mobile app, and the web app. I created a session token system: when a user logs in, a token is generated and sent to them. These tokens, along with their expiration dates, are stored in the database and used by the frontend apps for any request that requires authentication.",
-              "p13": "I also built an email verification system to ensure that users actually have access to the email they used when signing up. For that, I used the Resend library to send the email, which contains a link to the web app with a token passed in the URL. The token is similar to the authentication tokens but has a much shorter lifespan. When the user clicks the link, the frontend sends a request to the API to validate the token. If it’s valid and not expired, the email is marked as verified in the database.",
-
-              "p14": "To summarize, this project gave me the chance to work on a complex group project and explore a wide range of tools and technologies. I took advantage of my knowledge of web and mobile development, as well as project management. I learned a lot, especially when it comes to building APIs and handling authentication. Working in a team also allowed me to share what I knew, while learning from my teammates through their feedback and ideas. It was a valuable experience that helped me grow as a developer.",
-
-              "sourceCode": "You can access the source code of the app",
-              "here": "here"
+            "title": "Bike rental app development",
+            "TableOfContents": {
+                "context": "Context",
+                "stack": "Tools and technologies",
+                "projectManagement": "Project management",
+                "creatingTheAPI": "Building the API",
+                "creatingTheFrontend": "Building the frontend applications",
+                "auth": "Authentication system",
+                "conclusion": "Conclusion"
+            },
+            "Text": {
+                "p1": "In my second year of university (BUT in Computer Science), I took part in a year-long group project where we developed a bike rental app. It gave us the opportunity to build an API with a database, a website, and a mobile app, all while working together as a team.",
+                "p2": "Although we were mostly free to choose the tools we want, we still had to follow a few constraints. We had to use JSON to transfer data, the API had to follow REST architecture, and the project needed to be test-driven.",
+                "p3": "Some features were also mandatory. For example, the final app had to let users get directions to a station, view their reservation history, and more. While the actual reservation process was simulated, the rest of the application was fully functional.",
+                "p4": "We used several tools for this project. We built the API with Django, a Python framework that is both intuitive and powerful, especially with features like its ORM (Object-Relational Mapping). We chose PostgreSQL for the database since it's solid and well-suited for our needs. The frontend was built using Next.js, which gave me a chance to reuse the skills I had developed while working on my portfolio. As for the mobile app, we used Flutter so that it could run on both iOS and Android.",
+                "p5": "To containerize the API and the database, we used Docker. It made deployment easier and ensured the API behaved consistently across different environments. We also used Git for version control, which helped us collaborate more effectively.",
+                "p6": "To stay organized and work efficiently as a team, we used GitHub Projects to follow an agile development approach. We planned tasks with time and difficulty estimates and kept track of our progress throughout. We also set up continuous integration to make sure that new features didn’t introduce any bugs.",
+                "p7": "I handled the initial API configuration, including the use of environment variables to load secret keys. I also implemented features like CORS, which was essential to allow the web app to make requests to the API.",
+                "p8": "To make the API setup easier, I also wrote a script that automatically generates encryption keys, so system administrators wouldn’t have to create each one manually.",
+                "p9": "I developed several endpoints related to bike stations and authentication, which I’ll explain more in detail below.",
+                "p10": "On the web app, I applied the skills I learned from building my portfolio. I designed a layout that was reused across all pages by creating a wrapper component to ensure consistent width and element alignment. I also selected the component and icon libraries we used throughout the site to maintain a clean and consistent UI. I worked on many pages, but mainly those related to authentication. I fully built the login, account creation, and profile management pages.",
+                "p11": "For the mobile app, I created the same pages as in the web version, and also worked on other elements like the splash screen. Just like on the web, I designed the general layout and structure that was used across all pages.",
+                "p12": "As mentioned earlier, I designed the entire authentication system for the API, the mobile app, and the web app. I created a session token system: when a user logs in, a token is generated and sent to them. These tokens, along with their expiration dates, are stored in the database and used by the frontend apps for any request that requires authentication.",
+                "p13": "I also built an email verification system to ensure that users actually have access to the email they used when signing up. For that, I used the Resend library to send the email, which contains a link to the web app with a token passed in the URL. The token is similar to the authentication tokens but has a much shorter lifespan. When the user clicks the link, the frontend sends a request to the API to validate the token. If it’s valid and not expired, the email is marked as verified in the database.",
+                "p14": "To summarize, this project gave me the chance to work on a complex group project and explore a wide range of tools and technologies. I took advantage of my knowledge of web and mobile development, as well as project management. I learned a lot, especially when it comes to building APIs and handling authentication. Working in a team also allowed me to share what I knew, while learning from my teammates through their feedback and ideas. It was a valuable experience that helped me grow as a developer.",
+                "sourceCode": "You can access the source code of the app",
+                "here": "here"
             }
         }
     }
