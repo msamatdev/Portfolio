@@ -54,7 +54,7 @@
             "learnMore": "EN SAVOIR PLUS",
             "First": {
                 "name": "Hébergement de serveurs",
-                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément. J'ai configuré la machine, sécurisé le système, et géré les serveurs.",
+                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément. J'ai configuré la machine et le réseau, sécurisé le système, et découvert l'hébergement.",
                 "date": "Janvier 2024",
                 "firstTag": "Linux",
                 "secondTag": "Hébergement",
@@ -62,7 +62,7 @@
             },
             "Second": {
                 "name": "Application de réservation",
-                "description": "En groupe de cinq étudiants, nous avons créé une application de location de vélos dans le cadre d'un projet universitaire. Nous avons construit une API, une application web, une application mobile et nous avons utilisé Docker pour conteneuriser le backend.",
+                "description": "Au sein d'un groupe de cinq étudiants, j'ai participé à la création d'une application de location de vélos dans le cadre d'un projet universitaire. Nous avons construit une API, une application web, une application mobile et nous avons utilisé Docker pour conteneuriser le backend.",
                 "date": "Octobre 2024 - juin 2025",
                 "firstTag": "Université",
                 "secondTag": "Python",
@@ -158,7 +158,7 @@
                 "hiking": "Randonnée"
             },
             "paragraph1": "Je suis Mathis SAMAT, un étudiant de 19 ans passionné par l'informatique. J'ai découvert mon intérêt pour ce domaine à l'âge de 15 ans, lorsque j'ai créé ma première machine virtuelle sous Linux et commencé à héberger localement des serveurs. Je me suis ainsi naturellement orienté en BUT Informatique après le lycée pour approfondir mes connaissances.",
-            "paragraph2": "Au cours de mon Bachelor, j'ai eu l'opportunité de travailler en apprentissage en tant que développeur full-stack. Cela m'a permis de me familiariser avec la conception d'API, d'applications web, et la communication entre différentes machines avec plusieurs protocoles tels que websocket.",
+            "paragraph2": "Au cours de mon Bachelor, j'ai eu l'opportunité de travailler en apprentissage en tant que développeur full-stack. Cela m'a permis de me familiariser avec la conception d'API, d'applications web, et la communication entre différentes machines avec plusieurs protocoles tels que WebSocket.",
             "paragraph3": "Au fil du temps, je me suis progressivement intéressé au bas niveau. J'ai acquis une bonne compréhension de concepts avancés, notamment les pointeurs, la mémoire avec la stack et le heap, ainsi que la virtualisation à l'aide des namespaces sous linux. Je me suis alors orienté vers l'administration système avancée, spécifiquement en HPC. J'apprécie en effet les défis qu'il propose : automatisation, rapidité d'accès aux ressources, gestion d'un parc informatique conséquent, et plus encore."
         },
         "WorkPhilosophy": {
