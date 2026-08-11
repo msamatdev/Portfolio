@@ -4,10 +4,11 @@ import Particles from "@/components/Particles";
 import HeyThere from "@/components/home/HeyThere";
 import Card from "@/components/home/Card";
 import MaxWidthWrapper from "../MaxWidthWrapper";
+import { Reveal } from "../Reveal";
 
 export default function HomeCover() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden bg-secondary/5">
       {/* Background */}
       <div className="absolute inset-0 z-10">
         <Particles
@@ -25,9 +26,11 @@ export default function HomeCover() {
       </div>
 
       {/* Foreground */}
-      <MaxWidthWrapper className="relative min-h-screen flex flex-col">
-        <HeyThere />
-        <Card />
+      <MaxWidthWrapper className="relative min-h-screen flex flex-col items-center justify-center">
+        <Reveal>
+          <HeyThere />
+          <Card />
+        </Reveal>
       </MaxWidthWrapper>
     </div>
   );

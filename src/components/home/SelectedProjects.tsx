@@ -5,6 +5,7 @@ import { MousePointerClick, CalendarDays } from "lucide-react";
 import Separator from "@/components/Separator";
 import { useTranslations } from "next-intl";
 import BorderGlow from "@/components/BorderGlow";
+import { Reveal } from "../Reveal";
 
 const SelectedProjects = () => {
   const t = useTranslations('HomePage.SelectedProjects');
@@ -39,7 +40,7 @@ const SelectedProjects = () => {
   ];
 
   return (
-    <div className="md:px-24 px-8 mt-32">
+    <Reveal className="px-4 mt-24">
       <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">
         {t('selectedProjects')}
       </h3>
@@ -51,13 +52,13 @@ const SelectedProjects = () => {
           return (
             <Link key={project.id} href={project.href}>
               <BorderGlow
-                edgeSensitivity={30}
+                edgeSensitivity={16}
                 glowColor="40 80 80"
                 backgroundColor="#120F17"
                 borderRadius={10}
-                glowRadius={40}
+                glowRadius={80}
                 glowIntensity={1}
-                coneSpread={100}
+                coneSpread={200}
                 animated={false}
                 colors={['#7C3AED', '#7C3AED','#5b38f8']}
                 className="p-6 rounded-md dark:bg-muted/10 border-2 border-muted shadow-md hover:scale-105 animateCardsSize"
@@ -93,7 +94,7 @@ const SelectedProjects = () => {
           );
         })}
       </div>
-    </div>
+    </Reveal>
   );
 };
 

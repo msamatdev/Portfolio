@@ -24,117 +24,195 @@
             "hello": "Bonjour !",
             "iAm": "Je suis",
             "a": "un",
-
             "frenchStudent": "étudiant",
             "frenchDeveloper": "développeur",
             "techSavvy": "passionné d'informatique",
             "simRacer": "fan de SimRacing",
             "carEnthusiast": "passionné d'automobile",
-            "intro": "Etant curieux et très intéressé par l'informatique, j'étudie depuis septembre 2023 la programmation à l'université de Villetaneuse en ",
+            "introP1": "À partir de septembre, j'intégrerai l'",
+            "introP2": " afin d'obtenir un diplôme d'ingénieur en informatique, tout en travaillant en tant qu'apprenti ingénieur systèmes en calcul haute performance (HPC) chez ",
             "butInformatique": "Ex-DUT Informatique. Un cursus sur trois ans qui couvre des sujets tels que l'algorithmie, la gestion des données, et la programmation logiciel.",
-
             "browseProjects": "Mes projets",
-
             "contactMe": "Me contacter"
         },
-
         "StatsCard": {
             "yearsOnLinux": "Années sous Linux",
             "professionalExperience": "Expériences professionnelles",
             "hoursOfCoding": "Heures de codage"
         },
-
         "Traits": {
             "myTraits": "Mes traits",
-
             "eager": "Enthousiaste",
             "eagerDescription": "Toujours enthousiaste à l'idée d'améliorer mes compétences, je me consacre à donner le meilleur de moi-même face aux défis, que je considère comme des occasions d'apprendre davantage.",
-
             "driven": "Passionné",
             "drivenDescription": "J'aime particulièrement coder et apprendre de nouvelles technologies, au point de pouvoir passer plusieurs heures sans m'en rendre compte à explorer un nouvel outil.",
-
             "curious": "Curieux",
             "curiousDescription": "Tout ce qui touche à l'informatique m'intéresse, c'est pourquoi je cherche constamment à en apprendre davantage. C'est aussi la raison pour laquelle j'ai des connaissance assez avancées dans de nombreux domaines."
         },
-        
         "SelectedProjects": {
             "selectedProjects": "Projets sélectionnés",
             "learnMore": "EN SAVOIR PLUS",
-
             "First": {
                 "name": "Hébergement de serveurs",
-                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément. J'ai configuré la machine, sécurisé le système, et géré les serveurs.",
+                "description": "Afin de pouvoir jouer avec mes amis à certains jeux vidéos en ligne, j'ai transformé un ordinateur portable en une machine sous Linux qui héberge plusieurs serveurs de jeux simultanément. J'ai configuré la machine et le réseau, sécurisé le système, et découvert l'hébergement.",
                 "date": "Janvier 2024",
                 "firstTag": "Linux",
                 "secondTag": "Hébergement",
                 "thirdTag": "Réseau"
             },
-
             "Second": {
                 "name": "Application de réservation",
-                "description": "J'ai travaillé avec un groupe de quatre autres personnes pour créer une application de location de vélos dans le cadre d'un projet universitaire. Nous avons construit une API, une application web, une application mobile et nous avons utilisé Docker pour conteneuriser le backend.",
+                "description": "Au sein d'un groupe de cinq étudiants, j'ai participé à la création d'une application de location de vélos dans le cadre d'un projet universitaire. Nous avons construit une API, une application web, une application mobile et nous avons utilisé Docker pour conteneuriser le backend.",
                 "date": "Octobre 2024 - juin 2025",
                 "firstTag": "Université",
                 "secondTag": "Python",
                 "thirdTag": "Docker"
             }
+        },
+        "Resume": {
+            "WorkExp": {
+                "First": {
+                    "title": "Ingénieur administrateur système HPC (Apprentissage)",
+                    "subtitle": "Bull",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Maintenance et administration de clusters de calcul haute performance (HPC) sous GNU/Linux..",
+                    "points": {
+                        "first": "Apprentissage des couches logicielles et d'administration HPC : Slurm, Lustre, InfiniBand, OpenMPI, Monitoring, ...",
+                        "second": "Maîtrise de l'administration de systèmes GNU/Linux",
+                        "third": "Développement de procédures d'automatisations via des scripts (Python)",
+                        "fourth": "Rédaction de documentations techniques et de procédures d'exploitation",
+                        "fifth": "Support de niveau 1 et 2 sur la stack logicielle fournie par le client"
+                    }
+                },
+                "Second": {
+                    "title": "Développeur full-stack (Apprentissage)",
+                    "subtitle": "ADCOSOFT",
+                    "startDate": "Oct 2024",
+                    "endDate": "Sep 2026",
+                    "description": "Développement de solutions majoritairement orientées web, avec une composante en comptabilité.",
+                    "points": {
+                        "first": "Développement d'API HTTP en Python (FastAPI)",
+                        "second": "Création d'interfaces web en TypeScript (Next.js 15)",
+                        "third": "Conception de systèmes d'authentification",
+                        "fourth": "Maintenance et configuration du parc informatique de l'entreprise",
+                        "fifth": "Création de scripts de synchronisation et de traitement manipulant des données comptables sensibles",
+                        "sixth": "Mise en place d'un pipeline de traitement des mails et messages whatsapp d'une entreprise en temps réel. Analyse et reclassement automatique par un grand modèle de langage hébergé localement (Hermes agent, Python, ollama)"
+                    }
+                }
+            },
+            "Education": {
+                "First": {
+                    "title": "Diplôme d'ingénieur spécialité Informatique",
+                    "subtitle": "Ecole nationale supérieure d'informatique pour l'industrie et l'entreprise",
+                    "startDate": "Sep 2026",
+                    "endDate": "Aug 2029",
+                    "description": "Diplôme d'ingénieur développé autour de 4 axes : informatique, mathématiques de la décision, connaissance des entreprises, et formation humaine. J'envisage de choisir la spécialité \"Programmation GPU\" qui comprend :",
+                    "points": {
+                        "first": "Programmation (parallélisme, optimisation, gestion des erreurs, API, ...)",
+                        "second": "Architecture GPU et écosystème CUDA",
+                        "third": "Portage de code C ou C++ vers GPU"
+                    }
+                },
+                "Second": {
+                    "title": "Bachelor Universitaire de Technologie Informatique",
+                    "subtitle": "IUT de Villetaneuse",
+                    "startDate": "Sep 2023",
+                    "endDate": "Sep 2026",
+                    "description": "Formation en informatique axée sur la pratique au travers de projets concrets. De nombreux domaines sont enseignés :",
+                    "points": {
+                        "first": "Optimisation algorithmique",
+                        "second": "Développement web et mobile",
+                        "third": "Administration système et réseau",
+                        "fourth": "Communication, travail en équipe et gestion de projet"
+                    }
+                },
+                "Third": {
+                    "title": "Baccalauréat général",
+                    "subtitle": "Lycée Jean Zay",
+                    "startDate": "Sep 2020",
+                    "endDate": "Jun 2023",
+                    "description": "Diplôme obtenu avec mention bien.",
+                    "points": {
+                        "first": "Spécialités : Mathématiques, Physique-Chimie, LLCR (en première)",
+                        "second": "Options : Mathématiques expertes, Anglais section européenne"
+                    }
+                }
+            }
+        },
+        "Biography": {
+            "title": "Biographie",
+            "languages": {
+                "title": "Langues",
+                "french": "Français",
+                "frenchLevel": "Langue maternelle (C2)",
+                "english": "Anglais",
+                "englishLevel": "Niveau professionnel (B2/C1)",
+                "german": "Allemand",
+                "germanLevel": "Connaissance limitée (~A1)"
+            },
+            "interests": {
+                "title": "Centres d'intérêt",
+                "guitar": "Guitare électrique",
+                "simRacing": "Simulation automobile",
+                "hiking": "Randonnée"
+            },
+            "paragraph1": "Je suis Mathis SAMAT, un étudiant de 19 ans passionné par l'informatique. J'ai découvert mon intérêt pour ce domaine à l'âge de 15 ans, lorsque j'ai créé ma première machine virtuelle sous Linux et commencé à héberger localement des serveurs. Je me suis ainsi naturellement orienté en BUT Informatique après le lycée pour approfondir mes connaissances.",
+            "paragraph2": "Au cours de mon Bachelor, j'ai eu l'opportunité de travailler en apprentissage en tant que développeur full-stack. Cela m'a permis de me familiariser avec la conception d'API, d'applications web, et la communication entre différentes machines avec plusieurs protocoles tels que WebSocket.",
+            "paragraph3": "Au fil du temps, je me suis progressivement intéressé au bas niveau. J'ai acquis une bonne compréhension de concepts avancés, notamment les pointeurs, la mémoire avec la stack et le heap, ainsi que la virtualisation à l'aide des namespaces sous linux. Je me suis alors orienté vers l'administration système avancée, spécifiquement en HPC. J'apprécie en effet les défis qu'il propose : automatisation, rapidité d'accès aux ressources, gestion d'un parc informatique conséquent, et plus encore."
+        },
+        "WorkPhilosophy": {
+            "titlePrefix": "Mon approche",
+            "title": "Philosophie professionnelle",
+            "quote": "Face à un problème, j'adopte la même démarche que pour concevoir un système : décomposer, valider chaque partie séparément, puis assembler le tout avec rigueur. Avancer trop rapidement, sans une structure claire, introduit une dette technique coûteuse à corriger."
+        },
+        "Contact": {
+            "title": "Entrons en contact",
+            "subtitle": "N'hésitez pas à m'envoyer un mail. Je ferai de mon mieux pour vous répondre dans les plus brefs délais."
         }
     },
     "ContactPage": {
         "title": "Me contacter",
-
         "letsConnect": "Entrons en contact !",
         "description": "Si vous souhaitez me contacter, n'hésitez pas à m'envoyer un message via le formulaire présent sur cette page. Je vous répondrai dès que possible !",
-        
         "sendMeAMessage": "Envoyez-moi un message",
-
         "subject": "Sujet",
         "subjectPlaceholder": "Demande de renseignement",
-
         "messagePlaceholder": "Bonjour, j'aimerais vous parler de ...",
-
         "send": "Envoyer"
     },
     "PrivacyPolicyPage": {
         "title": "Politique de confidentialité",
-        
         "thirdParty": "Tierces parties",
         "thirdPartyContentP1": "Une seule tierce partie est utilisée par le site : ",
         "thirdPartyContentP2": "Celle-ci traque le nombre de visiteurs, le type de leur machine, leur pays, et le nombre de fois qu'ils visitent une page. Aucune autre donnée est partagée avec une tierce partie.",
-        
         "cookies": "Cookies",
         "cookiesContent": "Le premier cookie utilisé par ce site provient de Vercel, l'hébergeur du site. Il est utilisé pour stocker un identifiant unique pour chaque session, afin d'éviter de compter plusieurs fois le même utilisateur. Le second cookie utilisé par le site enregistre la langue préférée de l'utilisateur, et est stocké uniquement sur le navigateur de l'utilisateur."
     },
     "LegalNoticePage": {
         "title": "Mentions légales",
-
         "copyrightNotice": {
             "title": "Notice de droit d'auteur",
             "description": "Tout le contenu, y compris les textes, images et graphiques de ce site web, est la propriété de Mathis SAMAT, sauf indication contraire. Ce contenu est protégé par les lois sur le droit d’auteur et les traités internationaux. Toute utilisation, reproduction ou distribution non autorisée de tout élément de ce site est strictement interdite sans le consentement écrit préalable de Mathis SAMAT."
         },
-
         "websiteOwner": {
             "title": "Propriétaire du site web",
             "description": "Le propriétaire et administrateur de ce site web est Mathis SAMAT. Pour toute question ou demande d'information, vous pouvez le contacter à l'adresse "
         },
-
         "websiteHosting": {
             "title": "Hébergement du site web",
             "description": "Ce site est hébergé par Vercel avec le tier gratuit. Pour plus d'information sur Vercel, dirigez-vous vers leur site web."
         },
-
         "links": {
             "title": "Liens vers d'autres sites",
             "description": "Ce site peut contenir des liens vers d'autres sites web. Ces liens sont fournis uniquement pour votre commodité et à titre de référence. Le propriétaire du site ne saurait être tenu responsable du contenu de tout site lié, ni de tout lien contenu dans un site lié. De plus, tous les liens vers ce site web sont autorisés, à condition que le site d’origine ne diffuse aucun contenu pouvant être considéré comme offensant."
         },
-
         "lawsAndDataCollection": {
             "title": "Lois et collecte de données",
             "descriptionP1": "Ce site web est conforme aux lois en vigueur en France. Il ne collecte aucune donnée personnelle, hormis celles précisées dans la ",
             "privacyPolicy": "politique de confidentialité",
             "descriptionP2": "Par ailleurs, le site respecte le règlement général sur la protection des données (RGPD)."
         },
-
         "changes": {
             "title": "Modifications des mentions légales",
             "description": "Mathis SAMAT se réserve le droit de modifier ces mentions légales à tout moment. Les modifications prendront effet dès leur publication sur ce site. Votre utilisation de ce site web après de telles modifications constitue votre acceptation des nouvelles mentions légales. Il est donc conseillé de consulter régulièrement cette page pour prendre connaissance des éventuelles modifications."
@@ -143,37 +221,29 @@
     "AboutPage": {
         "aboutMeSection": {
             "title": "À propos",
-
             "description": {
                 "firstPart": "Je suis Mathis SAMAT, un étudiant de 19 ans. J'aime particulièrement la science, donc je me suis spécialisé en Mathématiques et Physique-Chimie au lycée.",
                 "secondPart": "Au fil des années, j'ai développé une passion pour l'informatique en essayant plusieurs domaines de ce vaste univers. C'est au final la programmation qui m'a le plus intéressé, et vers laquelle je me suis orienté.",
                 "thirdPart": "Actuellement, je suis alternant en BUT Informatique. Je travaille en tant que développeur fullstack dans une petite entreprise où je développe des solutions variées en rapport la comptabilité. A l'avenir, je souhaiterais devenir ingénieur dans la cybersécurité."
             }
         },
-
         "tools": {
             "title": "Mes principaux outils",
-
             "average": "Assez bon",
             "good": "Maîtrisé",
             "beginner": "Débutant",
-
             "learnAtUniv": "Appris à l'université",
             "selfTaught": "Appris en autonomie",
             "mostlySelfTaught": "Surtout appris en autonomie"
         },
-
         "outsideUniversity": {
             "title": "En dehors de l'université",
-
             "p1": "En dehors de mon intérêt pour le développement, j'ai plusieurs passions auxquelles je me consacre entièrement lorsque je ne suis pas à l'université.",
-
-            "p2" : {
+            "p2": {
                 "p1": "Premièrement, je suis un passionné d'automobile et de simulation automobile (SimRacing). J'ai participé à une compétition organisée par un Youtuber de plus de 800 000 abonnés. Il s'agissait d'une ",
                 "link": "\"course contre la montre\" où j'ai terminé à la 12ème place",
                 "p2": ". Lorsque j'ai réalisé mon meilleur temps, je suis resté sur le podium pendant plusieurs jours. Cependant, je n'ai pas eu le temps de continuer d'encore m'améliorer à cause de mes études, donc d'autres personnes ont pu obtenir un meilleur temps d'ici la fin de l'évènement. Je suis toutefois très content de mon résultat."
             },
-
             "p3": "J'aime par ailleurs beaucoup la randonnée. J'aime découvrir de nouveaux paysages et dépasser mes limites. Cela me permet de me ressourcer et de me déconnecter de la technologie pendant un moment afin de revenir avec de nouvelles idées. Vous pouvez ici faire défiler quelques photos que j'ai pu prendre lors de mes randonnées."
         }
     },
@@ -182,7 +252,6 @@
         "description": "Voici plusieurs projets sur lesquels j'ai travaillé. Certains d'entre eux sont personnels, d'autres sont des projets universitaires. Cette page ne contient pas tous mes projets, certains seront ajoutés dans le futur.",
         "showEverything": "Tout afficher",
         "sort": "Trier",
-
         "Projects": {
             "1": {
                 "title": "Hébergement de serveurs",
@@ -197,7 +266,6 @@
                 "text": "J'ai travaillé en groupe sur une application complexe de réservation de vélib' lors d'un projet universitaire."
             }
         },
-
         "Tags": {
             "linux": "Linux",
             "networking": "Réseau",
@@ -212,17 +280,14 @@
         "TableOfContents": {
             "title": "Table des matières"
         },
-
         "Components": {
             "Breadcrumb": {
                 "home": "Accueil",
                 "projects": "Projets"
             }
         },
-
         "HostingProject": {
             "title": "Hébergement de serveurs",
-            
             "TableOfContents": {
                 "context": "Contexte",
                 "usb": "Création d'une clé USB démarrable",
@@ -230,7 +295,6 @@
                 "hosting": "Hébergement des serveurs de jeu",
                 "conclusion": "Conclusion"
             },
-
             "Text": {
                 "p1": "Mes amis et moi voulions jouer à des jeux vidéo ensemble, mais louer un serveur serait coûteux, et nous ne pourrions pas changer le jeu hébergé sur le serveur : il aurait fallu louer un serveur différent à chaque fois que nous voulions jouer à un autre jeu. L’un d’eux a eu une idée : il avait un ordinateur portable de rechange suffisamment puissant pour faire tourner plusieurs serveurs en même temps, et j’avais les connaissances nécessaires pour héberger des serveurs de jeu dessus. Nous avons donc décidé d'héberger nos propres serveurs avec mes connaissances en administration système et l'ordinateur portable fourni par mon ami.",
                 "p2": "Tout d’abord, j’ai dû choisir un système d’exploitation. J’ai opté pour Linux plutôt que Windows car j’avais suffisamment d’expérience pour créer des serveurs dessus, et Linux est plus léger que Windows, ce qui permet d’allouer plus de ressources aux serveurs de jeu. Par exemple, Windows utilise plus de 4 Go de RAM lorsqu'il n'y a aucune tâche en fond, alors qu’une distribution légère de Linux en utilise moins de 2 Go.",
@@ -242,10 +306,8 @@
                 "p8": "Mes amis et moi étions confrontés à un problème : nous ne pouvions pas jouer à plusieurs jeux vidéo ensemble car louer des serveurs a un coût assez important. Nous avons fait un brainstorming et trouvé une solution : héberger nos propres serveurs. Ayant les compétences pour le faire, je me suis occupé de la configuration de la machine, et de la création et de la gestion des serveurs. Cela m’a permis d’acquérir des connaissances sur Linux, le fonctionnement d’un réseau, la sécurisation d’une machine, et l’hébergement de serveurs en général."
             }
         },
-
         "PortfolioProject": {
             "title": "Site web portfolio",
-
             "TableOfContents": {
                 "context": "Contexte",
                 "frameworks": "Choix des outils",
@@ -254,7 +316,6 @@
                 "progressing": "Création des autres pages",
                 "conclusion": "Pour conclure"
             },
-
             "Text": {
                 "p1": "Je souhaitais créer un endroit où je pourrais présenter mes projets afin de trouver une alternance. C’est ainsi qu’a commencé mon plus gros projet jusqu’à maintenant : créer un portfolio sur internet à partir de zéro.",
                 "p2": "Après plus de deux mois de travail, je suis plutôt satisfait du résultat. Je suis fier d’avoir réussi à développer un site web moderne complet, en utilisant un framework que j'ai appris au fil du projet.",
@@ -274,10 +335,8 @@
                 "here": "ici"
             }
         },
-
         "BikeRentalAppProject": {
             "title": "Application de réservation",
-
             "TableOfContents": {
                 "context": "Contexte",
                 "stack": "Outils et langages utilisés",
@@ -287,29 +346,21 @@
                 "auth": "Système d'authentification",
                 "conclusion": "Conclusion"
             },
-
             "Text": {
                 "p1": "En seconde année de BUT Informatique, j'ai participé à un projet de groupe qui a consisté à développer une application de réservation de vélib'. Le projet s'est déroulé sur toute une année, et m'a permis de travailler avec mon équipe sur une API avec base de données, un site web et une application mobile.",
                 "p2": "Bien que nous étions assez libre dans le choix des outils, nous avons dû respecter des contraintes. Nous devions en effet utiliser le format JSON pour la transmission des données, et l'API se devait de respecter l'architecture REST. Nous devions par ailleurs réaliser un développement piloté par les tests.",
                 "p3": "Certaines fonctionnalités devaient être en outre obligatoirement implémentées. L'application finale devait par exemple permettre à un utilisateur d'obtenir un itinéraire vers une station, consulter son historique de réservations, et plus encore. Bien que la réservation était simulée, le reste était fonctionnel et réel.",
-
                 "p4": "Pour ce projet, nous avons utilisé plusieurs outils. Nous avons choisi de développer l'API en Python avec le framework Django, car il est intuitif et puissant grâce à ses nombreuses fonctionnalités comme l'ORM (Mapping objet-relationnel). Pour la base de données, nous avons opté pour PostgreSQL, qui est robuste et bien adapté aux besoins. Le frontend a été développé avec Next.js, ce qui m'a permis de mettre en oeuvre les compétences que j'avais acquises lors de la création de mon portfolio. En ce qui concerne l'application mobile, nous avons utilisé Flutter afin de pouvoir développer une application compatible sur iOS et Android.",
                 "p5": "Afin de conteneuriser l'API et la base de données, nous avons utilisé Docker. Cela nous a permis de simplifier le déploiement et de garantir que l'API fonctionne de manière cohérente sur différents environnements. Nous avons également utilisé Git pour la gestion du code source, ce qui a facilité la collaboration entre les membres de l'équipe.",
-
                 "p6": "Afin de s'organiser et de collaborer efficacement, nous avons utilisé la fonctionnalité de projet sur GitHub. Cela nous a permis de réaliser un développement agile. Nous avons réalisé une planification des tâches avec estimation du temps et de la difficulté, ainsi qu'un suivi de l'avancement de celles-ci. Pour s'assurer que chaque nouvelle fonctionnalité n'introduise pas de bugs, nous avons mis en place une intégration continue.",
-
                 "p7": "Je me suis occupé de la configuration de l'API, avec notamment l'utilisation de variables d'environnement pour récupérer les clés secrètes. J'ai mis en place certaines fonctionnalités comme le CORS, qui est essentiel pour que les requêtes depuis l'application web vers l'API fonctionne.",
                 "p8": "J'ai également développé un script de génération de clés secrètes utilisées pour le chiffrement des données afin de faciliter la mise en place de l'API sur une machine. Cela permet à un administrateur système de ne pas avoir à générer chaque clé manuellement.",
                 "p9": "Concernant les endpoints, j'ai pu en réaliser plusieurs en rapport avec les stations vélib' et l'authentification dont je parlerai plus en détail ci-dessous.",
-
                 "p10": "Pour l'application web, j'ai pu apporter mes connaissances acquises lors de la création de mon portfolio. J'ai mis en place un design qui a été réutilisé sur toutes les pages du site. Pour ce faire, j'ai créé un Wrapper qui permet d'allouer la même largeur et la même disposition des éléments sur toutes les pages du site. J'ai par ailleurs trouvé les bibliothèques de composants et d'icônes qui ont été utilisées tout au long du développement pour garder une interface cohérente sur toutes les pages. J'ai travaillé sur de nombreuses pages, mais surtout sur celles en rapport avec l'authentification. Je me suis occupé entièrement de la page de connexion, de création de compte, et d'affichage et de modification des informations.",
                 "p11": "Sur l'application mobile, j'ai réalisé les mêmes pages que sur l'application web. J'ai aussi réalisé d'autres éléments comme la page de chargement lors de l'ouverture de l'application. Comme sur l'application web, j'ai réalisé le design global qui a été gardé sur toutes les pages de l'application.",
-
                 "p12": "Comme précisé précédemment, j'ai conçu tout le système d'authentification, que cela soit au niveau de l'API, de l'application mobile ou bien du site web. J'ai créé un système de génération de token de session qui est envoyé à l'utilisateur lors de sa connexion. Les tokens et leur date d'expiration sont stockés dans la base de données, et sont utilisés par les applications web et mobiles lors de chaque requête nécessitant d'être authentifié.",
                 "p13": "J'ai aussi mis en place un système de vérification d'email, qui permet de s'assurer que l'utilisateur a bien accès à l'adresse email qu'il a renseignée lors de la création de son compte. Pour ce faire, j'ai utilisé la bibliothèque Resend pour envoyer le mail. Dans le contenu de ce mail, on y trouve un lien vers l'application web, avec un token passé en paramètres. Pour créer le token, j'ai utilisé un système similaire à celui des tokens d'authentification, mais avec une durée de vie bien plus courte. Lorsque l'utilisateur clique sur le lien, l'application web envoie une requête à l'API pour vérifier que le token est valide et n'a pas expiré. Si c'est le cas, l'email est marqué comme vérifié dans la base de données.",
-
                 "p14": "Pour conclure, ce projet m'a permis de travailler sur un projet complexe en groupe, et de découvrir de nombreux outils et langages. J'ai pu mettre en pratique mes connaissances en développement web et mobile, ainsi qu'en gestion de projet. J'ai beaucoup appris, surtout au niveau de la création d'API et de la gestion de l'authentification. Le travail en équipe m'a permis d'à la fois transmettre mes connaissances aux autres membres du groupe, mais aussi de progresser grâce à leurs compétences et leurs retours. Ce projet a été une expérience enrichissante qui m'a permis de développer mes compétences techniques, organisationnelles, et de collaboration.",
-
                 "sourceCode": "Le code source de l'application est accessible",
                 "here": "ici"
             }

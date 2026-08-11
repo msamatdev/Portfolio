@@ -13,12 +13,11 @@ export default function BikeRentalApp() {
   const t = useTranslations("Projects.BikeRentalAppProject");
 
   return (
-    <MaxWidthWrapper>
+    <MaxWidthWrapper className="mt-0 pt-0 px-6 max-w-[1920px]">
       <Container>
-        <Repertory PageName={t("title")} />
         <Title text={t("title")} />
-        <Content>
-          <TableOfContents
+        <Content 
+          aside={<TableOfContents
             items={[
               { title: t("TableOfContents.context"), href: "context" },
               { title: t("TableOfContents.stack"), href: "stack" },
@@ -28,7 +27,8 @@ export default function BikeRentalApp() {
               { title: t("TableOfContents.auth"), href: "auth" },
               { title: t("TableOfContents.conclusion"), href: "conclusion" },
             ]}
-          />
+          />}
+        >
           <SubTitle title={t("TableOfContents.context")} id="context" />
           <SubContent>
             <p>{t("Text.p1")}</p>
