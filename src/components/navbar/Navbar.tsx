@@ -21,101 +21,102 @@ const Navbar = () => {
   return (
     <header className="fixed w-full md:top-8 top-0 z-[100] flex items-center justify-center h-auto md:border-0 md:rounded-none border-b-2">
       <MaxWidthWrapper>
-        <div className="px-6 md:py-0 py-4 rounded-lg xl:mx-14 grid grid-cols-4 grid-rows-1 gap-4 md:grid-cols-3 md:border-2 backdrop-blur-xl bg-background/10 z-[100]">
-          <Link
-            className="text-2xl font-semibold flex place-self-start items-center self-center md:col-span-1 col-span-3"
-            href="/"
-          >
-            <Braces className="text-primary" />
-            <span className="dark:text-foreground text-secondary-foreground ms-2">Mathis SAMAT</span>
-          </Link>
-
-          <nav className="place-self-center py-2 px-4 border-primary border-2 rounded-xl hidden md:block">
+        <div className="rounded-lg xl:mx-14 md:border-2 backdrop-blur-xl bg-background/10 z-[100] overflow-hidden">
+          <div className="px-6 py-2.5 grid grid-cols-4 grid-rows-1 gap-4 md:grid-cols-2">
             <Link
+              className="text-2xl font-semibold flex place-self-start items-center self-center md:col-span-1 col-span-3"
               href="/"
-              className={clsx("text-lg col-span-1 text-muted-foreground", {
-                "dark:text-foreground text-secondary-foreground": pathName == "/",
-              })}
             >
-              { t('home') }
+              <Braces className="text-primary" />
+              <span className="dark:text-foreground text-secondary-foreground ms-2">Mathis SAMAT</span>
             </Link>
-            <Link
-              href="/projects"
-              className={clsx("text-lg col-span-1 ms-6 me-6 text-muted-foreground", {
-                "dark:text-foreground text-secondary-foreground": pathName == "/projects",
-              })}
-            >
-              { t('projects') }
-            </Link>
-            <Link
-              href="/about"
-              className={clsx("text-lg col-span-1 text-muted-foreground", {
-                "dark:text-foreground text-secondary-foreground": pathName == "/about",
-              })}
-            >
-              { t('about') }
-            </Link>
-          </nav>
-          
-          <Link
-            href="/contact"
-            className="text-md text-primary-foreground col-span-1 place-self-end my-4 bg-primary p-2 px-3 rounded-md self-center hidden md:block"
-          >
-            { t('contact') }
-          </Link>
 
-          <button 
-          className="md:hidden place-self-end col-span-1 self-center"
-          onClick={toggleNavbar}
-          >
-            {isClick ? (
-              <X className="size-7"/>
-            ) : (
-              <AlignJustify className="size-7"/>
-            )}
-          </button>
-        </div>
+            <div className="hidden md:flex md:col-span-1 items-center justify-end gap-8 place-self-end">
+              <Link
+                href="/"
+                className={clsx("text-lg text-muted-foreground", {
+                  "dark:text-foreground text-secondary-foreground": pathName == "/",
+                })}
+              >
+                { t('home') }
+              </Link>
+              <Link
+                href="/projects"
+                className={clsx("text-lg text-muted-foreground", {
+                  "dark:text-foreground text-secondary-foreground": pathName == "/projects",
+                })}
+              >
+                { t('projects') }
+              </Link>
+              <Link
+                href="/about"
+                className={clsx("text-lg text-muted-foreground", {
+                  "dark:text-foreground text-secondary-foreground": pathName == "/about",
+                })}
+              >
+                { t('about') }
+              </Link>
+              <Link
+                href="/contact"
+                className="text-md text-primary-foreground bg-primary p-2 px-3 rounded-md"
+              >
+                { t('contact') }
+              </Link>
+            </div>
 
-        <div className={clsx("md:hidden px-6 overflow-hidden transition-all transition-linear text-xl flex flex-col animateHeight text-muted-foreground font-semibold", {
-          "h-[184px]": isClick,
-          "h-0": !isClick
-        })}>
-            <Link
-              href="/"
-              className={clsx({
-                "text-foreground": pathName == "/",
-              })}
-              onClick={() => setIsClick(false)}
+            <button 
+            className="md:hidden place-self-end col-span-1 self-center"
+            onClick={toggleNavbar}
             >
-              Home
-            </Link>
-            <Link
-              href="/projects"
-              className={clsx("mt-4", {
-                "text-foreground": pathName == "/projects",
-              })}
-              onClick={() => setIsClick(false)}
-            >
-              Projects
-            </Link>
-            <Link
-              href="/about"
-              className={clsx("mt-4", {
-                "text-foreground": pathName == "/about",
-              })}
-              onClick={() => setIsClick(false)}
-            >
-              About
-            </Link>
-            <Link
-              href="/contact"
-              className={clsx("mt-4 mb-6", {
-                "text-foreground": pathName == "/contact",
-              })}
-              onClick={() => setIsClick(false)}
-            >
-              Contact
-            </Link>
+              {isClick ? (
+                <X className="size-7"/>
+              ) : (
+                <AlignJustify className="size-7"/>
+              )}
+            </button>
+          </div>
+
+          <div className={clsx("md:hidden px-6 overflow-hidden transition-all transition-linear text-xl flex flex-col animateHeight text-muted-foreground font-semibold", {
+            "h-[184px]": isClick,
+            "h-0": !isClick
+          })}>
+              <Link
+                href="/"
+                className={clsx({
+                  "text-foreground": pathName == "/",
+                })}
+                onClick={() => setIsClick(false)}
+              >
+                Home
+              </Link>
+              <Link
+                href="/projects"
+                className={clsx("mt-4", {
+                  "text-foreground": pathName == "/projects",
+                })}
+                onClick={() => setIsClick(false)}
+              >
+                Projects
+              </Link>
+              <Link
+                href="/about"
+                className={clsx("mt-4", {
+                  "text-foreground": pathName == "/about",
+                })}
+                onClick={() => setIsClick(false)}
+              >
+                About
+              </Link>
+              <Link
+                href="/contact"
+                className={clsx("mt-4 mb-6", {
+                  "text-foreground": pathName == "/contact",
+                })}
+                onClick={() => setIsClick(false)}
+              >
+                Contact
+              </Link>
+          </div>
         </div>
       </MaxWidthWrapper>
     </header>
