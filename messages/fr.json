@@ -10,6 +10,7 @@
     },
     "Navbar": {
         "home": "Accueil",
+        "experience": "Expérience",
         "projects": "Projets",
         "about": "À propos",
         "contact": "Me contacter"
@@ -109,7 +110,7 @@
                     "endDate": "Aug 2029",
                     "description": "Diplôme d'ingénieur développé autour de 4 axes : informatique, mathématiques de la décision, connaissance des entreprises, et formation humaine. J'envisage de choisir la spécialité \"Programmation GPU\" qui comprend :",
                     "points": {
-                        "first": "Programmation (parallélisme, optimisation, gestion des erreurs, API, ...)",
+                        "first": "Programmation (parallélisme, optimisation, gestion d'erreurs, API, ...)",
                         "second": "Architecture GPU et écosystème CUDA",
                         "third": "Portage de code C ou C++ vers GPU"
                     }

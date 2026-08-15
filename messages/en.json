@@ -10,6 +10,7 @@
     },
     "Navbar": {
         "home": "Home",
+        "experience": "Experience",
         "projects": "Projects",
         "about": "About",
         "contact": "Contact me"

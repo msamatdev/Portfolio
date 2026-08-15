@@ -5,7 +5,7 @@ const Card = () => {
 
   const perks = [
     {
-      number: "4+",
+      number: "5+",
       text: t("yearsOnLinux"),
       more: "(Ubuntu, Mint, Xubuntu, Arch)",
     },
@@ -15,7 +15,7 @@ const Card = () => {
       more: "",
     },
     {
-      number: "1000+",
+      number: "2000+",
       text: t("hoursOfCoding"),
       more: "",
     },

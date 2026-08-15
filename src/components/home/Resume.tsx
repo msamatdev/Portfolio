@@ -55,7 +55,7 @@ export default function Resume() {
   ];
 
   return (
-    <div className="grid grid-cols-1 gap-24 md:grid-cols-2 mt-24 px-2">
+    <div className="grid grid-cols-1 gap-24 md:grid-cols-2 mt-24 px-2 scroll-mt-20 md:scroll-mt-32" id="experience">
       <Timeline
         title="Education"
         icon={GraduationCap}
