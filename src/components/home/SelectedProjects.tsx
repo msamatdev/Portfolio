@@ -41,7 +41,7 @@ const SelectedProjects = () => {
 
   return (
     <Reveal className="px-4 mt-24">
-      <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl">
+      <h3 className="inline relative font-bold tracking-tight text-foreground text-4xl scroll-mt-28" id="projects">
         {t('selectedProjects')}
       </h3>
       <Separator />
