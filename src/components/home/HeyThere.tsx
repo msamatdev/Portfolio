@@ -46,10 +46,10 @@ const HeyThere = () => {
           </Link>.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-8 z-[50]">
-          <Link className={buttonVariants()} href="/projects">
+          <Link className={buttonVariants()} href="/#projects">
             {t('browseProjects')}
           </Link>
-          <Link className={buttonVariants({ variant: 'ghost' })} href="/contact">
+          <Link className={buttonVariants({ variant: 'ghost' })} href="/#contact">
             {t('contactMe')} &rarr;
           </Link>
         </div>
